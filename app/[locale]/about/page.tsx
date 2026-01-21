@@ -29,10 +29,10 @@ import {
 import { Button } from "@/components/ui/button";
 
 const stats = [
-  { value: "2019", label: "Founded", labelTr: "Kuruluş" },
-  { value: "50+", label: "Team Members", labelTr: "Takım Üyesi" },
-  { value: "500+", label: "Partner Clubs", labelTr: "Partner Kulüp" },
-  { value: "12", label: "Countries", labelTr: "Ülke" },
+  { value: "2024", label: "Founded", labelTr: "Kuruluş" },
+  { value: "5", label: "Team Members", labelTr: "Takım Üyesi" },
+  { value: "12", label: "Partner Clubs", labelTr: "Partner Kulüp" },
+  { value: "3", label: "Countries", labelTr: "Ülke" },
 ];
 
 const values = [
@@ -82,46 +82,32 @@ const values = [
 
 const timeline = [
   {
-    year: "2019",
+    year: "2024",
     title: "The Beginning",
     titleTr: "Başlangıç",
-    description: "Be Tek. was founded in Ankara with a vision to revolutionize sports club management.",
-    descriptionTr: "Be Tek. spor kulübü yönetimini devrimleştirme vizyonuyla Ankara'da kuruldu.",
-  },
-  {
-    year: "2020",
-    title: "First Product Launch",
-    titleTr: "İlk Ürün Lansmanı",
-    description: "Be Tennis launched with 10 pilot clubs, receiving overwhelming positive feedback.",
-    descriptionTr: "Be Tennis 10 pilot kulüple başladı ve büyük olumlu geri bildirim aldı.",
-  },
-  {
-    year: "2021",
-    title: "Rapid Growth",
-    titleTr: "Hızlı Büyüme",
-    description: "Expanded to 100+ clubs and added padel support. Team grew to 20 members.",
-    descriptionTr: "100+ kulübe genişledik ve padel desteği ekledik. Takım 20 kişiye ulaştı.",
-  },
-  {
-    year: "2022",
-    title: "International Expansion",
-    titleTr: "Uluslararası Genişleme",
-    description: "Launched in 5 European countries. Introduced digital wallet and payment features.",
-    descriptionTr: "5 Avrupa ülkesinde başladık. Dijital cüzdan ve ödeme özellikleri tanıtıldı.",
-  },
-  {
-    year: "2023",
-    title: "Platform Evolution",
-    titleTr: "Platform Evrimi",
-    description: "Released tournament system, league management, and advanced analytics.",
-    descriptionTr: "Turnuva sistemi, lig yönetimi ve gelişmiş analitik yayınlandı.",
+    description: "Be Tek. was founded with a vision to revolutionize sports club management.",
+    descriptionTr: "Be Tek. spor kulübü yönetimini devrimleştirme vizyonuyla kuruldu.",
   },
   {
     year: "2024",
-    title: "Market Leader",
-    titleTr: "Pazar Lideri",
-    description: "Became the leading sports club management platform in Turkey with 500+ clubs.",
-    descriptionTr: "500+ kulüple Türkiye'nin lider spor kulübü yönetim platformu olduk.",
+    title: "First Product Launch",
+    titleTr: "İlk Ürün Lansmanı",
+    description: "Be Tennis launched with first pilot clubs, receiving positive feedback.",
+    descriptionTr: "Be Tennis ilk pilot kulüplerle başladı ve olumlu geri bildirim aldı.",
+  },
+  {
+    year: "2024",
+    title: "Feature Expansion",
+    titleTr: "Özellik Genişlemesi",
+    description: "Added padel support, digital wallet and payment features.",
+    descriptionTr: "Padel desteği, dijital cüzdan ve ödeme özellikleri eklendi.",
+  },
+  {
+    year: "2025",
+    title: "Growing Strong",
+    titleTr: "Güçlü Büyüme",
+    description: "Expanding partner network with tournament system and league management.",
+    descriptionTr: "Turnuva sistemi ve lig yönetimi ile partner ağını genişletiyoruz.",
   },
 ];
 

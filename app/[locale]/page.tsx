@@ -88,10 +88,10 @@ const features = [
 ];
 
 const stats = [
-  { value: "50K+", label: "Active Users", labelTr: "Aktif Kullanıcı" },
-  { value: "500+", label: "Partner Clubs", labelTr: "Partner Kulüp" },
-  { value: "1M+", label: "Reservations", labelTr: "Rezervasyon" },
-  { value: "99.9%", label: "Uptime", labelTr: "Çalışma Süresi" },
+  { value: "150+", label: "Active Users", labelTr: "Aktif Kullanıcı" },
+  { value: "12", label: "Partner Clubs", labelTr: "Partner Kulüp" },
+  { value: "2K+", label: "Reservations", labelTr: "Rezervasyon" },
+  { value: "99%", label: "Uptime", labelTr: "Çalışma Süresi" },
 ];
 
 export default function LandingPage() {
