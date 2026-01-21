@@ -1,0 +1,892 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "time": "Time",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "description": "Description",
+    "price": "Price",
+    "total": "Total",
+    "amount": "Amount",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "noData": "No data found",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember Me",
+    "loginTitle": "Sign in to your account",
+    "loginSubtitle": "Welcome to your club management panel",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "twoFactor": {
+      "title": "Two-Factor Authentication",
+      "subtitle": "Enter the code sent to your phone",
+      "code": "Verification Code",
+      "verify": "Verify",
+      "resend": "Resend Code",
+      "trustDevice": "Trust this device"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "tooManyAttempts": "Too many failed attempts. Please try again later.",
+      "networkError": "Connection error. Check your internet connection.",
+      "loginFailed": "Login failed",
+      "unknownError": "An unknown error occurred"
+    }
+  },
+  "selectClub": {
+    "title": "Select Club",
+    "subtitle": "Choose the club you want to manage",
+    "search": "Search clubs...",
+    "noClubs": "You are not registered to any club yet",
+    "switchClub": "Switch Club"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "totalUsers": "Total Members",
+    "activeReservations": "Active Reservations",
+    "todayReservations": "Today's Reservations",
+    "monthlyRevenue": "Monthly Revenue",
+    "recentActivity": "Recent Activity",
+    "upcomingTournaments": "Upcoming Tournaments",
+    "courtOccupancy": "Court Occupancy Rate",
+    "quickActions": "Quick Actions"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Members",
+    "reservations": "Reservations",
+    "courts": "Courts",
+    "tournaments": "Tournaments",
+    "leagues": "Leagues",
+    "privateLessons": "Private Lessons",
+    "teams": "Teams",
+    "finance": "Finance",
+    "wallets": "Wallets",
+    "employees": "Employees",
+    "mealCards": "Meal Cards",
+    "roles": "Roles",
+    "restaurant": "Restaurant",
+    "store": "Store",
+    "magazine": "Magazine",
+    "sliders": "Sliders",
+    "discounts": "Discounts",
+    "notifications": "Notifications",
+    "problems": "Problems",
+    "gameCenter": "Game Center",
+    "trainingPool": "Training Pool",
+    "occupancy": "Occupancy",
+    "myClub": "My Club",
+    "localeSettings": "Regional Settings",
+    "payManagement": "Payment Management",
+    "apiKeys": "API Keys",
+    "ads": "Ads",
+    "events": "Events",
+    "appStore": "App Store",
+    "settings": "Settings",
+    "groups": {
+      "management": "Management",
+      "sports": "Sports",
+      "finance": "Finance",
+      "content": "Content",
+      "settings": "Settings"
+    }
+  },
+  "users": {
+    "title": "Member Management",
+    "addUser": "Add Member",
+    "editUser": "Edit Member",
+    "deleteUser": "Delete Member",
+    "searchPlaceholder": "Search by name or email...",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "status": "Status",
+      "lastLogin": "Last Login",
+      "createdAt": "Created At"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "suspended": "Suspended"
+    },
+    "confirmDelete": "Are you sure you want to delete this member?"
+  },
+  "reservations": {
+    "title": "Reservation Management",
+    "addReservation": "Add Reservation",
+    "editReservation": "Edit Reservation",
+    "cancelReservation": "Cancel Reservation",
+    "calendar": "Calendar View",
+    "list": "List View",
+    "columns": {
+      "court": "Court",
+      "user": "Member",
+      "date": "Date",
+      "time": "Time",
+      "status": "Status",
+      "price": "Price"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled",
+      "completed": "Completed"
+    }
+  },
+  "courts": {
+    "title": "Court Management",
+    "addCourt": "Add Court",
+    "editCourt": "Edit Court",
+    "columns": {
+      "name": "Court Name",
+      "type": "Type",
+      "surface": "Surface",
+      "status": "Status",
+      "hourlyRate": "Hourly Rate"
+    },
+    "status": {
+      "active": "Active",
+      "maintenance": "Under Maintenance",
+      "inactive": "Inactive"
+    },
+    "surfaces": {
+      "hard": "Hard",
+      "clay": "Clay",
+      "grass": "Grass",
+      "artificial": "Artificial"
+    }
+  },
+  "tournaments": {
+    "title": "Tournament Management",
+    "addTournament": "Add Tournament",
+    "editTournament": "Edit Tournament",
+    "participants": "Participants",
+    "brackets": "Brackets",
+    "results": "Results",
+    "status": {
+      "upcoming": "Upcoming",
+      "registration": "Registration Open",
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "privateLessons": {
+    "title": "Private Lesson Management",
+    "addLesson": "Add Lesson",
+    "coaches": "Coaches",
+    "students": "Students",
+    "schedule": "Schedule",
+    "attendance": "Attendance",
+    "packages": "Packages"
+  },
+  "finance": {
+    "title": "Finance Management",
+    "income": "Income",
+    "expenses": "Expenses",
+    "reports": "Reports",
+    "transactions": "Transactions",
+    "summary": "Summary"
+  },
+  "wallets": {
+    "title": "Wallet Management",
+    "balance": "Balance",
+    "addBalance": "Add Balance",
+    "transactions": "Transactions",
+    "transfer": "Transfer"
+  },
+  "roles": {
+    "title": "Role Management",
+    "addRole": "Add Role",
+    "editRole": "Edit Role",
+    "permissions": "Permissions",
+    "priceMultiplier": "Price Multiplier",
+    "permissionLabels": {
+      "usersManagement": "User Management",
+      "reservationsManagement": "Reservation Management",
+      "courtManagements": "Court Management",
+      "tournamentsManagement": "Tournament Management",
+      "financialManagements": "Financial Management",
+      "walletManagements": "Wallet Management",
+      "teamManagement": "Team Management",
+      "teamPerformance": "Performance Management",
+      "employeeSalaryManagement": "Salary Management",
+      "mealCardManagement": "Meal Card Management",
+      "uyeler": "Member Operations",
+      "roles": "Role Management",
+      "aiChatAssistant": "AI Assistant",
+      "privateLessonArea": "Private Lesson Area",
+      "reservationPage": "Reservation Page",
+      "tournamentPage": "Tournament Page",
+      "transferAccess": "Transfer Operations",
+      "addBalanceAccess": "Balance Loading",
+      "payAccess": "Payment Operations",
+      "memberMessage": "Message to Members",
+      "discountManagement": "Discount Management",
+      "apiManagement": "API Management",
+      "restaurantManagement": "Restaurant Management",
+      "storeManagement": "Store Management",
+      "magazineManagement": "Magazine Management",
+      "sliderManagement": "Slider Management",
+      "localeSettings": "Regional Settings",
+      "myClubManager": "Club Management",
+      "payManagement": "Payment Management",
+      "notificationsManagement": "Notification Management",
+      "adsManagement": "Ads Management",
+      "problemManagement": "Problem Management",
+      "gameCenter": "Game Center",
+      "trainingPool": "Training Pool",
+      "occupancyManagement": "Occupancy Management"
+    }
+  },
+  "notifications": {
+    "title": "Notification Management",
+    "send": "Send Notification",
+    "history": "History",
+    "templates": "Templates"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "appearance": "Appearance",
+    "language": "Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access denied",
+    "serverError": "Server error",
+    "networkError": "Connection error"
+  },
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "pricing": "Pricing",
+      "clubLogin": "Club Manager Login"
+    },
+    "hero": {
+      "badge": "The #1 Tennis & Padel Platform",
+      "title": {
+        "part1": "Elevate Your",
+        "highlight": "Tennis Experience",
+        "part2": "to the Next Level"
+      },
+      "description": "The ultimate platform for tennis and padel clubs. Manage reservations, tournaments, leagues, and more with our powerful mobile app.",
+      "downloadApp": "Download App",
+      "watchDemo": "Watch Demo"
+    },
+    "features": {
+      "title": {
+        "part1": "Everything You Need for",
+        "highlight": "Modern Club Management"
+      },
+      "description": "Powerful features designed to streamline your club operations and enhance member experience."
+    },
+    "screenshots": {
+      "title": "Experience the App",
+      "description": "Beautiful, intuitive design that makes managing your tennis life effortless."
+    },
+    "clubCta": {
+      "badge": "For Club Managers",
+      "title": "Take Your Club to the Next Level",
+      "description": "Join hundreds of clubs already using TennisApp to manage their operations, increase revenue, and delight their members.",
+      "features": {
+        "feature1": "Complete club management dashboard",
+        "feature2": "Real-time analytics and reports",
+        "feature3": "Automated reservation system",
+        "feature4": "Member engagement tools"
+      },
+      "button": "Access Club Dashboard"
+    },
+    "footer": {
+      "description": "The complete platform for tennis and padel enthusiasts.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "about": "About Us",
+      "contact": "Contact",
+      "careers": "Careers",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "kvkk": "KVKK",
+      "rights": "All rights reserved."
+    },
+    "pricing": {
+      "title": "Choose the Perfect Plan for Your Club",
+      "description": "Flexible pricing based on court count. All plans include 14-day free trial.",
+      "perMonth": "mo",
+      "popular": "Most Popular",
+      "selectPlan": "Select Plan",
+      "annualDiscount": "💡 Save 20% with annual billing",
+      "starter": {
+        "name": "Starter",
+        "courts": "1-3 Courts"
+      },
+      "growth": {
+        "name": "Growth",
+        "courts": "4-6 Courts"
+      },
+      "professional": {
+        "name": "Professional",
+        "courts": "7-10 Courts"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "courts": "10+ Courts"
+      },
+      "features": {
+        "reservations": "Unlimited reservations",
+        "members": "Member management",
+        "wallet": "Digital wallet",
+        "notifications": "Notification system",
+        "allStarter": "All Starter features",
+        "tournaments": "Tournament management",
+        "leagues": "League system",
+        "analytics": "Detailed analytics",
+        "allGrowth": "All Growth features",
+        "privateLessons": "Private lessons module",
+        "restaurant": "Restaurant & Store",
+        "prioritySupport": "Priority support",
+        "allPro": "All Professional features",
+        "multiLocation": "Multi-location support",
+        "apiAccess": "API access",
+        "dedicatedSupport": "Dedicated account manager"
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 2025",
+    "introduction": "At TennisApp, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and related services.",
+    "questions": "If you have questions about this Privacy Policy, please contact us at",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account, make a reservation, or contact us for support. This may include:\n\n• Name and contact information\n• Account credentials\n• Payment information\n• Location data (with your consent)\n• Device information\n• Usage data and preferences"
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect to:\n\n• Provide, maintain, and improve our services\n• Process transactions and send related information\n• Send you technical notices and support messages\n• Respond to your comments and questions\n• Analyze usage patterns and trends\n• Personalize your experience"
+      },
+      "protection": {
+        "title": "Data Protection",
+        "content": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage. This includes:\n\n• Encryption of data in transit and at rest\n• Regular security assessments\n• Access controls and authentication\n• Secure data storage practices"
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "content": "We do not sell your personal information. We may share your information only in the following circumstances:\n\n• With your consent\n• With service providers who assist in our operations\n• To comply with legal obligations\n• To protect our rights and safety\n• In connection with a business transfer"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to:\n\n• Access your personal data\n• Correct inaccurate data\n• Request deletion of your data\n• Object to processing\n• Data portability\n• Withdraw consent at any time"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy or our data practices, please contact us at:\n\nEmail: privacy@tennisapp.com\nAddress: Ankara, Turkey"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 2025",
+    "introduction": "Welcome to TennisApp. By accessing or using our services, you agree to be bound by these Terms of Service. Please read them carefully before using our platform.",
+    "questions": "If you have questions about these Terms, please contact us at",
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "These Terms shall be governed by and construed in accordance with the laws of the Republic of Turkey, without regard to its conflict of law provisions."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By creating an account or using TennisApp, you agree to these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services.\n\nYou must be at least 18 years old to use our services. By using TennisApp, you represent that you meet this requirement."
+      },
+      "services": {
+        "title": "Our Services",
+        "content": "TennisApp provides a platform for:\n\n• Court reservations and management\n• Tournament and league organization\n• Club membership management\n• Digital wallet and payment processing\n• Communication between clubs and members\n• Performance tracking and analytics"
+      },
+      "payments": {
+        "title": "Payments and Refunds",
+        "content": "• All payments are processed securely through our payment providers\n• Refund policies are determined by individual clubs\n• Wallet balances are non-transferable between clubs\n• We reserve the right to suspend accounts with outstanding balances\n• Currency and pricing are determined by each club"
+      },
+      "prohibited": {
+        "title": "Prohibited Activities",
+        "content": "You agree not to:\n\n• Violate any applicable laws or regulations\n• Infringe on the rights of others\n• Transmit harmful or malicious content\n• Attempt to gain unauthorized access\n• Interfere with the proper working of the service\n• Create multiple accounts for fraudulent purposes"
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "TennisApp is provided \"as is\" without warranties of any kind. We are not liable for:\n\n• Service interruptions or errors\n• Loss of data or content\n• Actions of third parties\n• Indirect, incidental, or consequential damages\n• Issues arising from club-member relationships"
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "We may modify these Terms at any time. We will notify you of significant changes through the app or via email. Your continued use of TennisApp after changes constitutes acceptance of the modified Terms."
+      }
+    }
+  },
+  "kvkk": {
+    "title": "KVKK Aydınlatma Metni",
+    "subtitle": "Personal Data Protection Policy",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 2025",
+    "introduction": "In accordance with the Personal Data Protection Law No. 6698 (KVKK), this disclosure text explains how TennisApp collects, processes, and protects your personal data.",
+    "questions": "For KVKK-related inquiries, please contact us at",
+    "dataController": {
+      "title": "Data Controller Information",
+      "company": "Company",
+      "address": "Address",
+      "email": "Email"
+    },
+    "sections": {
+      "purpose": {
+        "title": "Purpose of Data Processing",
+        "content": "Your personal data is processed for the following purposes:\n\n• Providing and improving our services\n• User account management\n• Processing payments and transactions\n• Communication and customer support\n• Legal compliance and fraud prevention\n• Analytics and service optimization"
+      },
+      "dataTypes": {
+        "title": "Types of Data Collected",
+        "content": "We may collect the following categories of personal data:\n\n• Identity Information: Name, surname, date of birth\n• Contact Information: Email, phone number, address\n• Financial Information: Payment details, transaction history\n• Location Data: GPS coordinates (with consent)\n• Technical Data: Device information, IP address, usage logs"
+      },
+      "processing": {
+        "title": "Legal Basis for Processing",
+        "content": "Your data is processed based on:\n\n• Explicit consent\n• Performance of a contract\n• Legal obligations\n• Legitimate interests\n• Vital interests protection\n\nAs per KVKK Article 5 and 6, we ensure all processing activities have a valid legal basis."
+      },
+      "security": {
+        "title": "Data Security Measures",
+        "content": "We implement technical and administrative measures including:\n\n• SSL/TLS encryption for data transmission\n• Encrypted database storage\n• Access control and authentication systems\n• Regular security audits\n• Employee training on data protection\n• Incident response procedures"
+      },
+      "rights": {
+        "title": "Your Rights Under KVKK",
+        "content": "Under KVKK Article 11, you have the right to:\n\n• Learn whether your data is being processed\n• Request information about processing\n• Learn the purpose of processing\n• Know third parties to whom data is transferred\n• Request correction of incomplete or incorrect data\n• Request deletion or destruction of data\n• Object to automated decision-making\n• Seek compensation for damages"
+      },
+      "application": {
+        "title": "How to Exercise Your Rights",
+        "content": "To exercise your KVKK rights, you may:\n\n• Email us at info@btennispadel.com\n• Submit a written request to our registered address\n• Use the in-app data request feature\n\nWe will respond to your request within 30 days as required by law. Identity verification may be required for security purposes."
+      }
+    }
+  },
+  "appStore": {
+    "title": "App Store",
+    "subtitle": "Discover and install modules to enhance your club management",
+    "loadingModules": "Loading modules...",
+    "store": "Store",
+    "purchased": "Purchased",
+    "recommended": "Recommended",
+    "popularApps": "Popular Apps",
+    "free": "Free",
+    "purchase": "Get",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "active": "Active",
+    "activateAction": "Activate Module",
+    "deactivateAction": "Deactivate Module",
+    "freeAdd": "Add for Free",
+    "purchaseWithPrice": "Purchase for ₺{price}",
+    "rating": "ratings",
+    "age": "Age",
+    "rank": "Rank",
+    "size": "Size",
+    "description": "Description",
+    "features": "Features",
+    "purchaseSuccess": "Module purchased successfully!",
+    "purchaseWarning": "Go to the Purchased Apps tab and activate the module to start using it.",
+    "purchasedApps": "Go to Purchased Apps",
+    "close": "Close",
+    "noPurchasedModules": "No purchased modules yet",
+    "noModulesInCategory": "No modules in this category",
+    "categories": {
+      "all": "All",
+      "business": "Business",
+      "entertainment": "Entertainment",
+      "members": "Members",
+      "utility": "Utility",
+      "management": "Management"
+    },
+    "success": {
+      "modulePurchased": "purchased successfully",
+      "moduleActivated": "activated successfully",
+      "moduleDeactivated": "deactivated successfully"
+    },
+    "errors": {
+      "noClub": "No club selected",
+      "moduleLoadError": "Failed to load modules",
+      "modulePurchaseError": "Failed to purchase module",
+      "moduleActivationError": "Failed to activate module",
+      "moduleDeactivationError": "Failed to deactivate module",
+      "mustPurchaseFirst": "You must purchase this module first"
+    }
+  },
+  "occupancy": {
+    "title": "Occupancy Management",
+    "subtitle": "Monitor real-time club occupancy and send notifications to nearby members",
+    "loading": "Loading occupancy data...",
+    "currentOccupancy": "Current Occupancy",
+    "peopleAtClub": "people at club",
+    "live": "Live",
+    "locationSettings": "Location Settings",
+    "edit": "Edit",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "radius": "Radius",
+    "capacity": "Capacity",
+    "people": "people",
+    "noLocationWarning": "Club location not set. Configure location to enable occupancy tracking.",
+    "occupancyTrend": "Occupancy Trend",
+    "occupancy": "Occupancy",
+    "levels": {
+      "high": "High Occupancy",
+      "medium": "Medium Occupancy",
+      "low": "Low Occupancy",
+      "empty": "Empty"
+    },
+    "ranges": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "stats": {
+      "peak": "Peak",
+      "average": "Average",
+      "low": "Lowest"
+    },
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "yearlyArchive": {
+      "title": "Yearly Archive",
+      "subtitle": "View historical occupancy data by year",
+      "empty": "No archived data available",
+      "records": "records",
+      "peakMonth": "Peak Month",
+      "totalVisits": "Total Visits",
+      "monthlyBreakdown": "Monthly Breakdown"
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "description": "Automatically notify members when occupancy reaches threshold",
+      "enabled": "Notifications Enabled",
+      "disabled": "Notifications Disabled",
+      "threshold": "Notification Threshold",
+      "sendNotification": "Send Notification",
+      "recipients": "Recipients",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Enter notification title",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter notification message",
+      "preview": "Preview",
+      "send": "Send",
+      "sent": "Notification sent successfully",
+      "usersSent": "users notified",
+      "sendFailed": "Failed to send notification",
+      "emptyMessage": "Please enter title and message",
+      "noUsers": "No users to notify"
+    },
+    "nearbyUsers": {
+      "title": "Nearby Users",
+      "notifyAll": "Notify All",
+      "empty": "No users currently at the club",
+      "away": "away"
+    },
+    "locationModal": {
+      "title": "Location Settings",
+      "locationHint": "Enter the club's GPS coordinates. These will be used to detect nearby users.",
+      "useCurrentLocation": "Use Current Location",
+      "save": "Save"
+    },
+    "errors": {
+      "noClub": "No club selected",
+      "invalidCoordinates": "Invalid coordinates",
+      "saveFailed": "Failed to save settings",
+      "locationPermission": "Location permission denied",
+      "locationFailed": "Failed to get location"
+    },
+    "success": {
+      "locationSaved": "Location settings saved",
+      "locationFound": "Location found"
+    }
+  },
+  "about": {
+    "backToHome": "Back to Home",
+    "hero": {
+      "title": "Building the Future of Sports Technology",
+      "description": "Be Tek. is a technology company dedicated to transforming how sports clubs operate and how athletes engage with their communities. Founded in 2019 in Ankara, we are on a mission to make sports club management seamless, efficient, and enjoyable."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower sports clubs worldwide with innovative technology solutions that enhance member experiences, streamline operations, and drive growth. We believe that great technology can transform the way people connect through sports."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the global standard for sports club management technology, creating a world where every club, regardless of size, has access to enterprise-grade tools and every athlete can focus on what they love most - playing sports."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "The principles that guide everything we do at Be Tek."
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "From a small startup in Ankara to a growing international company."
+    },
+    "team": {
+      "title": "Leadership Team",
+      "description": "Meet the people driving innovation at Be Tek."
+    },
+    "technology": {
+      "title": "Our Technology Stack",
+      "description": "We use cutting-edge technologies to build robust, scalable, and secure applications."
+    },
+    "cta": {
+      "title": "Join Us in Shaping the Future",
+      "description": "Whether you want to join our team or bring TennisApp to your club, we would love to hear from you.",
+      "joinTeam": "Join Our Team",
+      "contactUs": "Contact Us"
+    }
+  },
+  "careers": {
+    "backToHome": "Back to Home",
+    "hero": {
+      "badge": "We are Hiring",
+      "title": "Build the Future of Sports with Us",
+      "description": "Join a passionate team of engineers, designers, and sports enthusiasts who are transforming the sports club industry. We offer competitive salaries, great benefits, and the opportunity to make a real impact.",
+      "teamSize": "Team Members",
+      "openPositions": "Open Positions"
+    },
+    "culture": {
+      "title": "Our Culture",
+      "description": "What makes Be Tek. a great place to work"
+    },
+    "benefits": {
+      "title": "Benefits & Perks",
+      "description": "We take care of our team so they can focus on doing their best work"
+    },
+    "positions": {
+      "title": "Open Positions",
+      "description": "Find your next role and help us build the future of sports technology",
+      "apply": "Apply",
+      "applyNow": "Apply Now",
+      "aboutRole": "About the Role",
+      "requirements": "Requirements",
+      "noJobs": "No open positions in this department at the moment"
+    },
+    "cta": {
+      "title": "Don't See the Right Role?",
+      "description": "We are always looking for talented people. Send us your CV and we will keep you in mind for future opportunities."
+    }
+  },
+  "contact": {
+    "backToHome": "Back to Home",
+    "hero": {
+      "title": "Get in Touch",
+      "description": "Have a question, feedback, or want to learn more about TennisApp? We would love to hear from you."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "company": "Company / Club Name",
+      "companyPlaceholder": "Your club or company name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+90 5XX XXX XX XX",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We will get back to you within 24-48 hours.",
+      "sendAnother": "Send Another Message"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Working Hours",
+      "workingHours": "Mon - Fri, 9:00 AM - 6:00 PM (GMT+3)"
+    },
+    "offices": {
+      "title": "Our Offices",
+      "headquarters": "HQ"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "map": {
+      "placeholder": "Interactive map coming soon"
+    },
+    "faq": {
+      "title": "Looking for Answers?",
+      "description": "Check out our FAQ section or learn more about our company.",
+      "viewFaq": "View FAQ",
+      "learnMore": "About Us"
+    }
+  },
+  "registerClub": {
+    "title": "Register Your Club",
+    "subtitle": "Join the Be Tennis family and digitalize your club",
+    "steps": {
+      "clubInfo": "Club Info",
+      "contactInfo": "Contact Info",
+      "facilities": "Facilities",
+      "plan": "Plan Selection",
+      "payment": "Payment"
+    },
+    "clubInfo": {
+      "title": "Club Information",
+      "clubName": "Club Name",
+      "clubNamePlaceholder": "e.g., Ankara Tennis Club",
+      "country": "Country",
+      "selectCountry": "Select country",
+      "city": "City",
+      "selectCity": "Select city",
+      "district": "District",
+      "selectDistrict": "Select district",
+      "address": "Address",
+      "addressPlaceholder": "Full address"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "ownerName": "Owner Full Name",
+      "ownerNamePlaceholder": "Your Full Name",
+      "email": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "5XX XXX XX XX",
+      "password": "Admin Password",
+      "passwordPlaceholder": "At least 8 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password"
+    },
+    "facilities": {
+      "title": "Facility Information",
+      "sportTypes": "Sport Types",
+      "tennis": "Tennis",
+      "padel": "Padel",
+      "courtCount": "Court Count",
+      "tennisCourts": "Tennis Courts",
+      "padelCourts": "Padel Courts",
+      "amenities": "Amenities",
+      "parking": "Parking",
+      "cafeteria": "Cafeteria",
+      "showers": "Showers & Locker",
+      "lighting": "Lighting",
+      "proShop": "Pro Shop",
+      "clubLogo": "Club Logo",
+      "uploadLogo": "Upload Logo",
+      "logoHint": "PNG or JPG, max 2MB"
+    },
+    "plan": {
+      "title": "Plan Selection",
+      "subtitle": "Your plan is automatically determined based on total court count",
+      "selectedPlan": "Selected Plan",
+      "billingCycle": "Billing Cycle",
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "annualSave": "Save 20%",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "total": "Total"
+    },
+    "payment": {
+      "title": "Payment",
+      "subtitle": "Activate your club with secure payment",
+      "cardNumber": "Card Number",
+      "cardHolder": "Cardholder Name",
+      "expiry": "Expiry",
+      "cvv": "CVV",
+      "securePayment": "Secure payment with 256-bit SSL",
+      "termsAgree": "I accept the terms of service and privacy policy",
+      "processing": "Processing payment...",
+      "success": "Payment Successful!",
+      "successMessage": "Your club has been successfully created. Redirecting to admin panel.",
+      "error": "Payment Error",
+      "tryAgain": "Try Again"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordMatch": "Passwords do not match",
+      "selectSport": "Please select at least one sport type",
+      "minCourts": "You must enter at least 1 court",
+      "acceptTerms": "You must accept the terms of service"
+    },
+    "back": "Back",
+    "next": "Next",
+    "submit": "Complete Payment",
+    "createClub": "Create Club"
+  }
+}

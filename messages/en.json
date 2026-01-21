@@ -1,0 +1,2873 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "time": "Time",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "description": "Description",
+    "price": "Price",
+    "total": "Total",
+    "amount": "Amount",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "noData": "No data found",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "selectDate": "Select Date",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "country": "Country",
+    "stateProvince": "State/Province",
+    "cityDistrict": "City/District",
+    "address": "Address",
+    "profession": "Profession",
+    "gender": "Gender",
+    "birthDate": "Birth Date",
+    "nationalId": "National ID"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember Me",
+    "loginTitle": "Sign in to your account",
+    "loginSubtitle": "Welcome to your club management panel",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "twoFactor": {
+      "title": "Two-Factor Authentication",
+      "subtitle": "Enter the code sent to your phone",
+      "code": "Verification Code",
+      "verify": "Verify",
+      "resend": "Resend Code",
+      "trustDevice": "Trust this device"
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password",
+      "tooManyAttempts": "Too many failed attempts. Please try again later.",
+      "networkError": "Connection error. Check your internet connection.",
+      "loginFailed": "Login failed",
+      "unknownError": "An unknown error occurred"
+    }
+  },
+  "selectClub": {
+    "title": "Select Club",
+    "subtitle": "Choose the club you want to manage",
+    "search": "Search clubs...",
+    "noClubs": "You are not registered to any club yet",
+    "switchClub": "Switch Club"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "totalUsers": "Total Members",
+    "activeReservations": "Active Reservations",
+    "todayReservations": "Today's Reservations",
+    "monthlyRevenue": "Monthly Revenue",
+    "recentActivity": "Recent Activity",
+    "upcomingTournaments": "Upcoming Tournaments",
+    "courtOccupancy": "Court Occupancy Rate",
+    "quickActions": "Quick Actions"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Members",
+    "reservations": "Reservations",
+    "courts": "Courts",
+    "tournaments": "Tournaments",
+    "leagues": "Leagues",
+    "privateLessons": "Private Lessons",
+    "teams": "Teams",
+    "finance": "Finance",
+    "wallets": "Wallets",
+    "employees": "Employees",
+    "mealCards": "Meal Cards",
+    "roles": "Roles",
+    "restaurant": "Restaurant",
+    "store": "Store",
+    "magazine": "Magazine",
+    "sliders": "Sliders",
+    "discounts": "Discounts",
+    "notifications": "Notifications",
+    "problems": "Problems",
+    "gameCenter": "Game Center",
+    "trainingPool": "Training Pool",
+    "occupancy": "Occupancy",
+    "myClub": "My Club",
+    "localeSettings": "Regional Settings",
+    "payManagement": "Payment Management",
+    "apiKeys": "API Keys",
+    "ads": "Ads",
+    "events": "Events",
+    "appStore": "App Store",
+    "settings": "Settings",
+    "groups": {
+      "management": "Management",
+      "sports": "Sports",
+      "finance": "Finance",
+      "content": "Content",
+      "settings": "Settings"
+    }
+  },
+  "users": {
+    "title": "Member Management",
+    "addUser": "Add Member",
+    "editUser": "Edit Member",
+    "deleteUser": "Delete Member",
+    "searchPlaceholder": "Search by name or email...",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "status": "Status",
+      "lastLogin": "Last Login",
+      "createdAt": "Created At"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "suspended": "Suspended"
+    },
+    "confirmDelete": "Are you sure you want to delete this member?"
+  },
+  "reservations": {
+    "title": "Reservation Management",
+    "subtitle": "View and manage club reservations",
+    "addReservation": "Add Reservation",
+    "editReservation": "Edit Reservation",
+    "cancelReservation": "Cancel Reservation",
+    "deleteReservation": "Delete Reservation",
+    "bulkReservation": "Bulk Reservation",
+    "privateLessonReservation": "Private Lesson Reservation",
+    "teamReservation": "Team Reservation",
+    "viewStats": "View Statistics",
+    "userStats": "User Statistics",
+    "generalStats": "General Statistics",
+    "courtOverview": "Court Overview",
+    "calendar": "Calendar View",
+    "list": "List View",
+    "wall": "Wall View",
+    "gridView": "Grid View",
+    "export": "Export",
+    "dayReport": "Daily Report",
+    "monthlyReport": "Monthly Report",
+    "downloadCSV": "Download CSV",
+    "downloadPDF": "Download PDF",
+    "today": "Today",
+    "noReservations": "No reservations found for this date",
+    "selectUser": "Select Member",
+    "selectCourt": "Select Court",
+    "selectTime": "Select Time",
+    "selectDate": "Select Date",
+    "selectDateRange": "Select Date Range",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "searchUser": "Search member...",
+    "noUsersFound": "No members found",
+    "columns": {
+      "court": "Court",
+      "user": "Member",
+      "date": "Date",
+      "time": "Time",
+      "endTime": "End Time",
+      "status": "Status",
+      "price": "Price",
+      "type": "Type"
+    },
+    "status": {
+      "all": "All",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "active": "Active",
+      "cancelled": "Cancelled",
+      "completed": "Completed"
+    },
+    "types": {
+      "all": "All Types",
+      "normal": "Normal",
+      "training": "Training",
+      "challenge": "Challenge",
+      "singleMatch": "Singles Match",
+      "doubleMatch": "Doubles Match",
+      "gift": "Gift"
+    },
+    "options": {
+      "heater": "Heater",
+      "light": "Lighting",
+      "allowNegativeBalance": "Allow Negative Balance"
+    },
+    "payment": {
+      "amountPaid": "Amount Paid",
+      "originalPrice": "Original Price",
+      "discount": "Discount",
+      "discountApplied": "Discount Applied",
+      "couponApplied": "Coupon Applied",
+      "couponCode": "Coupon Code",
+      "walletBalance": "Wallet Balance",
+      "insufficientBalance": "Insufficient balance"
+    },
+    "bulk": {
+      "title": "Create Bulk Reservation",
+      "selectDays": "Select Days",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday",
+      "totalReservations": "Total Reservations",
+      "totalPrice": "Total Price",
+      "perReservation": "Per Reservation",
+      "groupName": "Group Name",
+      "groupNamePlaceholder": "E.g., Weekly Training"
+    },
+    "guest": {
+      "title": "Guest Reservation",
+      "name": "Guest Name",
+      "email": "Guest Email",
+      "phone": "Guest Phone"
+    },
+    "challenge": {
+      "opponent": "Opponent",
+      "matchType": "Match Type",
+      "single": "Singles",
+      "double": "Doubles"
+    },
+    "jointPayment": {
+      "title": "Joint Payment",
+      "partner": "Partner",
+      "partnerShare": "Partner's Share"
+    },
+    "giftReservation": {
+      "title": "Gift Reservation",
+      "giftedBy": "Gifted By",
+      "message": "Message"
+    },
+    "stats": {
+      "title": "Reservation Statistics",
+      "totalReservations": "Total Reservations",
+      "totalRevenue": "Total Revenue",
+      "averageValue": "Average Value",
+      "perReservation": "per reservation",
+      "guestReservations": "Guest Reservations",
+      "revenueByCourt": "Revenue by Court",
+      "reservationTypes": "Reservation Types",
+      "additionalServices": "Additional Services",
+      "heaterUsage": "Heater Usage",
+      "lightUsage": "Lighting Usage",
+      "discountsAndCoupons": "Discounts and Coupons",
+      "roleDiscount": "Role Discount",
+      "couponUsage": "Coupon Usage",
+      "savings": "savings",
+      "peakHours": "Peak Hours",
+      "noData": "Not enough data"
+    },
+    "detail": {
+      "title": "Reservation Details",
+      "userInfo": "User Information"
+    },
+    "courts": {
+      "title": "Court Status",
+      "available": "Available",
+      "occupied": "Occupied",
+      "past": "Past",
+      "noCourts": "No courts available yet",
+      "reservationCount": "reservations"
+    },
+    "confirmDelete": "Are you sure you want to delete this reservation? This action cannot be undone.",
+    "confirmCancel": "Are you sure you want to cancel this reservation?",
+    "createSuccess": "Reservation created successfully",
+    "createError": "An error occurred while creating the reservation",
+    "deleteSuccess": "Reservation deleted successfully",
+    "deleteError": "An error occurred while deleting the reservation",
+    "cancelSuccess": "Reservation cancelled successfully",
+    "cancelError": "An error occurred while cancelling the reservation",
+    "consecutiveSlots": "Consecutive Slots",
+    "selectConsecutiveSlots": "Select consecutive time slots",
+    "priceBreakdown": "Price Breakdown",
+    "courtFee": "Court Fee",
+    "heaterFee": "Heater Fee",
+    "lightFee": "Lighting Fee",
+    "privateLesson": {
+      "title": "Private Lesson Reservation",
+      "selectGroup": "Select Lesson Group",
+      "selectGroupDesc": "Select a group for the private lesson",
+      "searchGroup": "Search group...",
+      "noGroups": "No groups found",
+      "selectUser": "Select User",
+      "selectUserDesc": "Optional - you can select a user",
+      "skipUser": "Continue without selecting user",
+      "selectCourt": "Select Court",
+      "selectCourtDesc": "Select a court for the lesson",
+      "dateRange": "Date Range and Days",
+      "dateRangeDesc": "Set the lesson dates",
+      "lessonDays": "Lesson Days",
+      "totalLessons": "Total lesson days",
+      "timeOptions": "Time and Options",
+      "timeOptionsDesc": "Select consecutive time slots",
+      "confirmation": "Confirmation",
+      "confirmationDesc": "Review the information",
+      "lessonGroup": "Lesson Group",
+      "dateRangeLabel": "Date Range",
+      "timeLabel": "Time",
+      "daysLabel": "Days",
+      "totalAmount": "Total Amount",
+      "createLessons": "Create Lessons",
+      "creating": "Creating..."
+    },
+    "team": {
+      "title": "Team Reservation",
+      "selectTeam": "Select Team",
+      "selectTeamDesc": "Select a team for the reservation",
+      "searchTeam": "Search team...",
+      "noTeams": "No teams found",
+      "selectPlayers": "Select Players",
+      "selectPlayersDesc": "Select players",
+      "singles": "Singles",
+      "doubles": "Doubles",
+      "matchType": "Match Type",
+      "dateAndCourt": "Date and Court",
+      "dateAndCourtDesc": "Select date and court",
+      "createReservation": "Create Reservation"
+    }
+  },
+  "courts": {
+    "title": "Court Management",
+    "addCourt": "Add Court",
+    "editCourt": "Edit Court",
+    "columns": {
+      "name": "Court Name",
+      "type": "Type",
+      "surface": "Surface",
+      "status": "Status",
+      "hourlyRate": "Hourly Rate"
+    },
+    "status": {
+      "active": "Active",
+      "maintenance": "Under Maintenance",
+      "inactive": "Inactive"
+    },
+    "surfaces": {
+      "hard": "Hard",
+      "clay": "Clay",
+      "grass": "Grass",
+      "artificial": "Artificial"
+    }
+  },
+  "tournaments": {
+    "title": "Tournament Management",
+    "addTournament": "Add Tournament",
+    "editTournament": "Edit Tournament",
+    "participants": "Participants",
+    "brackets": "Brackets",
+    "results": "Results",
+    "status": {
+      "upcoming": "Upcoming",
+      "registration": "Registration Open",
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    }
+  },
+  "privateLessons": {
+    "title": "Private Lesson Management",
+    "subtitle": "Manage private lessons, students, and coaches",
+    "tabs": {
+      "lessons": "Lessons",
+      "students": "Students",
+      "coaches": "Coaches",
+      "attendance": "Attendance",
+      "requests": "Requests",
+      "finance": "Finance"
+    },
+    "stats": {
+      "activeLessons": "Active Lessons",
+      "totalStudents": "Total Students",
+      "totalCoaches": "Total Coaches",
+      "pendingRequests": "Pending Requests",
+      "lessons": "Lessons",
+      "students": "Students",
+      "coaches": "Coaches"
+    },
+    "actions": {
+      "addLesson": "Add Lesson",
+      "addStudent": "Add Student",
+      "addCoach": "Add Coach",
+      "addFirstStudent": "Add First Student",
+      "edit": "Edit",
+      "delete": "Delete",
+      "view": "View",
+      "save": "Save",
+      "cancel": "Cancel",
+      "create": "Create",
+      "approve": "Approve",
+      "reject": "Reject",
+      "close": "Close",
+      "refresh": "Refresh",
+      "markAttendance": "Mark Attendance",
+      "processPayment": "Process Payment",
+      "viewHistory": "View History",
+      "renewPackage": "Renew Package",
+      "changeStatus": "Change Status",
+      "selectAllPending": "Select All Pending",
+      "updateStatus": "Update Status",
+      "confirm": "Confirm",
+      "deleting": "Deleting...",
+      "addFirstLesson": "Add First Lesson",
+      "addFirstCoach": "Add First Coach",
+      "today": "Today",
+      "rejecting": "Rejecting...",
+      "sendMessage": "Send Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "back": "Back"
+    },
+    "studentCard": {
+      "price": "Price",
+      "paid": "Paid",
+      "remainingDebt": "Remaining Debt",
+      "applicationStatus": "Application Status",
+      "canApply": "Can Apply",
+      "canReapply": "Can Reapply",
+      "pendingApproval": "Pending Approval",
+      "assignedToLesson": "Assigned to Lesson",
+      "approvedWaitingAssignment": "Approved - Waiting Assignment",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled",
+      "grantReapply": "Grant Reapply Permission",
+      "freezeReason": "Freeze Reason",
+      "freezeEndDate": "Freeze End Date",
+      "removeFreeze": "Remove Freeze",
+      "studentFrozenWarning": "Student is frozen - Operations restricted",
+      "studentFrozenAlert": "Student is frozen. Please remove the freeze first.",
+      "takePayment": "Take Payment",
+      "renewLesson": "Renew"
+    },
+    "bulkMessage": {
+      "selectFilter": "Select Filter",
+      "selectRecipients": "Select Recipients",
+      "composeMessage": "Compose Message",
+      "filterDescription": "Filter recipients to send message",
+      "selectDescription": "{count} people filtered",
+      "composeDescription": "Message will be sent to {count} people",
+      "selected": "selected",
+      "selectAll": "Select All",
+      "clear": "Clear",
+      "next": "Next",
+      "willSendTo": "Message will be sent to {count} people",
+      "messageTemplate": "Message Template",
+      "placeholderHint": "Available: {name}, {email}, {remainingAmount}, {totalPaid}",
+      "success": "Message sent successfully to {count} people",
+      "errors": {
+        "selectRecipient": "Please select at least one recipient"
+      },
+      "categories": {
+        "general": "General",
+        "payment": "Payment",
+        "package": "Package",
+        "account": "Account",
+        "lesson": "Lesson"
+      },
+      "filters": {
+        "all": {
+          "label": "All",
+          "description": "All users"
+        },
+        "payment_overdue": {
+          "label": "Payment Overdue",
+          "description": "Users with overdue payments"
+        },
+        "payment_upcoming": {
+          "label": "Upcoming Payment",
+          "description": "Users with payments due within 7 days"
+        },
+        "payment_ok": {
+          "label": "Payment OK",
+          "description": "Users who completed their payments"
+        },
+        "package_new": {
+          "label": "New Package",
+          "description": "Users registered in the last 7 days"
+        },
+        "package_half": {
+          "label": "Package Half",
+          "description": "Users with 40-60% package completion"
+        },
+        "package_ending": {
+          "label": "Package Ending",
+          "description": "Users with 2 or fewer lessons remaining"
+        },
+        "package_completed": {
+          "label": "Package Completed",
+          "description": "Users who completed their package"
+        },
+        "account_frozen": {
+          "label": "Frozen Account",
+          "description": "Users with frozen accounts"
+        },
+        "lessons_low": {
+          "label": "Low Lessons",
+          "description": "Users with 3 or fewer lessons remaining"
+        },
+        "lessons_high": {
+          "label": "High Lessons",
+          "description": "Users with 10 or more lessons remaining"
+        }
+      },
+      "templates": {
+        "welcome": {
+          "title": "Welcome",
+          "subject": "Welcome to Our Club!",
+          "content": "Dear {name},\n\nWelcome to our club. We are happy to work with you.\n\nBest regards"
+        },
+        "payment_reminder": {
+          "title": "Payment Reminder",
+          "subject": "Payment Reminder",
+          "content": "Dear {name},\n\nWe would like to remind you about your payment. Your remaining balance: {remainingAmount} TRY\n\nBest regards"
+        },
+        "lesson_info": {
+          "title": "Lesson Info",
+          "subject": "Lesson Information",
+          "content": "Dear {name},\n\nWe would like to inform you about your lessons.\n\nBest regards"
+        },
+        "package_info": {
+          "title": "Package Info",
+          "subject": "Package Information",
+          "content": "Dear {name},\n\nWe would like to inform you about your package.\n\nBest regards"
+        },
+        "holiday_notification": {
+          "title": "Holiday Notice",
+          "subject": "Holiday Announcement",
+          "content": "Dear {name},\n\nInformation about our lessons during the holiday period.\n\nBest regards"
+        },
+        "custom": {
+          "title": "Custom Message",
+          "subject": "",
+          "content": ""
+        }
+      }
+    },
+    "filters": {
+      "all": "All",
+      "search": "Search...",
+      "searchLessons": "Search lessons...",
+      "searchStudents": "Search students...",
+      "searchCoaches": "Search coaches...",
+      "lessonType": "Lesson Type",
+      "status": "Status",
+      "coach": "Coach",
+      "level": "Level",
+      "paymentStatus": "Payment Status",
+      "role": "Role"
+    },
+    "search": {
+      "students": "Search students...",
+      "lessons": "Search lessons...",
+      "coaches": "Search coaches...",
+      "requests": "Search requests..."
+    },
+    "requests": {
+      "studentRequests": "Student Requests",
+      "templateRequests": "Template Requests"
+    },
+    "fields": {
+      "groupName": "Group Name",
+      "lessonType": "Lesson Type",
+      "coach": "Coach",
+      "students": "Students",
+      "level": "Level",
+      "packageSize": "Package Size",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "price": "Price",
+      "notes": "Notes",
+      "status": "Status",
+      "name": "Full Name",
+      "phone": "Phone",
+      "email": "Email",
+      "gender": "Gender",
+      "birthDate": "Birth Date",
+      "profession": "Profession",
+      "tcId": "ID Number",
+      "nationalId": "National ID",
+      "idCountry": "ID Country",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "username": "Username",
+      "password": "Password",
+      "sportType": "Sport Type",
+      "specialization": "Specialization",
+      "availabilityNotes": "Availability Notes",
+      "membershipYears": "Membership Duration (Years)",
+      "installmentCount": "Installment Count",
+      "installmentDay": "Installment Day",
+      "message": "Message",
+      "conditioningSchedule": "Conditioning Schedule",
+      "trainingSchedule": "Training Schedule",
+      "country": "Country",
+      "state": "State",
+      "city": "City",
+      "stateProvince": "State/Province",
+      "cityDistrict": "City/District",
+      "address": "Address",
+      "appliedLessonTypes": "Applied Lesson Types"
+    },
+    "placeholders": {
+      "groupName": "E.g., Adult Beginner Group",
+      "selectLessonType": "Select lesson type",
+      "selectCoach": "Select coach",
+      "selectStudents": "Select students",
+      "selectLevel": "Select level",
+      "selectStatus": "Select status",
+      "studentName": "Student name",
+      "phone": "Phone number",
+      "email": "example@email.com",
+      "notes": "Notes...",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "username": "username",
+      "password": "At least 6 characters",
+      "selectSportType": "Select sport type",
+      "specialization": "E.g., Youth Players, Conditioning",
+      "availabilityNotes": "Availability information...",
+      "selectGender": "Select gender",
+      "selectProfession": "Select profession",
+      "selectDate": "Select date",
+      "price": "0.00",
+      "approvalNotes": "Approval notes...",
+      "tcId": "ID Number",
+      "selectMembership": "Select membership",
+      "paymentNotes": "Payment notes...",
+      "renewalNotes": "Renewal notes...",
+      "selectReason": "Select reason",
+      "enterReason": "Enter reason...",
+      "statusNotes": "Status change notes...",
+      "selectLesson": "Select lesson",
+      "location": "Enter location...",
+      "subject": "Message subject",
+      "messageContent": "Write your message here...",
+      "selectCountry": "Select country",
+      "selectState": "Select state",
+      "selectCity": "Select city",
+      "stateProvince": "Enter state/province",
+      "cityDistrict": "Enter city/district",
+      "address": "Enter address...",
+      "selectAppliedLessonTypes": "Select applied lesson types"
+    },
+    "lessonTypes": {
+      "individual": "Individual",
+      "group": "Group",
+      "kids": "Kids",
+      "adult": "Adult",
+      "professional": "Professional",
+      "conditioning": "Conditioning",
+      "bireysel": "Individual",
+      "grup": "Group",
+      "kondisyon": "Conditioning"
+    },
+    "paymentTypes": {
+      "installment": "Installment",
+      "partial": "Partial Payment",
+      "full": "Full Payment",
+      "lateFee": "Late Fee",
+      "renewal": "Renewal"
+    },
+    "paymentMethods": {
+      "nakit": "Cash",
+      "kredi kartı": "Credit Card",
+      "havale_eft": "Bank Transfer"
+    },
+    "professions": {
+      "doktor": "Doctor",
+      "mühendis": "Engineer",
+      "avukat": "Lawyer",
+      "öğretmen": "Teacher",
+      "hemşire": "Nurse",
+      "polis": "Police",
+      "asker": "Military",
+      "işçi": "Worker",
+      "memur": "Civil Servant",
+      "öğrenci": "Student",
+      "serbestmeslek": "Self-Employed",
+      "emekli": "Retired",
+      "diğer": "Other"
+    },
+    "playerStatus": {
+      "active": "Active",
+      "aktif": "Active",
+      "frozen": "Frozen",
+      "dondurulmuş": "Frozen",
+      "tempFrozen": "Temporarily Frozen",
+      "geçici_dondurulmuş": "Temporarily Frozen",
+      "quit": "Quit",
+      "bıraktı": "Quit"
+    },
+    "finance": {
+      "totalExpected": "Total Expected",
+      "totalCollected": "Total Collected",
+      "totalPending": "Total Pending",
+      "totalOverdue": "Total Overdue",
+      "students": "students",
+      "studentsWaiting": "students waiting",
+      "studentsOverdue": "students overdue",
+      "fullyPaid": "Fully Paid",
+      "pendingPayments": "Pending Payments",
+      "overduePayments": "Overdue Payments",
+      "studentFinances": "Student Finances",
+      "studentFinancesDesc": "Manage student payments and financial information",
+      "overdue": "Overdue"
+    },
+    "lessonLevels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "professional": "Professional",
+      "unspecified": "Unspecified"
+    },
+    "lessonStatuses": {
+      "planned": "Planned",
+      "active": "Active",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "status": {
+      "planned": "Planned",
+      "ongoing": "Ongoing",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "attendanceStatus": {
+      "present": "Present",
+      "absent": "Absent",
+      "excused": "Excused",
+      "pending": "Pending"
+    },
+    "paymentStatus": {
+      "paid": "Paid",
+      "pending": "Pending",
+      "overdue": "Overdue"
+    },
+    "requestStatus": {
+      "pending": "Pending Approval",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "coachRoles": {
+      "tennis": "Tennis Coach",
+      "conditioning": "Conditioning Coach"
+    },
+    "labels": {
+      "progress": "Progress",
+      "packageFinished": "Package Finished",
+      "student": "Student",
+      "lesson": "Lesson",
+      "year": "Year",
+      "installment": "Installment",
+      "dayOfMonth": "Day {day} of month",
+      "installmentPreview": "Installment Preview",
+      "total": "Total",
+      "students": "students",
+      "lessons": "lessons",
+      "totalPrice": "Total Price",
+      "totalPaid": "Total Paid",
+      "remaining": "Remaining",
+      "installments": "Installments",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "paid": "Paid",
+      "requestDate": "Request Date",
+      "schedule": "Schedule",
+      "trainingSchedule": "Training Schedule",
+      "conditioningSchedule": "Conditioning Schedule",
+      "addSchedule": "Add Schedule",
+      "day": "Day",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location",
+      "activeLessons": "Active Lessons",
+      "lessonType": "Lesson Type",
+      "status": "Status",
+      "nextPayment": "Next Payment",
+      "playerStatus": "Player Status",
+      "actions": "Actions",
+      "selectMembership": "Select Membership",
+      "selectInstallments": "Select Installments",
+      "paymentAmount": "Payment Amount",
+      "maxAmount": "Max Amount",
+      "fullPaymentAmount": "Full Payment Amount",
+      "lateFeeAmount": "Late Fee Amount",
+      "totalToPay": "Total to Pay",
+      "paymentMethod": "Payment Method",
+      "notes": "Notes",
+      "lateFee": "Late Fee",
+      "currentPackage": "Current Package",
+      "price": "Price",
+      "selectLesson": "Select Lesson",
+      "newPrice": "New Price",
+      "packageSize": "Package Size",
+      "membershipYears": "Membership Duration (Years)",
+      "installmentCount": "Installment Count",
+      "installmentDay": "Installment Day",
+      "installmentAmount": "Installment Amount",
+      "installmentSchedule": "Installment Schedule",
+      "moreInstallments": "more installments",
+      "renewalPreview": "Renewal Preview",
+      "currentStatus": "Current Status",
+      "reason": "Reason",
+      "lastChange": "Last Change",
+      "newStatus": "New Status",
+      "freezeReason": "Freeze Reason",
+      "customReason": "Custom Reason",
+      "freezeStartDate": "Freeze Start Date",
+      "freezeEndDate": "Freeze End Date",
+      "quitReason": "Quit Reason",
+      "additionalNotes": "Additional Notes",
+      "paymentCount": "Payment Count",
+      "date": "Date",
+      "type": "Type",
+      "method": "Method",
+      "amount": "Amount",
+      "details": "Details",
+      "installmentStatus": "Installment Status",
+      "deleteReason": "Delete Reason",
+      "level": "Level",
+      "coach": "Coach",
+      "gender": "Gender",
+      "birthDate": "Birth Date",
+      "profession": "Profession",
+      "tcId": "ID Number",
+      "phone": "Phone",
+      "email": "Email",
+      "name": "Name",
+      "finished": "finished",
+      "package": "Package",
+      "training": "Training",
+      "manualEntry": "Manual Entry",
+      "selected": "selected",
+      "groupMembers": "Group Members",
+      "specialization": "Specialization",
+      "packageFinished": "Package Finished"
+    },
+    "attendance": {
+      "lessonsForDate": "Lessons for {date}",
+      "markAttendance": "Mark Attendance",
+      "saveAttendance": "Save Attendance",
+      "present": "Present",
+      "absent": "Absent",
+      "excused": "Excused",
+      "pending": "Pending"
+    },
+    "sections": {
+      "basicInfo": "Basic Information",
+      "contact": "Contact",
+      "contactInfo": "Contact Information",
+      "location": "Location",
+      "identity": "Identity",
+      "lesson": "Lesson Information",
+      "lessonInfo": "Lesson Information",
+      "finance": "Financial Information",
+      "coachInfo": "Coach Information",
+      "financialInfo": "Financial Information",
+      "activeLessons": "Active Lessons",
+      "memberships": "Memberships",
+      "requestInfo": "Request Information",
+      "financialSettings": "Financial Settings"
+    },
+    "empty": {
+      "noLessons": "No lessons added yet",
+      "noLessonsDesc": "Start by adding a new lesson",
+      "noStudents": "No students added yet",
+      "noStudentsDesc": "Start by adding a new student",
+      "noCoaches": "No coaches added yet",
+      "noCoachesDesc": "Start by adding a new coach",
+      "noRequests": "No pending requests",
+      "noRequestsDesc": "Student requests will appear here",
+      "noStudentsInLesson": "No students in this lesson yet",
+      "noActiveLessons": "No active lessons",
+      "noSchedule": "No schedule added",
+      "noLessonsToday": "No lessons found for today",
+      "templateRequests": "No template requests found"
+    },
+    "dialogs": {
+      "addLesson": {
+        "title": "Add New Lesson",
+        "description": "Create a new private lesson group"
+      },
+      "editLesson": {
+        "title": "Edit Lesson",
+        "description": "Update lesson information"
+      },
+      "addStudent": {
+        "title": "Add New Student",
+        "description": "Add a new student to the system"
+      },
+      "editStudent": {
+        "title": "Edit Student",
+        "description": "Update student information"
+      },
+      "addCoach": {
+        "title": "Add New Coach",
+        "description": "Add a new coach to the system"
+      },
+      "studentDetails": {
+        "title": "Student Details"
+      },
+      "approveRequest": {
+        "title": "Approve Request",
+        "description": "Enter financial information for the request"
+      },
+      "rejectRequest": {
+        "title": "Reject Request",
+        "description": "Are you sure you want to reject this request?"
+      },
+      "message": {
+        "title": "Send Message",
+        "description": "Send a message to the selected user",
+        "recipient": "Recipient",
+        "subject": "Subject",
+        "content": "Message Content"
+      },
+      "deleteLesson": {
+        "title": "Delete Lesson",
+        "description": "Are you sure you want to delete this lesson? This action cannot be undone."
+      },
+      "deleteStudent": {
+        "title": "Delete Student",
+        "description": "Are you sure you want to delete this student? This action cannot be undone."
+      },
+      "deleteCoach": {
+        "title": "Delete Coach",
+        "description": "Are you sure you want to delete this coach? This action cannot be undone."
+      },
+      "payment": {
+        "title": "Process Payment",
+        "description": "Process payment for {name}"
+      },
+      "renewal": {
+        "title": "Renew Package",
+        "description": "Renew package for {name}"
+      },
+      "status": {
+        "title": "Change Status",
+        "description": "Change status for {name}"
+      },
+      "paymentHistory": {
+        "title": "Payment History",
+        "description": "View payment history for {name}"
+      },
+      "confirmQuit": {
+        "title": "Confirm Quit Status",
+        "description": "Are you sure you want to mark {name} as quit? This will affect their enrollment in all lessons."
+      },
+      "deletePayment": {
+        "title": "Delete Payment",
+        "description": "Are you sure you want to delete this payment of {amount}? This action cannot be undone."
+      }
+    },
+    "warnings": {
+      "quitStatusTitle": "Warning",
+      "quitStatusDescription": "Setting status to quit will mark the student as inactive. This action may affect their lesson enrollment.",
+      "deletePayment": "Deleting a payment will update the student's balance and payment history. This action is logged for audit purposes."
+    },
+    "messages": {
+      "lessonCreated": "Lesson created successfully",
+      "lessonUpdated": "Lesson updated successfully",
+      "lessonDeleted": "Lesson deleted successfully",
+      "studentCreated": "Student created successfully",
+      "studentUpdated": "Student updated successfully",
+      "studentDeleted": "Student deleted successfully",
+      "coachCreated": "Coach created successfully",
+      "coachDeleted": "Coach deleted successfully",
+      "requestApproved": "Request approved successfully",
+      "requestRejected": "Request rejected",
+      "attendanceSaved": "Attendance saved",
+      "editLimitedForRegisteredCoaches": "Editing is limited for registered coaches",
+      "passwordMinLength": "Password must be at least 6 characters",
+      "paymentProcessed": "Payment processed successfully",
+      "packageRenewed": "Package renewed successfully",
+      "statusUpdated": "Status updated successfully",
+      "paymentDeleted": "Payment deleted successfully",
+      "refreshed": "Data refreshed",
+      "noInstallments": "No installments found for this membership",
+      "lateFeeInfo": "Late fee will be added to the student's balance",
+      "tempFreezeInfo": "Student will automatically become active on {date}",
+      "noPayments": "No payment records found",
+      "selectLessonTypeFirst": "Please select a lesson type first",
+      "noStudentsForType": "No students found for this lesson type",
+      "enterSubjectAndContent": "Please enter subject and message content",
+      "messageSent": "Message sent successfully"
+    },
+    "errors": {
+      "loadFailed": "Failed to load data",
+      "saveFailed": "Save failed",
+      "deleteFailed": "Delete failed",
+      "approveFailed": "Approval failed",
+      "rejectFailed": "Rejection failed",
+      "emailInUse": "This email is already in use",
+      "noPermission": "You don't have permission to access this page",
+      "selectInstallment": "Please select at least one installment",
+      "enterAmount": "Please enter an amount",
+      "invalidAmount": "Please enter a valid amount",
+      "paymentFailed": "Payment processing failed",
+      "selectLesson": "Please select a lesson",
+      "enterPrice": "Please enter a price",
+      "renewalFailed": "Package renewal failed",
+      "selectFreezeReason": "Please select a freeze reason",
+      "statusUpdateFailed": "Status update failed",
+      "fetchPaymentsFailed": "Failed to fetch payment records",
+      "selectDeleteReason": "Please select a delete reason",
+      "deletePaymentFailed": "Failed to delete payment",
+      "attendanceFetchFailed": "Failed to fetch attendance data",
+      "attendanceSaveFailed": "Failed to save attendance",
+      "messageSendFailed": "Failed to send message"
+    },
+    "empty": {
+      "lessons": "No lessons found",
+      "students": "No students found",
+      "coaches": "No coaches found",
+      "requests": "No requests found"
+    },
+    "confirmDelete": "Do you confirm this action?",
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    }
+  },
+  "wallets": {
+    "title": "Wallet Management",
+    "subtitle": "Manage user wallets, transfers and balances",
+    "loading": "Loading wallets...",
+    "balance": "Balance",
+    "addBalance": "Add Balance",
+    "transactions": "Transactions",
+    "transfer": "Transfer",
+    "stats": {
+      "total": "Total Wallets",
+      "active": "Active",
+      "blocked": "Blocked",
+      "totalWallets": "Total Wallets",
+      "activeWallets": "Active Wallets",
+      "blockedWallets": "Blocked Wallets",
+      "totalBalance": "Total Balance",
+      "negativeLimit": "Negative Limit",
+      "totalNegativeLimit": "Total Negative Limit"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "blocked": "Blocked",
+      "searchPlaceholder": "Search by username..."
+    },
+    "search": {
+      "placeholder": "Search by username..."
+    },
+    "status": {
+      "active": "Active",
+      "blocked": "Blocked"
+    },
+    "labels": {
+      "balance": "Balance",
+      "currentBalance": "Current Balance",
+      "negativeLimit": "Negative Limit",
+      "amount": "Amount",
+      "noTransactions": "No transactions found",
+      "noUsersWithoutWallet": "No users found without wallet",
+      "selectUser": "Select User",
+      "initialBalance": "Initial Balance",
+      "discount": "Discount",
+      "coupon": "Coupon",
+      "senderUsername": "Sender Username",
+      "receiverUsername": "Receiver Username"
+    },
+    "placeholders": {
+      "enterUsername": "Enter username",
+      "searchUsers": "Search users..."
+    },
+    "empty": {
+      "title": "No wallets found",
+      "description": "No wallets match your search criteria"
+    },
+    "settings": {
+      "title": "Global Settings",
+      "description": "Control wallet operations for all users",
+      "transfer": "Transfers",
+      "transferDesc": "Allow users to transfer balance",
+      "addBalance": "Balance Loading",
+      "addBalanceDesc": "Allow users to add balance",
+      "pay": "Payments",
+      "payDesc": "Allow users to make payments"
+    },
+    "actions": {
+      "addBalance": "Add Balance",
+      "setLimit": "Set Limit",
+      "viewHistory": "View History",
+      "block": "Block",
+      "unblock": "Unblock",
+      "delete": "Delete",
+      "reset": "Reset",
+      "transfer": "Transfer",
+      "createWallet": "Create Wallet",
+      "cancel": "Cancel",
+      "close": "Close",
+      "refresh": "Refresh",
+      "undo": "Undo",
+      "confirmUndo": "Confirm Undo",
+      "remove": "Remove",
+      "settings": "Settings"
+    },
+    "dialogs": {
+      "balance": {
+        "title": "Wallet Balance",
+        "description": "Add balance or set negative limit for {name}",
+        "addBalance": "Add Balance",
+        "setLimit": "Set Limit",
+        "limitHint": "This is the maximum negative balance allowed"
+      },
+      "transfer": {
+        "title": "Admin Transfer",
+        "description": "Transfer balance between wallets"
+      },
+      "history": {
+        "title": "Transaction History",
+        "description": "Transaction history for {name}"
+      },
+      "create": {
+        "title": "Create Wallet",
+        "description": "Create a new wallet for a user",
+        "initialBalanceHint": "Optional starting balance for the wallet"
+      },
+      "block": {
+        "title": "Block Wallet",
+        "description": "Are you sure you want to block {name}'s wallet? The user will not be able to make any transactions."
+      },
+      "unblock": {
+        "title": "Unblock Wallet",
+        "description": "Are you sure you want to unblock {name}'s wallet?"
+      },
+      "delete": {
+        "title": "Delete Wallet",
+        "description": "Are you sure you want to delete {name}'s wallet? This action cannot be undone."
+      },
+      "reset": {
+        "title": "Reset Wallet",
+        "description": "Are you sure you want to reset {name}'s wallet? Balance and negative limit will be set to 0."
+      },
+      "undoConfirm": {
+        "title": "Confirm Undo",
+        "description": "Are you sure you want to undo this transaction? This will reverse the operation."
+      }
+    },
+    "globalSettings": {
+      "title": "Global Settings",
+      "description": "Control wallet operations for all users",
+      "transferDisabled": "Transfers Disabled",
+      "addBalanceDisabled": "Balance Adding Disabled",
+      "payDisabled": "Payments Disabled",
+      "disableAll": "Disable All",
+      "enableAll": "Enable All"
+    },
+    "messages": {
+      "balanceAdded": "Balance added successfully",
+      "limitSet": "Negative limit set successfully",
+      "transferCompleted": "Transfer completed successfully",
+      "walletCreated": "Wallet created successfully",
+      "walletBlocked": "Wallet blocked",
+      "walletUnblocked": "Wallet unblocked",
+      "walletDeleted": "Wallet deleted",
+      "walletReset": "Wallet reset",
+      "transactionUndone": "Transaction undone successfully",
+      "settingsUpdated": "Settings updated"
+    },
+    "errors": {
+      "invalidAmount": "Please enter a valid amount",
+      "updateFailed": "Operation failed",
+      "loadTransactionsFailed": "Failed to load transactions",
+      "undoFailed": "Failed to undo transaction",
+      "loadUsersFailed": "Failed to load users",
+      "createWalletFailed": "Failed to create wallet",
+      "senderNotFound": "Sender not found",
+      "receiverNotFound": "Receiver not found",
+      "sameUser": "Sender and receiver cannot be the same",
+      "userNotFound": "User not found",
+      "transferFailed": "Transfer failed",
+      "insufficientBalance": "Insufficient balance",
+      "fetchFailed": "Failed to load data",
+      "blockFailed": "Failed to block/unblock wallet",
+      "deleteFailed": "Failed to delete wallet",
+      "resetFailed": "Failed to reset wallet",
+      "settingsFailed": "Failed to update settings"
+    }
+  },
+  "roles": {
+    "title": "Role Management",
+    "addRole": "Add Role",
+    "editRole": "Edit Role",
+    "permissions": "Permissions",
+    "priceMultiplier": "Price Multiplier",
+    "permissionLabels": {
+      "usersManagement": "User Management",
+      "reservationsManagement": "Reservation Management",
+      "courtManagements": "Court Management",
+      "tournamentsManagement": "Tournament Management",
+      "financialManagements": "Financial Management",
+      "walletManagements": "Wallet Management",
+      "teamManagement": "Team Management",
+      "teamPerformance": "Performance Management",
+      "employeeSalaryManagement": "Salary Management",
+      "mealCardManagement": "Meal Card Management",
+      "uyeler": "Member Operations",
+      "roles": "Role Management",
+      "aiChatAssistant": "AI Assistant",
+      "privateLessonArea": "Private Lesson Area",
+      "reservationPage": "Reservation Page",
+      "tournamentPage": "Tournament Page",
+      "transferAccess": "Transfer Operations",
+      "addBalanceAccess": "Balance Loading",
+      "payAccess": "Payment Operations",
+      "memberMessage": "Message to Members",
+      "discountManagement": "Discount Management",
+      "apiManagement": "API Management",
+      "restaurantManagement": "Restaurant Management",
+      "storeManagement": "Store Management",
+      "magazineManagement": "Magazine Management",
+      "sliderManagement": "Slider Management",
+      "localeSettings": "Regional Settings",
+      "myClubManager": "Club Management",
+      "payManagement": "Payment Management",
+      "notificationsManagement": "Notification Management",
+      "adsManagement": "Ads Management",
+      "problemManagement": "Problem Management",
+      "gameCenter": "Game Center",
+      "trainingPool": "Training Pool",
+      "occupancyManagement": "Occupancy Management"
+    }
+  },
+  "notifications": {
+    "title": "Notification Management",
+    "send": "Send Notification",
+    "history": "History",
+    "templates": "Templates"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "appearance": "Appearance",
+    "language": "Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "Access denied",
+    "serverError": "Server error",
+    "networkError": "Connection error"
+  },
+  "localeSettings": {
+    "title": "Regional Settings",
+    "subtitle": "Customize date, time and currency formats",
+    "dateFormat": "Date Format",
+    "dateFormatDescription": "Choose how you want to see dates",
+    "timeFormat": "Time Format",
+    "timeFormatDescription": "Choose 12-hour or 24-hour format",
+    "12hour": "12 Hour Format",
+    "24hour": "24 Hour Format",
+    "currency": "Currency",
+    "currencyDescription": "Choose the currency to use",
+    "timezone": "Timezone",
+    "timezoneDescription": "Choose your club's timezone",
+    "numberFormat": "Number Format",
+    "numberFormatDescription": "Choose how numbers are displayed",
+    "preview": "Preview",
+    "previewDescription": "See how your settings will look",
+    "dateExample": "Date",
+    "timeExample": "Time",
+    "priceExample": "Price",
+    "currentSettings": "Current Settings",
+    "unsavedChanges": "You have unsaved changes",
+    "reset": "Reset",
+    "save": "Save",
+    "saveSuccess": "Settings saved successfully",
+    "saveError": "Error saving settings",
+    "loading": "Loading settings...",
+    "comma": "Comma (Turkey)",
+    "dot": "Dot (US/UK)"
+  },
+  "apiKeys": {
+    "title": "API Key Management",
+    "subtitle": "Securely manage your application's API keys",
+    "addKey": "Add New Key",
+    "editKey": "Edit API Key",
+    "deleteKey": "Delete API Key",
+    "loadDefaults": "Load Default Keys",
+    "noKeys": "No API Keys Found",
+    "noKeysDescription": "No API keys have been added yet. You can load default keys or manually add new ones.",
+    "securityWarning": "Security Warning",
+    "securityWarningText": "Keep your API keys secure and never share them publicly.",
+    "form": {
+      "name": "API Name",
+      "namePlaceholder": "E.g., OpenAI API",
+      "provider": "Provider",
+      "providerPlaceholder": "Select provider",
+      "key": "API Key",
+      "keyPlaceholder": "Enter API key",
+      "description": "Description",
+      "descriptionPlaceholder": "Purpose of this API key"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "copy": "Copy",
+      "show": "Show",
+      "hide": "Hide"
+    },
+    "providers": {
+      "openweathermap": "OpenWeatherMap",
+      "openai": "OpenAI",
+      "google": "Google Gemini",
+      "googleCloud": "Google Cloud",
+      "other": "Other"
+    },
+    "messages": {
+      "loadSuccess": "Default API keys loaded",
+      "loadError": "Error loading default API keys",
+      "saveSuccess": "API key saved",
+      "saveError": "Error saving API key",
+      "updateSuccess": "API key updated",
+      "deleteSuccess": "API key deleted",
+      "deleteError": "Error deleting API key",
+      "copySuccess": "API key copied",
+      "statusChanged": "API key status updated",
+      "fillRequired": "Please fill all required fields"
+    },
+    "confirmDelete": "Are you sure you want to delete this API key? This action cannot be undone and services using this key will stop working."
+  },
+  "myClub": {
+    "title": "My Club",
+    "subtitle": "Manage your club information and settings",
+    "loading": "Loading club information...",
+    "notFound": "Club information not found",
+    "retry": "Try Again",
+    "sections": {
+      "basicInfo": "Basic Information",
+      "basicInfoDesc": "Club name and identification details",
+      "contactInfo": "Contact Information",
+      "contactInfoDesc": "Authorized person and contact details",
+      "location": "Location",
+      "locationDesc": "Club address and location details",
+      "adminCredentials": "Admin Credentials",
+      "adminCredentialsDesc": "Admin login information",
+      "clubLogo": "Club Logo",
+      "clubLogoDesc": "Your club's logo displayed throughout the app",
+      "clubPhotos": "Club Photos",
+      "clubPhotosDesc": "Photos of your club facilities (max 3)",
+      "themeColor": "Theme Color",
+      "themeColorDesc": "Choose a theme color for your club"
+    },
+    "fields": {
+      "clubId": "Club ID",
+      "clubName": "Club Name",
+      "clubType": "Club Type",
+      "authorizedPerson": "Authorized Person Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "country": "Country",
+      "state": "State/Province",
+      "city": "City",
+      "adminUsername": "Admin Username",
+      "adminPassword": "Admin Password"
+    },
+    "placeholders": {
+      "clubName": "e.g., Ankara Tennis Club",
+      "authorizedPerson": "Full Name",
+      "email": "example@email.com",
+      "phone": "5551234567",
+      "selectCountry": "Select a country",
+      "selectState": "Select a state",
+      "selectCity": "Select a city",
+      "adminUsername": "Username",
+      "adminPassword": "Password"
+    },
+    "helpers": {
+      "clubIdReadonly": "Note: System ID cannot be changed.",
+      "usernameInfo": "No spaces allowed, automatically converted to lowercase.",
+      "noSpaces": "No spaces allowed.",
+      "maxPhotos": "{count} more photo(s) can be added"
+    },
+    "types": {
+      "tennis": "Tennis",
+      "padel": "Padel"
+    },
+    "buttons": {
+      "uploadLogo": "Upload Logo",
+      "changeLogo": "Change Logo",
+      "addPhoto": "Add Photo"
+    },
+    "colors": {
+      "blue": "Blue",
+      "green": "Green",
+      "red": "Red",
+      "purple": "Purple",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "turquoise": "Turquoise",
+      "pink": "Pink",
+      "cyan": "Cyan",
+      "custom": "Custom Color"
+    },
+    "messages": {
+      "errorLoading": "Error loading club information",
+      "saveSuccess": "Club information saved successfully",
+      "saveError": "Error saving club information",
+      "logoUploaded": "Logo uploaded successfully",
+      "logoUploadError": "Error uploading logo",
+      "photoUploaded": "Photo uploaded successfully",
+      "photoUploadError": "Error uploading photo",
+      "photoDeleted": "Photo deleted",
+      "photoDeleteError": "Error deleting photo",
+      "maxPhotos": "Maximum 3 photos can be uploaded"
+    },
+    "delete": {
+      "dangerZone": "Danger Zone",
+      "warningText": "Deleting the club will permanently remove all data. This action cannot be undone!",
+      "deleteButton": "Delete Club",
+      "modalTitle": "Delete Club",
+      "irreversibleAction": "This action is irreversible!",
+      "allDataWillBeDeleted": "When you delete the club, all reservations, members, courts, wallet information and all other data will be permanently deleted.",
+      "enterClubName": "Enter club name",
+      "clubNameHint": "Type \"{clubName}\"",
+      "enterAdminUsername": "Enter admin username",
+      "adminUsernamePlaceholder": "Admin username",
+      "enterAdminPassword": "Enter admin password",
+      "adminPasswordPlaceholder": "Admin password",
+      "confirmDeleteButton": "Permanently Delete Club",
+      "finalConfirmTitle": "⚠️ Final Confirmation",
+      "finalConfirmMessage": "You are about to permanently delete \"{clubName}\" club.\n\nThis action CANNOT BE UNDONE!\n\nAll data (reservations, members, courts, wallets, etc.) will be deleted.\n\nDo you want to continue?",
+      "confirmDelete": "Yes, Delete",
+      "deleting": "Deleting...",
+      "successMessage": "Club and all data deleted successfully",
+      "errorMessage": "Error occurred while deleting club"
+    }
+  },
+  "occupancy": {
+    "title": "Occupancy Management",
+    "subtitle": "Monitor real-time club occupancy and send notifications to nearby members",
+    "loading": "Loading occupancy data...",
+    "currentOccupancy": "Current Occupancy",
+    "peopleAtClub": "people at club",
+    "live": "Live",
+    "locationSettings": "Location Settings",
+    "edit": "Edit",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "radius": "Radius",
+    "capacity": "Capacity",
+    "people": "people",
+    "noLocationWarning": "Club location not set. Configure location to enable occupancy tracking.",
+    "occupancyTrend": "Occupancy Trend",
+    "occupancy": "Occupancy",
+    "levels": {
+      "high": "High Occupancy",
+      "medium": "Medium Occupancy",
+      "low": "Low Occupancy",
+      "empty": "Empty"
+    },
+    "ranges": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "yearly": "Yearly"
+    },
+    "stats": {
+      "peak": "Peak",
+      "average": "Average",
+      "low": "Lowest"
+    },
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun",
+      "jul": "Jul",
+      "aug": "Aug",
+      "sep": "Sep",
+      "oct": "Oct",
+      "nov": "Nov",
+      "dec": "Dec"
+    },
+    "yearlyArchive": {
+      "title": "Yearly Archive",
+      "subtitle": "View historical occupancy data by year",
+      "empty": "No archived data available",
+      "records": "records",
+      "peakMonth": "Peak Month",
+      "totalVisits": "Total Visits",
+      "monthlyBreakdown": "Monthly Breakdown"
+    },
+    "notifications": {
+      "title": "Notification Settings",
+      "description": "Automatically notify members when occupancy reaches threshold",
+      "enabled": "Notifications Enabled",
+      "disabled": "Notifications Disabled",
+      "threshold": "Notification Threshold",
+      "sendNotification": "Send Notification",
+      "recipients": "Recipients",
+      "titleLabel": "Title",
+      "titlePlaceholder": "Enter notification title",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter notification message",
+      "preview": "Preview",
+      "send": "Send",
+      "sent": "Notification sent successfully",
+      "usersSent": "users notified",
+      "sendFailed": "Failed to send notification",
+      "emptyMessage": "Please enter title and message",
+      "noUsers": "No users to notify"
+    },
+    "nearbyUsers": {
+      "title": "Nearby Users",
+      "notifyAll": "Notify All",
+      "empty": "No users currently at the club",
+      "away": "away"
+    },
+    "locationModal": {
+      "title": "Location Settings",
+      "locationHint": "Enter the club's GPS coordinates. These will be used to detect nearby users.",
+      "useCurrentLocation": "Use Current Location",
+      "save": "Save"
+    },
+    "errors": {
+      "noClub": "No club selected",
+      "invalidCoordinates": "Invalid coordinates",
+      "saveFailed": "Failed to save settings",
+      "locationPermission": "Location permission denied",
+      "locationFailed": "Failed to get location"
+    },
+    "success": {
+      "locationSaved": "Location settings saved",
+      "locationFound": "Location found"
+    }
+  },
+  "appStore": {
+    "title": "App Store",
+    "subtitle": "Discover and install modules to enhance your club management",
+    "loadingModules": "Loading modules...",
+    "store": "Store",
+    "purchased": "Purchased",
+    "recommended": "Recommended",
+    "popularApps": "Popular Apps",
+    "free": "Free",
+    "purchase": "Get",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "active": "Active",
+    "activateAction": "Activate Module",
+    "deactivateAction": "Deactivate Module",
+    "freeAdd": "Add for Free",
+    "purchaseWithPrice": "Purchase for ₺{price}",
+    "rating": "ratings",
+    "age": "Age",
+    "rank": "Rank",
+    "size": "Size",
+    "description": "Description",
+    "features": "Features",
+    "purchaseSuccess": "Module purchased successfully!",
+    "purchaseWarning": "Go to the Purchased Apps tab and activate the module to start using it.",
+    "purchasedApps": "Go to Purchased Apps",
+    "close": "Close",
+    "noPurchasedModules": "No purchased modules yet",
+    "noModulesInCategory": "No modules in this category",
+    "categories": {
+      "all": "All",
+      "business": "Business",
+      "entertainment": "Entertainment",
+      "members": "Members",
+      "utility": "Utility",
+      "management": "Management"
+    },
+    "success": {
+      "modulePurchased": "purchased successfully",
+      "moduleActivated": "activated successfully",
+      "moduleDeactivated": "deactivated successfully"
+    },
+    "errors": {
+      "noClub": "No club selected",
+      "moduleLoadError": "Failed to load modules",
+      "modulePurchaseError": "Failed to purchase module",
+      "moduleActivationError": "Failed to activate module",
+      "moduleDeactivationError": "Failed to deactivate module",
+      "mustPurchaseFirst": "You must purchase this module first"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Features",
+      "screenshots": "Screenshots",
+      "pricing": "Pricing",
+      "clubLogin": "Club Manager Login"
+    },
+    "hero": {
+      "badge": "The #1 Tennis & Padel Platform",
+      "title": {
+        "part1": "Elevate Your",
+        "highlight": "Tennis Experience",
+        "part2": "to the Next Level"
+      },
+      "description": "The ultimate platform for tennis and padel clubs. Manage reservations, tournaments, leagues, and more with our powerful mobile app.",
+      "downloadApp": "Download App",
+      "watchDemo": "Intro Video"
+    },
+    "features": {
+      "title": {
+        "part1": "Everything You Need for",
+        "highlight": "Modern Club Management"
+      },
+      "description": "Powerful features designed to streamline your club operations and enhance member experience."
+    },
+    "screenshots": {
+      "title": "Experience the App",
+      "description": "Beautiful, intuitive design that makes managing your tennis life effortless."
+    },
+    "clubCta": {
+      "badge": "For Club Managers",
+      "title": "Take Your Club to the Next Level",
+      "description": "Join hundreds of clubs already using TennisApp to manage their operations, increase revenue, and delight their members.",
+      "features": {
+        "feature1": "Complete club management dashboard",
+        "feature2": "Real-time analytics and reports",
+        "feature3": "Automated reservation system",
+        "feature4": "Member engagement tools"
+      },
+      "button": "Access Club Dashboard"
+    },
+    "footer": {
+      "description": "The complete platform for tennis and padel enthusiasts.",
+      "product": "Product",
+      "company": "Company",
+      "legal": "Legal",
+      "about": "About Us",
+      "contact": "Contact",
+      "careers": "Careers",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "kvkk": "KVKK",
+      "rights": "All rights reserved."
+    },
+    "pricing": {
+      "title": "Choose the Perfect Plan for Your Club",
+      "description": "Flexible pricing based on court count. All plans include 14-day free trial.",
+      "perMonth": "mo",
+      "popular": "Most Popular",
+      "selectPlan": "Select Plan",
+      "annualDiscount": "💡 Save 20% with annual billing",
+      "starter": {
+        "name": "Starter",
+        "courts": "1-3 Courts"
+      },
+      "growth": {
+        "name": "Growth",
+        "courts": "4-6 Courts"
+      },
+      "professional": {
+        "name": "Professional",
+        "courts": "7-10 Courts"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "courts": "10+ Courts"
+      },
+      "features": {
+        "reservations": "Unlimited reservations",
+        "members": "Member management",
+        "wallet": "Digital wallet",
+        "notifications": "Notification system",
+        "allStarter": "All Starter features",
+        "tournaments": "Tournament management",
+        "leagues": "League system",
+        "analytics": "Detailed analytics",
+        "allGrowth": "All Growth features",
+        "privateLessons": "Private lessons module",
+        "restaurant": "Restaurant & Store",
+        "prioritySupport": "Priority support",
+        "allPro": "All Professional features",
+        "multiLocation": "Multi-location support",
+        "apiAccess": "API access",
+        "dedicatedSupport": "Dedicated account manager"
+      }
+    }
+  },
+  "registerClub": {
+    "title": "Register Your Club",
+    "subtitle": "Join the Be Tennis family and digitalize your club",
+    "steps": {
+      "clubInfo": "Club Info",
+      "contactInfo": "Contact Info",
+      "facilities": "Facilities",
+      "plan": "Plan Selection",
+      "payment": "Payment"
+    },
+    "clubInfo": {
+      "title": "Club Information",
+      "clubName": "Club Name",
+      "clubNamePlaceholder": "e.g., Ankara Tennis Club",
+      "country": "Country",
+      "selectCountry": "Select country",
+      "city": "City",
+      "selectCity": "Select city",
+      "district": "District",
+      "selectDistrict": "Select district",
+      "address": "Address",
+      "addressPlaceholder": "Full address"
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "ownerName": "Owner Full Name",
+      "ownerNamePlaceholder": "Your Full Name",
+      "email": "Email Address",
+      "emailPlaceholder": "example@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "5XX XXX XX XX",
+      "password": "Admin Password",
+      "passwordPlaceholder": "At least 8 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password"
+    },
+    "facilities": {
+      "title": "Facility Information",
+      "sportTypes": "Sport Types",
+      "tennis": "Tennis",
+      "padel": "Padel",
+      "courtCount": "Court Count",
+      "tennisCourts": "Tennis Courts",
+      "padelCourts": "Padel Courts",
+      "amenities": "Amenities",
+      "parking": "Parking",
+      "cafeteria": "Cafeteria",
+      "showers": "Showers & Locker",
+      "lighting": "Lighting",
+      "proShop": "Pro Shop",
+      "clubLogo": "Club Logo",
+      "uploadLogo": "Upload Logo",
+      "logoHint": "PNG or JPG, max 2MB"
+    },
+    "plan": {
+      "title": "Plan Selection",
+      "subtitle": "Your plan is automatically determined based on total court count",
+      "selectedPlan": "Selected Plan",
+      "billingCycle": "Billing Cycle",
+      "monthly": "Monthly",
+      "annually": "Annually",
+      "annualSave": "Save 20%",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "total": "Total"
+    },
+    "payment": {
+      "title": "Payment",
+      "subtitle": "Activate your club with secure payment",
+      "cardNumber": "Card Number",
+      "cardHolder": "Cardholder Name",
+      "expiry": "Expiry",
+      "cvv": "CVV",
+      "securePayment": "Secure payment with 256-bit SSL",
+      "termsAgree": "I accept the terms of service and privacy policy",
+      "processing": "Processing payment...",
+      "success": "Payment Successful!",
+      "successMessage": "Your club has been successfully created. Redirecting to admin panel.",
+      "error": "Payment Error",
+      "tryAgain": "Try Again"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordMatch": "Passwords do not match",
+      "selectSport": "Please select at least one sport type",
+      "minCourts": "You must enter at least 1 court",
+      "acceptTerms": "You must accept the terms of service",
+      "fixError": "Please fix the field below and try again.",
+      "checking": "Checking..."
+    },
+    "back": "Back",
+    "next": "Next",
+    "submit": "Complete Payment",
+    "createClub": "Create Club",
+    "errors": {
+      "usernameExists": "This username is already taken",
+      "clubNameExists": "This club name is already taken",
+      "emailExists": "This email address is already registered",
+      "paymentFailed": "Payment failed",
+      "registrationFailed": "Registration failed"
+    },
+    "success": {
+      "title": "Club Registration Complete!",
+      "description": "Your club has been successfully created and your payment has been confirmed. You can now start managing your club.",
+      "clubId": "Club ID",
+      "nextSteps": "Next Steps",
+      "step1Title": "Check your email",
+      "step1Desc": "We've sent you a confirmation email with your account details.",
+      "step2Title": "Log in to Admin Panel",
+      "step2Desc": "Start managing your club by logging in with your username and password.",
+      "step3Title": "Set up your courts",
+      "step3Desc": "Define court information, prices, and operating hours.",
+      "goToLogin": "Go to Login",
+      "contactSupport": "Contact Support",
+      "supportInfo": "If you need help, reach out to us:"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 2025",
+    "introduction": "At TennisApp, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application and related services.",
+    "questions": "If you have questions about this Privacy Policy, please contact us at",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect information you provide directly to us, such as when you create an account, make a reservation, or contact us for support. This may include:\n\n• Name and contact information\n• Account credentials\n• Payment information\n• Location data (with your consent)\n• Device information\n• Usage data and preferences"
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect to:\n\n• Provide, maintain, and improve our services\n• Process transactions and send related information\n• Send you technical notices and support messages\n• Respond to your comments and questions\n• Analyze usage patterns and trends\n• Personalize your experience"
+      },
+      "protection": {
+        "title": "Data Protection",
+        "content": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing, accidental loss, destruction, or damage. This includes:\n\n• Encryption of data in transit and at rest\n• Regular security assessments\n• Access controls and authentication\n• Secure data storage practices"
+      },
+      "sharing": {
+        "title": "Information Sharing",
+        "content": "We do not sell your personal information. We may share your information only in the following circumstances:\n\n• With your consent\n• With service providers who assist in our operations\n• To comply with legal obligations\n• To protect our rights and safety\n• In connection with a business transfer"
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to:\n\n• Access your personal data\n• Correct inaccurate data\n• Request deletion of your data\n• Object to processing\n• Data portability\n• Withdraw consent at any time"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy or our data practices, please contact us at:\n\nEmail: privacy@tennisapp.com\nAddress: Ankara, Turkey"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 2025",
+    "introduction": "Welcome to TennisApp. By accessing or using our services, you agree to be bound by these Terms of Service. Please read them carefully before using our platform.",
+    "questions": "If you have questions about these Terms, please contact us at",
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "These Terms shall be governed by and construed in accordance with the laws of the Republic of Turkey, without regard to its conflict of law provisions."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By creating an account or using TennisApp, you agree to these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services.\n\nYou must be at least 18 years old to use our services. By using TennisApp, you represent that you meet this requirement."
+      },
+      "services": {
+        "title": "Our Services",
+        "content": "TennisApp provides a platform for:\n\n• Court reservations and management\n• Tournament and league organization\n• Club membership management\n• Digital wallet and payment processing\n• Communication between clubs and members\n• Performance tracking and analytics"
+      },
+      "payments": {
+        "title": "Payments and Refunds",
+        "content": "• All payments are processed securely through our payment providers\n• Refund policies are determined by individual clubs\n• Wallet balances are non-transferable between clubs\n• We reserve the right to suspend accounts with outstanding balances\n• Currency and pricing are determined by each club"
+      },
+      "prohibited": {
+        "title": "Prohibited Activities",
+        "content": "You agree not to:\n\n• Violate any applicable laws or regulations\n• Infringe on the rights of others\n• Transmit harmful or malicious content\n• Attempt to gain unauthorized access\n• Interfere with the proper working of the service\n• Create multiple accounts for fraudulent purposes"
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "TennisApp is provided \"as is\" without warranties of any kind. We are not liable for:\n\n• Service interruptions or errors\n• Loss of data or content\n• Actions of third parties\n• Indirect, incidental, or consequential damages\n• Issues arising from club-member relationships"
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "We may modify these Terms at any time. We will notify you of significant changes through the app or via email. Your continued use of TennisApp after changes constitutes acceptance of the modified Terms."
+      }
+    }
+  },
+  "kvkk": {
+    "title": "KVKK Aydınlatma Metni",
+    "subtitle": "Personal Data Protection Policy",
+    "backToHome": "Back to Home",
+    "lastUpdated": "Last Updated",
+    "updateDate": "January 2025",
+    "introduction": "In accordance with the Personal Data Protection Law No. 6698 (KVKK), this disclosure text explains how TennisApp collects, processes, and protects your personal data.",
+    "questions": "For KVKK-related inquiries, please contact us at",
+    "dataController": {
+      "title": "Data Controller Information",
+      "company": "Company",
+      "address": "Address",
+      "email": "Email"
+    },
+    "sections": {
+      "purpose": {
+        "title": "Purpose of Data Processing",
+        "content": "Your personal data is processed for the following purposes:\n\n• Providing and improving our services\n• User account management\n• Processing payments and transactions\n• Communication and customer support\n• Legal compliance and fraud prevention\n• Analytics and service optimization"
+      },
+      "dataTypes": {
+        "title": "Types of Data Collected",
+        "content": "We may collect the following categories of personal data:\n\n• Identity Information: Name, surname, date of birth\n• Contact Information: Email, phone number, address\n• Financial Information: Payment details, transaction history\n• Location Data: GPS coordinates (with consent)\n• Technical Data: Device information, IP address, usage logs"
+      },
+      "processing": {
+        "title": "Legal Basis for Processing",
+        "content": "Your data is processed based on:\n\n• Explicit consent\n• Performance of a contract\n• Legal obligations\n• Legitimate interests\n• Vital interests protection\n\nAs per KVKK Article 5 and 6, we ensure all processing activities have a valid legal basis."
+      },
+      "security": {
+        "title": "Data Security Measures",
+        "content": "We implement technical and administrative measures including:\n\n• SSL/TLS encryption for data transmission\n• Encrypted database storage\n• Access control and authentication systems\n• Regular security audits\n• Employee training on data protection\n• Incident response procedures"
+      },
+      "rights": {
+        "title": "Your Rights Under KVKK",
+        "content": "Under KVKK Article 11, you have the right to:\n\n• Learn whether your data is being processed\n• Request information about processing\n• Learn the purpose of processing\n• Know third parties to whom data is transferred\n• Request correction of incomplete or incorrect data\n• Request deletion or destruction of data\n• Object to automated decision-making\n• Seek compensation for damages"
+      },
+      "application": {
+        "title": "How to Exercise Your Rights",
+        "content": "To exercise your KVKK rights, you may:\n\n• Email us at info@btennispadel.com\n• Submit a written request to our registered address\n• Use the in-app data request feature\n\nWe will respond to your request within 30 days as required by law. Identity verification may be required for security purposes."
+      }
+    }
+  },
+  "about": {
+    "backToHome": "Back to Home",
+    "hero": {
+      "title": "Building the Future of Sports Technology",
+      "description": "Be Tek. is a technology company dedicated to transforming how sports clubs operate and how athletes engage with their communities. Founded in 2019 in Ankara, we are on a mission to make sports club management seamless, efficient, and enjoyable."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To empower sports clubs worldwide with innovative technology solutions that enhance member experiences, streamline operations, and drive growth. We believe that great technology can transform the way people connect through sports."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the global standard for sports club management technology, creating a world where every club, regardless of size, has access to enterprise-grade tools and every athlete can focus on what they love most - playing sports."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "The principles that guide everything we do at Be Tek."
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "From a small startup in Ankara to a growing international company."
+    },
+    "team": {
+      "title": "Leadership Team",
+      "description": "Meet the people driving innovation at Be Tek."
+    },
+    "technology": {
+      "title": "Our Technology Stack",
+      "description": "We use cutting-edge technologies to build robust, scalable, and secure applications."
+    },
+    "cta": {
+      "title": "Join Us in Shaping the Future",
+      "description": "Whether you want to join our team or bring TennisApp to your club, we would love to hear from you.",
+      "joinTeam": "Join Our Team",
+      "contactUs": "Contact Us"
+    }
+  },
+  "careers": {
+    "backToHome": "Back to Home",
+    "hero": {
+      "badge": "We are Hiring",
+      "title": "Build the Future of Sports with Us",
+      "description": "Join a passionate team of engineers, designers, and sports enthusiasts who are transforming the sports club industry. We offer competitive salaries, great benefits, and the opportunity to make a real impact.",
+      "teamSize": "Team Members",
+      "openPositions": "Open Positions"
+    },
+    "culture": {
+      "title": "Our Culture",
+      "description": "What makes Be Tek. a great place to work"
+    },
+    "benefits": {
+      "title": "Benefits & Perks",
+      "description": "We take care of our team so they can focus on doing their best work"
+    },
+    "positions": {
+      "title": "Open Positions",
+      "description": "Find your next role and help us build the future of sports technology",
+      "apply": "Apply",
+      "applyNow": "Apply Now",
+      "aboutRole": "About the Role",
+      "requirements": "Requirements",
+      "noJobs": "No open positions in this department at the moment"
+    },
+    "cta": {
+      "title": "Don't See the Right Role?",
+      "description": "We are always looking for talented people. Send us your CV and we will keep you in mind for future opportunities."
+    }
+  },
+  "contact": {
+    "backToHome": "Back to Home",
+    "hero": {
+      "title": "Get in Touch",
+      "description": "Have a question, feedback, or want to learn more about TennisApp? We would love to hear from you."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "company": "Company / Club Name",
+      "companyPlaceholder": "Your club or company name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+90 5XX XXX XX XX",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for reaching out. We will get back to you within 24-48 hours.",
+      "sendAnother": "Send Another Message"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "hours": "Working Hours",
+      "workingHours": "Mon - Fri, 9:00 AM - 6:00 PM (GMT+3)"
+    },
+    "offices": {
+      "title": "Our Offices",
+      "headquarters": "HQ"
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "map": {
+      "placeholder": "Interactive map coming soon"
+    },
+    "faq": {
+      "title": "Looking for Answers?",
+      "description": "Check out our FAQ section or learn more about our company.",
+      "viewFaq": "View FAQ",
+      "learnMore": "About Us"
+    }
+  },
+  "payManagement": {
+    "title": "Payment Management",
+    "description": "Manage payment providers and wallet settings for your club",
+    "loading": "Loading payment settings...",
+    "saveSuccess": "Settings saved successfully",
+    "saveConfig": "Save Configuration",
+    "notConfigured": "Not configured",
+    "international": "International",
+    "turkeyOnly": "Turkey Only",
+    "common": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "wallet": "Wallet"
+    },
+    "overview": {
+      "currentStatus": "Current Status",
+      "paymentProviders": "Payment Providers"
+    },
+    "nonCustodial": {
+      "title": "Non-Custodial System",
+      "description": "Your members' funds are processed directly through the payment provider. We never hold or have access to your members' money."
+    },
+    "stripe": {
+      "description": "Accept payments worldwide with Stripe Connect",
+      "subtitle": "Global payment processing solution",
+      "connected": "Connected",
+      "notConnected": "Not connected to Stripe",
+      "notConnectedDesc": "Connect your Stripe account to start accepting payments",
+      "connectAccount": "Connect Stripe Account",
+      "chargesEnabled": "Charges Enabled",
+      "payoutsEnabled": "Payouts Enabled",
+      "accountType": "Account Type",
+      "expressDesc": "Quick setup, Stripe handles most compliance",
+      "standardDesc": "Full control, you handle compliance",
+      "securityTitle": "PCI DSS Compliant",
+      "securityDesc": "Stripe handles all sensitive payment data securely, meeting the highest security standards."
+    },
+    "iyzico": {
+      "description": "Turkey's leading payment provider",
+      "subtitle": "Local payment processing for Turkey",
+      "turkeyOnlyTitle": "Turkey Only",
+      "turkeyOnlyDesc": "iyzico is only available for businesses operating in Turkey.",
+      "environment": "Environment",
+      "apiCredentials": "API Credentials",
+      "apiKeyPlaceholder": "Enter your API Key",
+      "secretKeyPlaceholder": "Enter your Secret Key",
+      "subMerchantType": "Sub-Merchant Type",
+      "personal": "Personal",
+      "privateCompany": "Private Company",
+      "limitedCompany": "Limited / Joint Stock Company",
+      "businessInfo": "Business Information",
+      "merchantName": "Merchant Name",
+      "merchantNamePlaceholder": "Your business name",
+      "contactEmail": "Contact Email",
+      "contactPhone": "Contact Phone",
+      "tcIdentity": "TC Identity Number",
+      "taxNumber": "Tax Number",
+      "taxOffice": "Tax Office",
+      "taxOfficePlaceholder": "Enter tax office name",
+      "legalCompanyTitle": "Legal Company Title",
+      "legalCompanyTitlePlaceholder": "Enter legal company title",
+      "errors": {
+        "missingKeys": "API Key and Secret Key are required"
+      }
+    },
+    "paratika": {
+      "description": "Virtual POS solution with installment support",
+      "subtitle": "Turkish virtual POS provider",
+      "turkeyOnlyTitle": "Turkey Only",
+      "turkeyOnlyDesc": "Paratika is only available for businesses operating in Turkey.",
+      "environment": "Environment",
+      "apiCredentials": "API Credentials",
+      "merchantCode": "Merchant Code",
+      "merchantCodePlaceholder": "Enter merchant code",
+      "merchantUsername": "Merchant Username",
+      "merchantUsernamePlaceholder": "Enter API username",
+      "merchantPassword": "Merchant Password",
+      "merchantPasswordPlaceholder": "Enter API password",
+      "terminalId": "Terminal ID",
+      "terminalIdPlaceholder": "Enter terminal ID",
+      "posnetId": "Posnet ID",
+      "posnetIdPlaceholder": "Enter Posnet ID (optional)",
+      "securitySettings": "Security Settings",
+      "use3DSecure": "Enable 3D Secure",
+      "use3DSecureDesc": "Requires additional customer verification for transactions",
+      "storeKey": "3D Secure Store Key",
+      "storeKeyPlaceholder": "Enter store key for 3D Secure",
+      "installmentSettings": "Installment Settings",
+      "installments": "Installments",
+      "enableInstallments": "Enable Installments",
+      "enableInstallmentsDesc": "Allow customers to pay in installments",
+      "maxInstallments": "Maximum Installments",
+      "businessInfo": "Business Information",
+      "merchantName": "Merchant Name",
+      "merchantNamePlaceholder": "Your business name",
+      "contactEmail": "Contact Email",
+      "contactPhone": "Contact Phone",
+      "taxNumber": "Tax Number",
+      "taxOffice": "Tax Office",
+      "taxOfficePlaceholder": "Enter tax office name",
+      "legalCompanyTitle": "Legal Company Title",
+      "legalCompanyTitlePlaceholder": "Enter legal company title",
+      "securityTitle": "Secure Transactions",
+      "securityDesc": "All transactions are encrypted and processed through secure banking infrastructure.",
+      "errors": {
+        "missingCredentials": "Merchant code, username and password are required"
+      }
+    },
+    "wallet": {
+      "title": "Wallet Settings",
+      "description": "Manage your club's digital wallet system",
+      "subtitle": "Configure wallet behavior for members",
+      "enableWallet": "Enable Wallet System",
+      "enableWalletDesc": "Allow members to load and use wallet balance",
+      "allowNegative": "Allow Negative Balance",
+      "allowNegativeDesc": "Members can have a negative balance up to a limit",
+      "defaultNegativeLimit": "Default Negative Balance Limit",
+      "nonCustodialTitle": "Non-Custodial Wallet",
+      "nonCustodialDesc": "Wallet balances are ledger entries. Actual funds are processed through your configured payment provider."
+    },
+    "guides": {
+      "openGuide": "Open {provider} Setup Guide",
+      "setupSteps": "Setup Steps",
+      "step": "Step",
+      "needHelp": "Need Help?",
+      "documentation": "Documentation",
+      "support": "Support",
+      "countries": "Countries",
+      "stripe": {
+        "title": "Stripe Connect Setup Guide",
+        "subtitle": "Step-by-step integration guide",
+        "introTitle": "Global Payment Processing",
+        "introText": "Accept payments from customers worldwide with Stripe's secure payment infrastructure.",
+        "supportText": "Visit Stripe documentation or contact support for assistance.",
+        "step1": {
+          "title": "Create Stripe Account",
+          "text": "First, you need a Stripe account. If you don't have one, create it now.",
+          "linkTitle": "Create Stripe Account"
+        },
+        "step2": {
+          "title": "Complete Business Verification",
+          "text": "Complete your business verification to unlock all features.",
+          "warning": "Verification may take 1-2 business days. Prepare your business documents."
+        },
+        "step3": {
+          "title": "Choose Account Type",
+          "text": "Select the account type that best fits your needs.",
+          "expressTitle": "Express",
+          "expressDesc": "Quick setup, Stripe manages compliance",
+          "standardTitle": "Standard",
+          "standardDesc": "Full control over payment experience",
+          "linkTitle": "Learn about Stripe Connect"
+        },
+        "step4": {
+          "title": "Get API Keys",
+          "text": "Retrieve your API keys from the Stripe dashboard.",
+          "warning": "Never share your secret key. Keep it secure.",
+          "linkTitle": "Go to API Keys"
+        },
+        "step5": {
+          "title": "Configure Webhooks",
+          "text": "Set up webhooks to receive payment notifications.",
+          "info": "Webhooks are essential for real-time payment status updates."
+        },
+        "step6": {
+          "title": "Test Integration",
+          "text": "Test your integration with Stripe's test cards.",
+          "testCards": "4242 4242 4242 4242 - Success\n4000 0000 0000 9995 - Declined",
+          "linkTitle": "View Test Cards"
+        },
+        "step7": {
+          "title": "Go Live",
+          "text": "Switch to live mode when you're ready to accept real payments.",
+          "warning": "Make sure all tests pass before going live."
+        }
+      },
+      "iyzico": {
+        "title": "iyzico Setup Guide",
+        "subtitle": "Turkish payment integration guide",
+        "introTitle": "Turkey's Payment Solution",
+        "introText": "Accept payments from Turkish customers with all major credit cards and bank transfers.",
+        "turkeyOnly": "Turkey",
+        "allCards": "All Cards",
+        "supportText": "Contact iyzico support for assistance with your integration.",
+        "step1": {
+          "title": "Apply for Merchant Account",
+          "text": "Start by applying for an iyzico merchant account.",
+          "linkTitle": "Apply Now"
+        },
+        "step2": {
+          "title": "Prepare Documents",
+          "text": "Gather required documents for verification.",
+          "warning": "Document requirements vary based on business type."
+        },
+        "step3": {
+          "title": "Configure Account",
+          "text": "Set up your merchant account settings.",
+          "info": "Make sure to configure notification URLs for payment status updates."
+        },
+        "step4": {
+          "title": "Get API Keys",
+          "text": "Retrieve your API and Secret keys from merchant panel.",
+          "warning": "Keep your keys secure. Never expose them in client-side code.",
+          "linkTitle": "Go to Merchant Panel"
+        },
+        "step5": {
+          "title": "Sub-Merchant Setup",
+          "text": "Configure your sub-merchant type based on your business structure.",
+          "comparisonTitle": "Sub-Merchant Types",
+          "personalTitle": "Personal",
+          "personalDesc": "For individual sellers",
+          "privateTitle": "Private Company",
+          "privateDesc": "For sole proprietorships",
+          "limitedTitle": "Limited Company",
+          "limitedDesc": "For corporations"
+        },
+        "step6": {
+          "title": "Test Integration",
+          "text": "Test your integration with iyzico test cards.",
+          "testCards": "5528 7900 0000 0008 - Success\n4543 5900 0000 0006 - 3D Secure",
+          "linkTitle": "View Test Cards"
+        },
+        "step7": {
+          "title": "Configure Webhooks",
+          "text": "Set up callback URLs for payment notifications.",
+          "info": "Webhooks ensure real-time payment status synchronization."
+        },
+        "step8": {
+          "title": "Go Live",
+          "text": "Switch to production when ready.",
+          "warning": "Verify all test scenarios before going live."
+        }
+      },
+      "paratika": {
+        "title": "Paratika Setup Guide",
+        "subtitle": "Virtual POS integration guide",
+        "introTitle": "Turkish Virtual POS",
+        "introText": "Accept credit card payments with installment support through major Turkish banks.",
+        "turkeyOnly": "Turkey",
+        "allBanks": "All Banks",
+        "installment": "Installments",
+        "supportText": "Contact Paratika support for technical assistance.",
+        "step1": {
+          "title": "About Paratika",
+          "text": "Paratika is a virtual POS solution that works with all major Turkish banks."
+        },
+        "step2": {
+          "title": "Apply for Account",
+          "text": "Contact Paratika sales team to apply for a merchant account.",
+          "info": "Processing time is typically 3-5 business days."
+        },
+        "step3": {
+          "title": "Prepare Documents",
+          "text": "Gather your business documents for verification."
+        },
+        "step4": {
+          "title": "Access Merchant Panel",
+          "text": "Once approved, access your merchant panel to get credentials.",
+          "linkTitle": "Go to Merchant Panel"
+        },
+        "step5": {
+          "title": "Get API Credentials",
+          "text": "Retrieve your merchant code, username, and password.",
+          "warning": "Store credentials securely. Never share them."
+        },
+        "step6": {
+          "title": "Configure 3D Secure",
+          "text": "Set up 3D Secure for enhanced transaction security.",
+          "info": "3D Secure is required for most transactions in Turkey."
+        },
+        "step7": {
+          "title": "Configure Installments",
+          "text": "Set up installment options if you want to offer payment plans."
+        },
+        "step8": {
+          "title": "Test Integration",
+          "text": "Test with Paratika test cards.",
+          "testCards": "4508 0345 0803 4509 - Success\n5456 1659 6108 9348 - 3D Secure",
+          "linkTitle": "View Test Documentation"
+        },
+        "step9": {
+          "title": "Go Live",
+          "text": "Switch to production environment when ready.",
+          "warning": "Complete all tests before processing real transactions."
+        },
+        "step10": {
+          "title": "Error Handling",
+          "text": "Familiarize yourself with common error codes and their meanings."
+        }
+      }
+    },
+    "errors": {
+      "loadFailed": "Failed to load payment configuration",
+      "saveFailed": "Failed to save configuration"
+    }
+  },
+  "discounts": {
+    "title": "Discounts & Coupons",
+    "subtitle": "Manage court discounts and promotional coupons",
+    "tabs": {
+      "courtDiscounts": "Court Discounts",
+      "coupons": "Coupons"
+    },
+    "status": {
+      "active": "Active",
+      "maintenance": "Maintenance"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "enable": "Enable",
+      "disable": "Disable",
+      "cancel": "Cancel",
+      "save": "Save",
+      "create": "Create"
+    },
+    "errors": {
+      "loadError": "Load Error",
+      "loadErrorDesc": "Failed to load data. Please try again.",
+      "deleteError": "Delete Error",
+      "deleteErrorDesc": "Failed to delete. Please try again.",
+      "updateError": "Update Error",
+      "updateErrorDesc": "Failed to update. Please try again."
+    },
+    "courtDiscounts": {
+      "title": "Court Discounts",
+      "description": "Apply percentage discounts to your courts for specific time ranges or all hours",
+      "noCourts": "No courts found. Add courts first to apply discounts.",
+      "activeDiscounts": "active discounts",
+      "allHours": "All hours",
+      "more": "more",
+      "dialogTitle": "Discount Management",
+      "dialogDescription": "Add, remove, or modify discounts for this court",
+      "addNew": "Add New Discount",
+      "percentage": "Discount Percentage",
+      "allHours": "Apply to All Hours",
+      "from": "From",
+      "until": "Until",
+      "addDiscount": "Add Discount",
+      "activeDiscounts": "Active Discounts",
+      "clearAll": "Clear All",
+      "noDiscounts": "No discounts applied to this court",
+      "notSpecified": "Not specified",
+      "sendNotification": "Send Notification",
+      "addSuccess": "Discount Added",
+      "addSuccessDesc": "Discount has been successfully applied to the court.",
+      "removeSuccess": "Discount Removed",
+      "removeSuccessDesc": "Discount has been successfully removed.",
+      "clearSuccess": "All Discounts Cleared",
+      "clearSuccessDesc": "All discounts have been removed from this court.",
+      "notificationSent": "Notification Sent",
+      "notificationSentDesc": "Notification sent to {count} users.",
+      "errors": {
+        "invalidPercentage": "Invalid Percentage",
+        "invalidPercentageDesc": "Please enter a percentage between 1 and 100.",
+        "invalidTimeRange": "Invalid Time Range",
+        "invalidTimeRangeDesc": "Please specify a valid time range.",
+        "addError": "Add Error",
+        "addErrorDesc": "Failed to add discount. Please try again.",
+        "removeError": "Remove Error",
+        "removeErrorDesc": "Failed to remove discount. Please try again.",
+        "clearError": "Clear Error",
+        "clearErrorDesc": "Failed to clear discounts. Please try again.",
+        "notificationError": "Notification Error",
+        "notificationErrorDesc": "Failed to send notification. Please try again."
+      }
+    },
+    "coupons": {
+      "title": "Coupons",
+      "description": "Create and manage promotional coupons for your members",
+      "createCoupon": "Create Coupon",
+      "searchPlaceholder": "Search coupons by code or description...",
+      "noSearchResults": "No coupons matching your search",
+      "noCoupons": "No coupons created yet",
+      "createFirst": "Create Your First Coupon"
+    },
+    "coupon": {
+      "value": "Value",
+      "usage": "Usage",
+      "validUntil": "Valid Until",
+      "assignedTo": "Assigned to {count} users",
+      "deleteTitle": "Delete Coupon",
+      "deleteDescription": "Are you sure you want to delete the coupon \"{code}\"? This action cannot be undone.",
+      "deleteSuccess": "Coupon Deleted",
+      "deleteSuccessDesc": "The coupon has been successfully deleted.",
+      "statusUpdated": "Status Updated",
+      "statusUpdatedDesc": "Coupon status has been updated.",
+      "status": {
+        "active": "Active",
+        "expired": "Expired",
+        "used": "Used",
+        "disabled": "Disabled"
+      },
+      "createTitle": "Create Coupon",
+      "createDescription": "Create a new promotional coupon for your members",
+      "editTitle": "Edit Coupon",
+      "editDescription": "Modify the coupon details",
+      "tabs": {
+        "details": "Details",
+        "users": "Users"
+      },
+      "code": "Coupon Code",
+      "type": "Discount Type",
+      "typePercentage": "Percentage",
+      "typeFixed": "Fixed Amount",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional description for this coupon",
+      "maxUses": "Max Total Uses",
+      "maxUsesPerUser": "Max Uses Per User",
+      "unlimited": "Unlimited",
+      "minPurchase": "Minimum Purchase",
+      "noMinimum": "No minimum",
+      "validDays": "Valid for (days)",
+      "forAllUsers": "Available to All Users",
+      "forAllUsersDesc": "When enabled, any user can use this coupon",
+      "searchUsers": "Search users...",
+      "selected": "selected",
+      "selectAll": "Select All",
+      "deselectAll": "Deselect All",
+      "noUsersFound": "No users found",
+      "createSuccess": "Coupon Created",
+      "createSuccessDesc": "The coupon has been successfully created.",
+      "updateSuccess": "Coupon Updated",
+      "updateSuccessDesc": "The coupon has been successfully updated.",
+      "errors": {
+        "codeRequired": "Coupon code is required",
+        "invalidValue": "Please enter a valid discount value",
+        "percentageMax": "Percentage cannot exceed 100%",
+        "selectUsers": "Please select at least one user",
+        "codeExists": "Code Already Exists",
+        "codeExistsDesc": "A coupon with this code already exists. Please use a different code.",
+        "saveError": "Save Error",
+        "saveErrorDesc": "Failed to save coupon. Please try again."
+      }
+    }
+  },
+  "magazine": {
+    "title": "Magazine Management",
+    "subtitle": "Create and publish digital magazines for your club members",
+    "createNew": "Create Magazine",
+    "searchPlaceholder": "Search by title, version or year...",
+    "noSearchResults": "No magazines matching your search",
+    "noVersions": "No magazines created yet",
+    "createFirst": "Create Your First Magazine",
+    "published": "Published",
+    "pages": "pages",
+    "deleteTitle": "Delete Magazine",
+    "deleteDescription": "Are you sure you want to delete \"{title}\"? This action cannot be undone.",
+    "deleteSuccess": "Magazine Deleted",
+    "deleteSuccessDesc": "The magazine has been successfully deleted.",
+    "publishTitle": "Publish Magazine",
+    "publishDescription": "Are you sure you want to publish \"{title}\"? This will notify all club members.",
+    "publishSuccess": "Magazine Published",
+    "publishSuccessDesc": "Magazine published and notifications sent to {count} members.",
+    "publishSuccessNoNotif": "Magazine published successfully.",
+    "unpublishSuccess": "Magazine Unpublished",
+    "unpublishSuccessDesc": "The magazine is no longer visible to members.",
+    "actions": {
+      "preview": "Preview",
+      "edit": "Edit",
+      "publish": "Publish",
+      "unpublish": "Unpublish",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save",
+      "create": "Create"
+    },
+    "errors": {
+      "loadError": "Load Error",
+      "loadErrorDesc": "Failed to load magazines. Please try again.",
+      "deleteError": "Delete Error",
+      "deleteErrorDesc": "Failed to delete magazine. Please try again.",
+      "publishError": "Publish Error",
+      "publishErrorDesc": "Failed to publish magazine. Please try again.",
+      "unpublishError": "Unpublish Error",
+      "unpublishErrorDesc": "Failed to unpublish magazine. Please try again."
+    },
+    "editor": {
+      "createTitle": "Create Magazine",
+      "editTitle": "Edit Magazine",
+      "untitled": "Untitled Magazine",
+      "save": "Save",
+      "tabs": {
+        "details": "Details",
+        "pages": "Pages",
+        "currentPage": "Current Page"
+      },
+      "form": {
+        "title": "Magazine Title",
+        "titlePlaceholder": "Enter magazine title",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter magazine description",
+        "versionName": "Version Name",
+        "versionNamePlaceholder": "e.g., Summer Edition",
+        "versionNumber": "Version Number",
+        "year": "Year",
+        "pageType": "Page Type",
+        "pageTitle": "Page Title",
+        "pageTitlePlaceholder": "Enter page title",
+        "subtitle": "Subtitle",
+        "subtitlePlaceholder": "Enter subtitle",
+        "mainImage": "Main Image",
+        "uploadImage": "Click to upload image",
+        "content": "Content",
+        "contentPlaceholder": "Enter page content...",
+        "tableOfContents": "Table of Contents",
+        "addItem": "Add Item",
+        "tocTitlePlaceholder": "Item title",
+        "contentImages": "Content Images"
+      },
+      "pagesList": "Magazine Pages",
+      "previous": "Previous",
+      "next": "Next",
+      "pageTypes": {
+        "cover": "Cover",
+        "contents": "Table of Contents",
+        "article": "Article",
+        "content": "Content",
+        "back": "Back Cover"
+      },
+      "imageUploaded": "Image uploaded successfully",
+      "aiContentInserted": "AI content added to page",
+      "createSuccess": "Magazine created successfully",
+      "updateSuccess": "Magazine updated successfully",
+      "errors": {
+        "loadError": "Failed to load magazine",
+        "titleRequired": "Magazine title is required",
+        "minOnePage": "Magazine must have at least one page",
+        "imageUploadError": "Failed to upload image",
+        "saveError": "Failed to save magazine"
+      }
+    },
+    "ai": {
+      "beta": "Beta",
+      "subtitle": "Your magazine content assistant",
+      "welcomeMessage": "Hello! I'm Mery, your AI assistant. I can help you create content for your magazine. What would you like to write about?",
+      "quickActions": "Quick Actions",
+      "quickButtons": {
+        "articleIntro": "Article Intro",
+        "contentIdeas": "Content Ideas",
+        "improveText": "Improve Text",
+        "creative": "Creative Writing"
+      },
+      "quickPrompts": {
+        "articleIntro": "Write an engaging introduction for a magazine article about our tennis club",
+        "contentIdeas": "Give me some content ideas for a tennis club magazine",
+        "improveText": "Help me improve and make this text more engaging:",
+        "creative": "Write something creative and interesting for our club magazine"
+      },
+      "inputPlaceholder": "Ask Mery to write something...",
+      "copy": "Copy",
+      "insert": "Insert",
+      "copied": "Copied to clipboard",
+      "errorResponse": "Sorry, I couldn't process your request. Please try again.",
+      "disclaimer": "AI responses may not always be accurate"
+    },
+    "preview": {
+      "tableOfContents": "Table of Contents",
+      "noContents": "No table of contents available",
+      "page": "Page",
+      "previous": "Previous",
+      "next": "Next",
+      "noPages": "No pages in this magazine",
+      "pageTypes": {
+        "cover": "Cover",
+        "contents": "Contents",
+        "article": "Article",
+        "content": "Content",
+        "back": "Back Cover"
+      }
+    }
+  },
+  "ads": {
+    "title": "Ad Banners",
+    "subtitle": "Manage promotional banners displayed in the mobile app",
+    "createNew": "Create New Ad",
+    "noAds": "No Ads Yet",
+    "createFirst": "Create your first ad banner to promote events, offers, and announcements.",
+    "active": "Active",
+    "inactive": "Inactive",
+    "activated": "Ad activated",
+    "deactivated": "Ad deactivated",
+    "createTitle": "Create Ad Banner",
+    "editTitle": "Edit Ad Banner",
+    "deleteTitle": "Delete Ad",
+    "deleteDescription": "Are you sure you want to delete this ad? This action cannot be undone.",
+    "createSuccess": "Ad banner created successfully",
+    "updateSuccess": "Ad banner updated successfully",
+    "deleteSuccess": "Ad banner deleted successfully",
+    "imageUploaded": "Image uploaded successfully",
+    "previewTitle": "Preview Title",
+    "previewSubtitle": "Preview subtitle text",
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter ad title",
+      "subtitle": "Subtitle",
+      "subtitlePlaceholder": "Enter ad subtitle",
+      "buttonText": "Button Text",
+      "buttonTextPlaceholder": "e.g., Details, Learn More",
+      "linkUrl": "Link URL",
+      "linkUrlPlaceholder": "https://example.com",
+      "icon": "Icon",
+      "gradient": "Gradient Colors",
+      "isActive": "Active",
+      "bannerImage": "Banner Image",
+      "uploadImage": "Click to upload image",
+      "changeImage": "Change Image",
+      "removeImage": "Remove Image"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "save": "Save Changes",
+      "create": "Create Ad",
+      "delete": "Delete"
+    },
+    "errors": {
+      "loadError": "Failed to load ads",
+      "saveError": "Failed to save ad",
+      "deleteError": "Failed to delete ad",
+      "toggleError": "Failed to toggle ad status",
+      "titleRequired": "Title is required",
+      "imageUploadError": "Failed to upload image"
+    }
+  },
+  "finance": {
+    "title": "Finance Management",
+    "subtitle": "Track income, expenses and financial status",
+    "tabs": {
+      "overview": "Overview",
+      "income": "Income",
+      "expense": "Expenses",
+      "employees": "Employees",
+      "reports": "Reports"
+    },
+    "stats": {
+      "totalIncome": "Total Income",
+      "totalExpense": "Total Expenses",
+      "netProfit": "Net Profit",
+      "walletPool": "Wallet Pool",
+      "negativeBalance": "Negative Balance",
+      "discountApplied": "Discount Applied"
+    },
+    "filters": {
+      "all": "All Time",
+      "today": "Today",
+      "week": "Last 7 Days",
+      "month": "Last 30 Days",
+      "year": "Last Year",
+      "custom": "Custom Date"
+    },
+    "overview": {
+      "incomeBreakdown": "Income Breakdown",
+      "expenseBreakdown": "Expense Breakdown",
+      "noData": "No data found for this period"
+    },
+    "search": {
+      "placeholder": "Search...",
+      "employeePlaceholder": "Search employees..."
+    },
+    "table": {
+      "date": "Date",
+      "category": "Category",
+      "description": "Description",
+      "amount": "Amount",
+      "noData": "No records found"
+    },
+    "actions": {
+      "addIncome": "Add Income",
+      "addExpense": "Add Expense",
+      "addEmployee": "Add Employee",
+      "paySalary": "Pay Salary",
+      "export": "Export"
+    },
+    "form": {
+      "amount": "Amount",
+      "category": "Category",
+      "selectCategory": "Select category",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter description...",
+      "date": "Date",
+      "name": "Full Name",
+      "department": "Department",
+      "selectDepartment": "Select department",
+      "position": "Position",
+      "salary": "Salary",
+      "sgkNumber": "Social Security Number",
+      "sgkRate": "Social Security Rate (%)",
+      "bankAccount": "Bank Account (IBAN)",
+      "phone": "Phone",
+      "email": "Email",
+      "selectEmployee": "Select Employee",
+      "selectEmployeePlaceholder": "Select employee...",
+      "periodStart": "Period Start",
+      "periodEnd": "Period End",
+      "deductions": "Deductions",
+      "paymentMethod": "Payment Method",
+      "notes": "Notes",
+      "grossSalary": "Gross Salary",
+      "netSalary": "Net Salary",
+      "sgkPremium": "Social Security Premium"
+    },
+    "employees": {
+      "empty": "No Employees Yet",
+      "emptyDesc": "Add employees for payroll management",
+      "department": "Department",
+      "salary": "Salary",
+      "sgkRate": "SS Rate",
+      "status": "Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "reports": {
+      "comparison": "Income/Expense Comparison",
+      "quickStats": "Quick Stats",
+      "totalEmployees": "Total Employees",
+      "totalWallets": "Total Wallets",
+      "avgIncome": "Average Income",
+      "monthlySalary": "Monthly Salary Expense"
+    },
+    "dialogs": {
+      "addIncome": {
+        "title": "Add Income",
+        "description": "Create a manual income record"
+      },
+      "addExpense": {
+        "title": "Add Expense",
+        "description": "Create a manual expense record"
+      },
+      "addEmployee": {
+        "title": "Add Employee"
+      },
+      "editEmployee": {
+        "title": "Edit Employee"
+      },
+      "paySalary": {
+        "title": "Salary Payment",
+        "description": "Process employee salary payment"
+      },
+      "delete": {
+        "title": "Confirm Delete",
+        "description": "Are you sure you want to delete \"{name}\"? This action cannot be undone."
+      }
+    },
+    "messages": {
+      "incomeAdded": "Income added successfully",
+      "incomeDeleted": "Income deleted successfully",
+      "expenseAdded": "Expense added successfully",
+      "expenseDeleted": "Expense deleted successfully",
+      "employeeAdded": "Employee added successfully",
+      "employeeUpdated": "Employee updated successfully",
+      "employeeDeleted": "Employee deleted successfully",
+      "salaryPaid": "Salary payment processed successfully"
+    },
+    "errors": {
+      "fetchFailed": "Failed to load data",
+      "fillRequired": "Please fill in required fields",
+      "addFailed": "Failed to add record",
+      "saveFailed": "Failed to save record",
+      "deleteFailed": "Failed to delete record",
+      "salaryFailed": "Failed to process salary payment"
+    }
+  }
+}

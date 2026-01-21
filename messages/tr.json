@@ -1,0 +1,2873 @@
+{
+  "common": {
+    "loading": "Yükleniyor...",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "search": "Ara",
+    "filter": "Filtrele",
+    "export": "Dışa Aktar",
+    "import": "İçe Aktar",
+    "refresh": "Yenile",
+    "back": "Geri",
+    "next": "İleri",
+    "previous": "Önceki",
+    "submit": "Gönder",
+    "confirm": "Onayla",
+    "close": "Kapat",
+    "yes": "Evet",
+    "no": "Hayır",
+    "all": "Tümü",
+    "none": "Hiçbiri",
+    "actions": "İşlemler",
+    "status": "Durum",
+    "date": "Tarih",
+    "time": "Saat",
+    "name": "Ad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "description": "Açıklama",
+    "price": "Fiyat",
+    "total": "Toplam",
+    "amount": "Tutar",
+    "success": "Başarılı",
+    "error": "Hata",
+    "warning": "Uyarı",
+    "info": "Bilgi",
+    "noData": "Veri bulunamadı",
+    "selectAll": "Tümünü Seç",
+    "deselectAll": "Seçimi Kaldır",
+    "selectDate": "Tarih Seçin",
+    "male": "Erkek",
+    "female": "Kadın",
+    "other": "Diğer",
+    "country": "Ülke",
+    "stateProvince": "İl/Eyalet",
+    "cityDistrict": "İlçe/Şehir",
+    "address": "Adres",
+    "profession": "Meslek",
+    "gender": "Cinsiyet",
+    "birthDate": "Doğum Tarihi",
+    "nationalId": "Kimlik No"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "register": "Kayıt Ol",
+    "forgotPassword": "Şifremi Unuttum",
+    "resetPassword": "Şifre Sıfırla",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifre Tekrar",
+    "rememberMe": "Beni Hatırla",
+    "loginTitle": "Hesabınıza giriş yapın",
+    "loginSubtitle": "Kulüp yönetim panelinize hoş geldiniz",
+    "noAccount": "Hesabınız yok mu?",
+    "haveAccount": "Zaten hesabınız var mı?",
+    "signUp": "Kayıt Ol",
+    "signIn": "Giriş Yap",
+    "twoFactor": {
+      "title": "İki Faktörlü Doğrulama",
+      "subtitle": "Telefonunuza gönderilen kodu girin",
+      "code": "Doğrulama Kodu",
+      "verify": "Doğrula",
+      "resend": "Kodu Tekrar Gönder",
+      "trustDevice": "Bu cihaza güven"
+    },
+    "errors": {
+      "invalidCredentials": "Geçersiz e-posta veya şifre",
+      "tooManyAttempts": "Çok fazla başarısız deneme. Lütfen daha sonra tekrar deneyin.",
+      "networkError": "Bağlantı hatası. İnternet bağlantınızı kontrol edin.",
+      "loginFailed": "Giriş başarısız",
+      "unknownError": "Bilinmeyen bir hata oluştu"
+    }
+  },
+  "selectClub": {
+    "title": "Kulüp Seçin",
+    "subtitle": "Yönetmek istediğiniz kulübü seçin",
+    "search": "Kulüp ara...",
+    "noClubs": "Henüz bir kulübe kayıtlı değilsiniz",
+    "switchClub": "Kulüp Değiştir"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Hoş Geldiniz",
+    "totalUsers": "Toplam Üye",
+    "activeReservations": "Aktif Rezervasyonlar",
+    "todayReservations": "Bugünkü Rezervasyonlar",
+    "monthlyRevenue": "Aylık Gelir",
+    "recentActivity": "Son Aktiviteler",
+    "upcomingTournaments": "Yaklaşan Turnuvalar",
+    "courtOccupancy": "Kort Doluluk Oranı",
+    "quickActions": "Hızlı İşlemler"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Üyeler",
+    "reservations": "Rezervasyonlar",
+    "courts": "Kortlar",
+    "tournaments": "Turnuvalar",
+    "leagues": "Ligler",
+    "privateLessons": "Özel Dersler",
+    "teams": "Takımlar",
+    "finance": "Finans",
+    "wallets": "Cüzdanlar",
+    "employees": "Personel",
+    "mealCards": "Yemek Kartları",
+    "roles": "Roller",
+    "restaurant": "Restoran",
+    "store": "Mağaza",
+    "magazine": "Dergi",
+    "sliders": "Sliderlar",
+    "discounts": "İndirimler",
+    "notifications": "Bildirimler",
+    "problems": "Sorunlar",
+    "gameCenter": "Oyun Merkezi",
+    "trainingPool": "Antrenman Havuzu",
+    "occupancy": "Doluluk",
+    "myClub": "Kulübüm",
+    "localeSettings": "Bölge Ayarları",
+    "payManagement": "Ödeme Yönetimi",
+    "apiKeys": "API Anahtarları",
+    "ads": "Reklamlar",
+    "events": "Etkinlikler",
+    "appStore": "Uygulama Mağazası",
+    "settings": "Ayarlar",
+    "groups": {
+      "management": "Yönetim",
+      "sports": "Spor",
+      "finance": "Finans",
+      "content": "İçerik",
+      "settings": "Ayarlar"
+    }
+  },
+  "users": {
+    "title": "Üye Yönetimi",
+    "addUser": "Üye Ekle",
+    "editUser": "Üye Düzenle",
+    "deleteUser": "Üyeyi Sil",
+    "searchPlaceholder": "İsim veya e-posta ile ara...",
+    "columns": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "role": "Rol",
+      "status": "Durum",
+      "lastLogin": "Son Giriş",
+      "createdAt": "Kayıt Tarihi"
+    },
+    "status": {
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "suspended": "Askıda"
+    },
+    "confirmDelete": "Bu üyeyi silmek istediğinizden emin misiniz?"
+  },
+  "reservations": {
+    "title": "Rezervasyon Yönetimi",
+    "subtitle": "Kulüp rezervasyonlarını görüntüleyin ve yönetin",
+    "addReservation": "Rezervasyon Ekle",
+    "editReservation": "Rezervasyonu Düzenle",
+    "cancelReservation": "Rezervasyonu İptal Et",
+    "deleteReservation": "Rezervasyonu Sil",
+    "bulkReservation": "Toplu Rezervasyon",
+    "privateLessonReservation": "Özel Ders Rezervasyonu",
+    "teamReservation": "Takım Rezervasyonu",
+    "viewStats": "İstatistikleri Görüntüle",
+    "userStats": "Kullanıcı İstatistikleri",
+    "generalStats": "Genel İstatistikler",
+    "courtOverview": "Kort Görünümü",
+    "calendar": "Takvim Görünümü",
+    "list": "Liste Görünümü",
+    "wall": "Duvar Görünümü",
+    "gridView": "Kılavuz Görünümü",
+    "export": "Dışa Aktar",
+    "dayReport": "Günlük Rapor",
+    "monthlyReport": "Aylık Rapor",
+    "downloadCSV": "CSV İndir",
+    "downloadPDF": "PDF İndir",
+    "today": "Bugün",
+    "noReservations": "Bu tarihte rezervasyon bulunamadı",
+    "selectUser": "Üye Seçin",
+    "selectCourt": "Kort Seçin",
+    "selectTime": "Saat Seçin",
+    "selectDate": "Tarih Seçin",
+    "selectDateRange": "Tarih Aralığı Seçin",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "searchUser": "Üye ara...",
+    "noUsersFound": "Üye bulunamadı",
+    "columns": {
+      "court": "Kort",
+      "user": "Üye",
+      "date": "Tarih",
+      "time": "Saat",
+      "endTime": "Bitiş Saati",
+      "status": "Durum",
+      "price": "Fiyat",
+      "type": "Tür"
+    },
+    "status": {
+      "all": "Tümü",
+      "pending": "Beklemede",
+      "confirmed": "Onaylandı",
+      "active": "Aktif",
+      "cancelled": "İptal Edildi",
+      "completed": "Tamamlandı"
+    },
+    "types": {
+      "all": "Tüm Türler",
+      "normal": "Normal",
+      "training": "Antrenman",
+      "challenge": "Meydan Okuma",
+      "singleMatch": "Tekler Maç",
+      "doubleMatch": "Çiftler Maç",
+      "gift": "Hediye"
+    },
+    "options": {
+      "heater": "Isıtıcı",
+      "light": "Aydınlatma",
+      "allowNegativeBalance": "Eksi Bakiye İzni"
+    },
+    "payment": {
+      "amountPaid": "Ödenen Tutar",
+      "originalPrice": "Orijinal Fiyat",
+      "discount": "İndirim",
+      "discountApplied": "İndirim Uygulandı",
+      "couponApplied": "Kupon Uygulandı",
+      "couponCode": "Kupon Kodu",
+      "walletBalance": "Cüzdan Bakiyesi",
+      "insufficientBalance": "Yetersiz bakiye"
+    },
+    "bulk": {
+      "title": "Toplu Rezervasyon Oluştur",
+      "selectDays": "Günleri Seçin",
+      "monday": "Pazartesi",
+      "tuesday": "Salı",
+      "wednesday": "Çarşamba",
+      "thursday": "Perşembe",
+      "friday": "Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar",
+      "totalReservations": "Toplam Rezervasyon",
+      "totalPrice": "Toplam Tutar",
+      "perReservation": "Rezervasyon Başına",
+      "groupName": "Grup Adı",
+      "groupNamePlaceholder": "Örn: Haftalık Antrenman"
+    },
+    "guest": {
+      "title": "Misafir Rezervasyonu",
+      "name": "Misafir Adı",
+      "email": "Misafir E-posta",
+      "phone": "Misafir Telefon"
+    },
+    "challenge": {
+      "opponent": "Rakip",
+      "matchType": "Maç Türü",
+      "single": "Tekler",
+      "double": "Çiftler"
+    },
+    "jointPayment": {
+      "title": "Ortak Ödeme",
+      "partner": "Ortak",
+      "partnerShare": "Ortağın Payı"
+    },
+    "giftReservation": {
+      "title": "Hediye Rezervasyonu",
+      "giftedBy": "Hediye Eden",
+      "message": "Mesaj"
+    },
+    "stats": {
+      "title": "Rezervasyon İstatistikleri",
+      "totalReservations": "Toplam Rezervasyon",
+      "totalRevenue": "Toplam Gelir",
+      "averageValue": "Ortalama Değer",
+      "perReservation": "rezervasyon başına",
+      "guestReservations": "Misafir Rezervasyonları",
+      "revenueByCourt": "Kort Bazında Gelir",
+      "reservationTypes": "Rezervasyon Türleri",
+      "additionalServices": "Ek Hizmetler",
+      "heaterUsage": "Isıtıcı Kullanımı",
+      "lightUsage": "Aydınlatma Kullanımı",
+      "discountsAndCoupons": "İndirimler ve Kuponlar",
+      "roleDiscount": "Rol İndirimi",
+      "couponUsage": "Kupon Kullanımı",
+      "savings": "tasarruf",
+      "peakHours": "En Yoğun Saatler",
+      "noData": "Yeterli veri yok"
+    },
+    "detail": {
+      "title": "Rezervasyon Detayları",
+      "userInfo": "Kullanıcı Bilgileri"
+    },
+    "courts": {
+      "title": "Kort Durumu",
+      "available": "Müsait",
+      "occupied": "Dolu",
+      "past": "Geçmiş",
+      "noCourts": "Henüz kort bulunmuyor",
+      "reservationCount": "rezervasyon"
+    },
+    "confirmDelete": "Bu rezervasyonu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "confirmCancel": "Bu rezervasyonu iptal etmek istediğinizden emin misiniz?",
+    "createSuccess": "Rezervasyon başarıyla oluşturuldu",
+    "createError": "Rezervasyon oluşturulurken bir hata oluştu",
+    "deleteSuccess": "Rezervasyon başarıyla silindi",
+    "deleteError": "Rezervasyon silinirken bir hata oluştu",
+    "cancelSuccess": "Rezervasyon başarıyla iptal edildi",
+    "cancelError": "Rezervasyon iptal edilirken bir hata oluştu",
+    "consecutiveSlots": "Ardışık Slotlar",
+    "selectConsecutiveSlots": "Ardışık saat dilimlerini seçin",
+    "priceBreakdown": "Fiyat Detayı",
+    "courtFee": "Kort Ücreti",
+    "heaterFee": "Isıtıcı Ücreti",
+    "lightFee": "Aydınlatma Ücreti",
+    "privateLesson": {
+      "title": "Özel Ders Rezervasyonu",
+      "selectGroup": "Ders Grubu Seçin",
+      "selectGroupDesc": "Özel ders için grup seçin",
+      "searchGroup": "Grup ara...",
+      "noGroups": "Grup bulunamadı",
+      "selectUser": "Kullanıcı Seçin",
+      "selectUserDesc": "Opsiyonel - kullanıcı seçebilirsiniz",
+      "skipUser": "Kullanıcı seçmeden devam et",
+      "selectCourt": "Kort Seçin",
+      "selectCourtDesc": "Ders için kort seçin",
+      "dateRange": "Tarih Aralığı ve Günler",
+      "dateRangeDesc": "Ders tarihlerini belirleyin",
+      "lessonDays": "Ders Günleri",
+      "totalLessons": "Toplam ders günü",
+      "timeOptions": "Saat ve Seçenekler",
+      "timeOptionsDesc": "Ardışık saatler seçin",
+      "confirmation": "Onay",
+      "confirmationDesc": "Bilgileri kontrol edin",
+      "lessonGroup": "Ders Grubu",
+      "dateRangeLabel": "Tarih Aralığı",
+      "timeLabel": "Saat",
+      "daysLabel": "Günler",
+      "totalAmount": "Toplam Tutar",
+      "createLessons": "Dersleri Oluştur",
+      "creating": "Oluşturuluyor..."
+    },
+    "team": {
+      "title": "Takım Rezervasyonu",
+      "selectTeam": "Takım Seçin",
+      "selectTeamDesc": "Rezervasyon için takım seçin",
+      "searchTeam": "Takım ara...",
+      "noTeams": "Takım bulunamadı",
+      "selectPlayers": "Oyuncuları Seçin",
+      "selectPlayersDesc": "oyuncu seçin",
+      "singles": "Tekler",
+      "doubles": "Çiftler",
+      "matchType": "Maç Tipi",
+      "dateAndCourt": "Tarih ve Kort",
+      "dateAndCourtDesc": "Tarih ve kort seçin",
+      "createReservation": "Rezervasyon Oluştur"
+    }
+  },
+  "courts": {
+    "title": "Kort Yönetimi",
+    "addCourt": "Kort Ekle",
+    "editCourt": "Kortu Düzenle",
+    "columns": {
+      "name": "Kort Adı",
+      "type": "Tip",
+      "surface": "Zemin",
+      "status": "Durum",
+      "hourlyRate": "Saatlik Ücret"
+    },
+    "status": {
+      "active": "Aktif",
+      "maintenance": "Bakımda",
+      "inactive": "Pasif"
+    },
+    "surfaces": {
+      "hard": "Sert",
+      "clay": "Toprak",
+      "grass": "Çim",
+      "artificial": "Yapay Çim"
+    }
+  },
+  "tournaments": {
+    "title": "Turnuva Yönetimi",
+    "addTournament": "Turnuva Ekle",
+    "editTournament": "Turnuvayı Düzenle",
+    "participants": "Katılımcılar",
+    "brackets": "Eşleşmeler",
+    "results": "Sonuçlar",
+    "status": {
+      "upcoming": "Yaklaşan",
+      "registration": "Kayıt Açık",
+      "ongoing": "Devam Ediyor",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    }
+  },
+  "privateLessons": {
+    "title": "Özel Ders Yönetimi",
+    "subtitle": "Özel dersleri, öğrencileri ve antrenörleri yönetin",
+    "tabs": {
+      "lessons": "Dersler",
+      "students": "Öğrenciler",
+      "coaches": "Antrenörler",
+      "attendance": "Yoklama",
+      "requests": "Talepler",
+      "finance": "Finans"
+    },
+    "stats": {
+      "activeLessons": "Aktif Ders",
+      "totalStudents": "Toplam Öğrenci",
+      "totalCoaches": "Toplam Antrenör",
+      "pendingRequests": "Bekleyen Talep",
+      "lessons": "Ders",
+      "students": "Öğrenci",
+      "coaches": "Antrenör"
+    },
+    "actions": {
+      "addLesson": "Ders Ekle",
+      "addStudent": "Öğrenci Ekle",
+      "addCoach": "Antrenör Ekle",
+      "addFirstStudent": "İlk Öğrenciyi Ekle",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "view": "Görüntüle",
+      "save": "Kaydet",
+      "cancel": "İptal",
+      "create": "Oluştur",
+      "approve": "Onayla",
+      "reject": "Reddet",
+      "close": "Kapat",
+      "refresh": "Yenile",
+      "markAttendance": "Yoklama Al",
+      "processPayment": "Ödeme Al",
+      "viewHistory": "Geçmişi Görüntüle",
+      "renewPackage": "Paketi Yenile",
+      "changeStatus": "Durumu Değiştir",
+      "selectAllPending": "Tüm Bekleyenleri Seç",
+      "updateStatus": "Durumu Güncelle",
+      "confirm": "Onayla",
+      "deleting": "Siliniyor...",
+      "addFirstLesson": "İlk Dersi Ekle",
+      "addFirstCoach": "İlk Antrenörü Ekle",
+      "today": "Bugün",
+      "rejecting": "Reddediliyor...",
+      "sendMessage": "Mesaj Gönder",
+      "send": "Gönder",
+      "sending": "Gönderiliyor...",
+      "back": "Geri"
+    },
+    "studentCard": {
+      "price": "Fiyat",
+      "paid": "Ödenen",
+      "remainingDebt": "Kalan Borç",
+      "applicationStatus": "Başvuru Durumu",
+      "canApply": "Başvurabilir",
+      "canReapply": "Tekrar Başvurabilir",
+      "pendingApproval": "Onay Bekliyor",
+      "assignedToLesson": "Derse Atandı",
+      "approvedWaitingAssignment": "Onaylandı - Atama Bekliyor",
+      "rejected": "Reddedildi",
+      "cancelled": "İptal Edildi",
+      "grantReapply": "Tekrar Başvuru İzni Ver",
+      "freezeReason": "Dondurma Sebebi",
+      "freezeEndDate": "Dondurma Bitiş",
+      "removeFreeze": "Dondurmayı Kaldır",
+      "studentFrozenWarning": "Öğrenci dondurulmuş - İşlemler kısıtlı",
+      "studentFrozenAlert": "Öğrenci dondurulmuş durumda. Önce dondurmayı kaldırın.",
+      "takePayment": "Ödeme Al",
+      "renewLesson": "Yenile"
+    },
+    "bulkMessage": {
+      "selectFilter": "Filtre Seç",
+      "selectRecipients": "Alıcıları Seç",
+      "composeMessage": "Mesaj Yaz",
+      "filterDescription": "Mesaj göndermek için alıcıları filtreyin",
+      "selectDescription": "{count} kişi filtrelendi",
+      "composeDescription": "{count} kişiye mesaj gönderilecek",
+      "selected": "seçili",
+      "selectAll": "Tümünü Seç",
+      "clear": "Temizle",
+      "next": "İleri",
+      "willSendTo": "{count} kişiye mesaj gönderilecek",
+      "messageTemplate": "Mesaj Şablonu",
+      "placeholderHint": "Kullanılabilir: {name}, {email}, {remainingAmount}, {totalPaid}",
+      "success": "{count} kişiye mesaj başarıyla gönderildi",
+      "errors": {
+        "selectRecipient": "En az bir alıcı seçin"
+      },
+      "categories": {
+        "general": "Genel",
+        "payment": "Ödeme",
+        "package": "Paket",
+        "account": "Hesap",
+        "lesson": "Ders"
+      },
+      "filters": {
+        "all": {
+          "label": "Tümü",
+          "description": "Tüm kullanıcılar"
+        },
+        "payment_overdue": {
+          "label": "Ödeme Gecikmiş",
+          "description": "Ödemesi gecikmiş kullanıcılar"
+        },
+        "payment_upcoming": {
+          "label": "Yaklaşan Ödeme",
+          "description": "7 gün içinde ödemesi olan kullanıcılar"
+        },
+        "payment_ok": {
+          "label": "Ödeme Tamam",
+          "description": "Ödemelerini tamamlamış kullanıcılar"
+        },
+        "package_new": {
+          "label": "Yeni Paket",
+          "description": "Son 7 günde kayıt olan kullanıcılar"
+        },
+        "package_half": {
+          "label": "Paket Yarıda",
+          "description": "Paketi %40-60 tamamlanmış kullanıcılar"
+        },
+        "package_ending": {
+          "label": "Paket Bitiyor",
+          "description": "2 veya daha az dersi kalan kullanıcılar"
+        },
+        "package_completed": {
+          "label": "Paket Tamamlandı",
+          "description": "Paketini bitirmiş kullanıcılar"
+        },
+        "account_frozen": {
+          "label": "Dondurulmuş Hesap",
+          "description": "Hesabı dondurulmuş kullanıcılar"
+        },
+        "lessons_low": {
+          "label": "Az Ders",
+          "description": "3 veya daha az dersi kalan kullanıcılar"
+        },
+        "lessons_high": {
+          "label": "Çok Ders",
+          "description": "10 veya daha fazla dersi kalan kullanıcılar"
+        }
+      },
+      "templates": {
+        "welcome": {
+          "title": "Hoşgeldiniz",
+          "subject": "Kulübümüze Hoşgeldiniz!",
+          "content": "Sayın {name},\n\nKulübümüze hoş geldiniz. Sizinle birlikte çalışmaktan mutluluk duyuyoruz.\n\nSaygılarımızla"
+        },
+        "payment_reminder": {
+          "title": "Ödeme Hatırlatma",
+          "subject": "Ödeme Hatırlatması",
+          "content": "Sayın {name},\n\nÖdemenizi hatırlatmak istiyoruz. Kalan borcunuz: {remainingAmount} TL\n\nSaygılarımızla"
+        },
+        "lesson_info": {
+          "title": "Ders Bilgisi",
+          "subject": "Ders Bilgilendirmesi",
+          "content": "Sayın {name},\n\nDerslerinizle ilgili bilgilendirme yapmak istiyoruz.\n\nSaygılarımızla"
+        },
+        "package_info": {
+          "title": "Paket Bilgisi",
+          "subject": "Paket Bilgilendirmesi",
+          "content": "Sayın {name},\n\nPaketinizle ilgili bilgilendirme yapmak istiyoruz.\n\nSaygılarımızla"
+        },
+        "holiday_notification": {
+          "title": "Tatil Bildirimi",
+          "subject": "Tatil Duyurusu",
+          "content": "Sayın {name},\n\nTatil döneminde derslerimiz hakkında bilgilendirme.\n\nSaygılarımızla"
+        },
+        "custom": {
+          "title": "Özel Mesaj",
+          "subject": "",
+          "content": ""
+        }
+      }
+    },
+    "filters": {
+      "all": "Tümü",
+      "search": "Ara...",
+      "searchLessons": "Ders ara...",
+      "searchStudents": "Öğrenci ara...",
+      "searchCoaches": "Antrenör ara...",
+      "lessonType": "Ders Türü",
+      "status": "Durum",
+      "coach": "Antrenör",
+      "level": "Seviye",
+      "paymentStatus": "Ödeme Durumu",
+      "role": "Rol"
+    },
+    "search": {
+      "students": "Öğrenci ara...",
+      "lessons": "Ders ara...",
+      "coaches": "Antrenör ara...",
+      "requests": "Talep ara..."
+    },
+    "requests": {
+      "studentRequests": "Öğrenci Talepleri",
+      "templateRequests": "Şablon Talepleri"
+    },
+    "fields": {
+      "groupName": "Grup Adı",
+      "lessonType": "Ders Türü",
+      "coach": "Antrenör",
+      "students": "Öğrenciler",
+      "level": "Seviye",
+      "packageSize": "Paket Boyutu",
+      "startDate": "Başlangıç Tarihi",
+      "endDate": "Bitiş Tarihi",
+      "price": "Fiyat",
+      "notes": "Notlar",
+      "status": "Durum",
+      "name": "Ad Soyad",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "gender": "Cinsiyet",
+      "birthDate": "Doğum Tarihi",
+      "profession": "Meslek",
+      "tcId": "TC Kimlik No",
+      "nationalId": "Kimlik No",
+      "idCountry": "Kimlik Ülkesi",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "username": "Kullanıcı Adı",
+      "password": "Şifre",
+      "sportType": "Spor Türü",
+      "specialization": "Uzmanlık Alanı",
+      "availabilityNotes": "Müsaitlik Notları",
+      "membershipYears": "Üyelik Süresi (Yıl)",
+      "installmentCount": "Taksit Sayısı",
+      "installmentDay": "Taksit Günü",
+      "message": "Mesaj",
+      "conditioningSchedule": "Kondisyon Programı",
+      "trainingSchedule": "Antrenman Programı",
+      "country": "Ülke",
+      "state": "İl",
+      "city": "İlçe",
+      "stateProvince": "İl/Eyalet",
+      "cityDistrict": "İlçe/Şehir",
+      "address": "Adres",
+      "appliedLessonTypes": "Başvurulan Ders Türleri"
+    },
+    "placeholders": {
+      "groupName": "Örn: Yetişkin Başlangıç Grubu",
+      "selectLessonType": "Ders türü seçin",
+      "selectCoach": "Antrenör seçin",
+      "selectStudents": "Öğrenci seçin",
+      "selectLevel": "Seviye seçin",
+      "selectStatus": "Durum seçin",
+      "studentName": "Öğrenci adı",
+      "phone": "5XX XXX XX XX",
+      "email": "ornek@email.com",
+      "notes": "Notlar...",
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "username": "kullaniciadi",
+      "password": "En az 6 karakter",
+      "selectSportType": "Spor türü seçin",
+      "specialization": "Örn: Genç Oyuncular, Kondisyon",
+      "availabilityNotes": "Müsaitlik bilgisi...",
+      "selectGender": "Cinsiyet seçin",
+      "selectProfession": "Meslek seçin",
+      "selectDate": "Tarih seçin",
+      "price": "0.00",
+      "approvalNotes": "Onay notları...",
+      "tcId": "TC Kimlik Numarası",
+      "selectMembership": "Üyelik seçin",
+      "paymentNotes": "Ödeme notları...",
+      "renewalNotes": "Yenileme notları...",
+      "selectReason": "Sebep seçin",
+      "enterReason": "Sebep girin...",
+      "statusNotes": "Durum değişiklik notları...",
+      "selectLesson": "Ders seçin",
+      "location": "Konum girin...",
+      "subject": "Mesaj konusu",
+      "messageContent": "Mesajınızı buraya yazın...",
+      "selectCountry": "Ülke seçin",
+      "selectState": "İl seçin",
+      "selectCity": "İlçe seçin",
+      "stateProvince": "İl/Eyalet girin",
+      "cityDistrict": "İlçe/Şehir girin",
+      "address": "Adres girin...",
+      "selectAppliedLessonTypes": "Başvurulan ders türlerini seçin"
+    },
+    "lessonTypes": {
+      "individual": "Bireysel",
+      "group": "Grup",
+      "kids": "Çocuk",
+      "adult": "Yetişkin",
+      "professional": "Profesyonel",
+      "conditioning": "Kondisyon",
+      "bireysel": "Bireysel",
+      "grup": "Grup",
+      "kondisyon": "Kondisyon"
+    },
+    "paymentTypes": {
+      "installment": "Taksit",
+      "partial": "Kısmi Ödeme",
+      "full": "Tam Ödeme",
+      "lateFee": "Gecikme Ücreti",
+      "renewal": "Yenileme"
+    },
+    "paymentMethods": {
+      "nakit": "Nakit",
+      "kredi kartı": "Kredi Kartı",
+      "havale_eft": "Havale/EFT"
+    },
+    "professions": {
+      "doktor": "Doktor",
+      "mühendis": "Mühendis",
+      "avukat": "Avukat",
+      "öğretmen": "Öğretmen",
+      "hemşire": "Hemşire",
+      "polis": "Polis",
+      "asker": "Asker",
+      "işçi": "İşçi",
+      "memur": "Memur",
+      "öğrenci": "Öğrenci",
+      "serbestmeslek": "Serbest Meslek",
+      "emekli": "Emekli",
+      "diğer": "Diğer"
+    },
+    "playerStatus": {
+      "active": "Aktif",
+      "aktif": "Aktif",
+      "frozen": "Donduruldu",
+      "dondurulmuş": "Dondurulmuş",
+      "tempFrozen": "Geçici Dondurulmuş",
+      "geçici_dondurulmuş": "Geçici Dondurulmuş",
+      "quit": "Bıraktı",
+      "bıraktı": "Bıraktı"
+    },
+    "finance": {
+      "totalExpected": "Beklenen Toplam",
+      "totalCollected": "Toplanan Toplam",
+      "totalPending": "Bekleyen Toplam",
+      "totalOverdue": "Gecikmiş Toplam",
+      "students": "öğrenci",
+      "studentsWaiting": "öğrenci bekliyor",
+      "studentsOverdue": "öğrenci gecikmiş",
+      "fullyPaid": "Tam Ödendi",
+      "pendingPayments": "Bekleyen Ödemeler",
+      "overduePayments": "Gecikmiş Ödemeler",
+      "studentFinances": "Öğrenci Finansları",
+      "studentFinancesDesc": "Öğrenci ödemelerini ve finansal bilgileri yönetin",
+      "overdue": "Gecikmiş"
+    },
+    "lessonLevels": {
+      "beginner": "Başlangıç",
+      "intermediate": "Orta",
+      "advanced": "İleri",
+      "professional": "Profesyonel",
+      "unspecified": "Belirtilmedi"
+    },
+    "lessonStatuses": {
+      "planned": "Planlandı",
+      "active": "Aktif",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    },
+    "status": {
+      "planned": "Planlandı",
+      "ongoing": "Devam Ediyor",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal Edildi"
+    },
+    "attendanceStatus": {
+      "present": "Geldi",
+      "absent": "Gelmedi",
+      "excused": "İzinli",
+      "pending": "Bekleniyor"
+    },
+    "paymentStatus": {
+      "paid": "Ödendi",
+      "pending": "Beklemede",
+      "overdue": "Gecikmiş"
+    },
+    "requestStatus": {
+      "pending": "Onay Bekliyor",
+      "approved": "Onaylandı",
+      "rejected": "Reddedildi"
+    },
+    "coachRoles": {
+      "tennis": "Tenis Antrenörü",
+      "conditioning": "Kondisyon Antrenörü"
+    },
+    "labels": {
+      "progress": "İlerleme",
+      "packageFinished": "Paket Bitti",
+      "student": "Öğrenci",
+      "lesson": "Ders",
+      "year": "Yıl",
+      "installment": "Taksit",
+      "dayOfMonth": "Ayın {day}. günü",
+      "installmentPreview": "Taksit Önizleme",
+      "total": "Toplam",
+      "students": "öğrenci",
+      "lessons": "ders",
+      "totalPrice": "Toplam Fiyat",
+      "totalPaid": "Ödenen",
+      "remaining": "Kalan",
+      "installments": "Taksitler",
+      "startDate": "Başlangıç",
+      "endDate": "Bitiş",
+      "paid": "Ödenen",
+      "requestDate": "Talep Tarihi",
+      "schedule": "Program",
+      "trainingSchedule": "Antrenman Programı",
+      "conditioningSchedule": "Kondisyon Programı",
+      "addSchedule": "Program Ekle",
+      "day": "Gün",
+      "startTime": "Başlangıç Saati",
+      "endTime": "Bitiş Saati",
+      "location": "Konum",
+      "activeLessons": "Aktif Dersler",
+      "lessonType": "Ders Türü",
+      "status": "Durum",
+      "nextPayment": "Sonraki Ödeme",
+      "playerStatus": "Oyuncu Durumu",
+      "actions": "İşlemler",
+      "selectMembership": "Üyelik Seç",
+      "selectInstallments": "Taksitleri Seç",
+      "paymentAmount": "Ödeme Tutarı",
+      "maxAmount": "Maksimum Tutar",
+      "fullPaymentAmount": "Tam Ödeme Tutarı",
+      "lateFeeAmount": "Gecikme Ücreti",
+      "totalToPay": "Ödenecek Toplam",
+      "paymentMethod": "Ödeme Yöntemi",
+      "notes": "Notlar",
+      "lateFee": "Gecikme Ücreti",
+      "currentPackage": "Mevcut Paket",
+      "price": "Fiyat",
+      "selectLesson": "Ders Seç",
+      "newPrice": "Yeni Fiyat",
+      "packageSize": "Paket Boyutu",
+      "membershipYears": "Üyelik Süresi (Yıl)",
+      "installmentCount": "Taksit Sayısı",
+      "installmentDay": "Taksit Günü",
+      "installmentAmount": "Taksit Tutarı",
+      "installmentSchedule": "Taksit Takvimi",
+      "moreInstallments": "daha fazla taksit",
+      "renewalPreview": "Yenileme Önizleme",
+      "currentStatus": "Mevcut Durum",
+      "reason": "Sebep",
+      "lastChange": "Son Değişiklik",
+      "newStatus": "Yeni Durum",
+      "freezeReason": "Dondurma Sebebi",
+      "customReason": "Özel Sebep",
+      "freezeStartDate": "Dondurma Başlangıç Tarihi",
+      "freezeEndDate": "Dondurma Bitiş Tarihi",
+      "quitReason": "Bırakma Sebebi",
+      "additionalNotes": "Ek Notlar",
+      "paymentCount": "Ödeme Sayısı",
+      "date": "Tarih",
+      "type": "Tür",
+      "method": "Yöntem",
+      "amount": "Tutar",
+      "details": "Detaylar",
+      "installmentStatus": "Taksit Durumu",
+      "deleteReason": "Silme Sebebi",
+      "level": "Seviye",
+      "coach": "Antrenör",
+      "gender": "Cinsiyet",
+      "birthDate": "Doğum Tarihi",
+      "profession": "Meslek",
+      "tcId": "TC Kimlik No",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "name": "Ad Soyad",
+      "finished": "tamamlandı",
+      "package": "Paket",
+      "training": "Antrenman",
+      "manualEntry": "Manuel Giriş",
+      "selected": "seçili",
+      "groupMembers": "Grup Üyeleri",
+      "specialization": "Uzmanlık",
+      "packageFinished": "Paket Tamamlandı"
+    },
+    "attendance": {
+      "lessonsForDate": "{date} tarihindeki dersler",
+      "markAttendance": "Yoklama Al",
+      "saveAttendance": "Yoklamayı Kaydet",
+      "present": "Katıldı",
+      "absent": "Katılmadı",
+      "excused": "İzinli",
+      "pending": "Beklemede"
+    },
+    "sections": {
+      "basicInfo": "Temel Bilgiler",
+      "contact": "İletişim",
+      "contactInfo": "İletişim Bilgileri",
+      "location": "Konum",
+      "identity": "Kimlik Bilgileri",
+      "lesson": "Ders Bilgileri",
+      "lessonInfo": "Ders Bilgileri",
+      "finance": "Finansal Bilgiler",
+      "coachInfo": "Antrenör Bilgileri",
+      "financialInfo": "Finansal Bilgiler",
+      "activeLessons": "Aktif Dersler",
+      "memberships": "Üyelikler",
+      "requestInfo": "Talep Bilgileri",
+      "financialSettings": "Finansal Ayarlar"
+    },
+    "empty": {
+      "noLessons": "Henüz ders eklenmemiş",
+      "noLessonsDesc": "Yeni bir ders ekleyerek başlayın",
+      "noStudents": "Henüz öğrenci eklenmemiş",
+      "noStudentsDesc": "Yeni bir öğrenci ekleyerek başlayın",
+      "noCoaches": "Henüz antrenör eklenmemiş",
+      "noCoachesDesc": "Yeni bir antrenör ekleyerek başlayın",
+      "noRequests": "Bekleyen talep bulunmuyor",
+      "noRequestsDesc": "Öğrenci talepleri burada görünecek",
+      "noStudentsInLesson": "Bu derste henüz öğrenci yok",
+      "noActiveLessons": "Aktif ders bulunmuyor",
+      "noSchedule": "Program eklenmemiş",
+      "noLessonsToday": "Bugün için ders bulunamadı",
+      "templateRequests": "Şablon talebi bulunamadı"
+    },
+    "dialogs": {
+      "addLesson": {
+        "title": "Yeni Ders Ekle",
+        "description": "Yeni bir özel ders grubu oluşturun"
+      },
+      "editLesson": {
+        "title": "Dersi Düzenle",
+        "description": "Ders bilgilerini güncelleyin"
+      },
+      "addStudent": {
+        "title": "Yeni Öğrenci Ekle",
+        "description": "Sisteme yeni bir öğrenci ekleyin"
+      },
+      "editStudent": {
+        "title": "Öğrenciyi Düzenle",
+        "description": "Öğrenci bilgilerini güncelleyin"
+      },
+      "addCoach": {
+        "title": "Yeni Antrenör Ekle",
+        "description": "Sisteme yeni bir antrenör ekleyin"
+      },
+      "studentDetails": {
+        "title": "Öğrenci Detayları"
+      },
+      "approveRequest": {
+        "title": "Talebi Onayla",
+        "description": "Talep için finansal bilgileri girin"
+      },
+      "rejectRequest": {
+        "title": "Talebi Reddet",
+        "description": "Bu talebi reddetmek istediğinizden emin misiniz?"
+      },
+      "message": {
+        "title": "Mesaj Gönder",
+        "description": "Seçilen kullanıcıya mesaj gönderin",
+        "recipient": "Alıcı",
+        "subject": "Konu",
+        "content": "Mesaj İçeriği"
+      },
+      "deleteLesson": {
+        "title": "Dersi Sil",
+        "description": "Bu dersi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "deleteStudent": {
+        "title": "Öğrenciyi Sil",
+        "description": "Bu öğrenciyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "deleteCoach": {
+        "title": "Antrenörü Sil",
+        "description": "Bu antrenörü silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "payment": {
+        "title": "Ödeme Al",
+        "description": "{name} için ödeme işlemi"
+      },
+      "renewal": {
+        "title": "Paketi Yenile",
+        "description": "{name} için paket yenileme"
+      },
+      "status": {
+        "title": "Durumu Değiştir",
+        "description": "{name} için durum değişikliği"
+      },
+      "paymentHistory": {
+        "title": "Ödeme Geçmişi",
+        "description": "{name} için ödeme geçmişi"
+      },
+      "confirmQuit": {
+        "title": "Bırakma Durumunu Onayla",
+        "description": "{name} adlı öğrenciyi bırakmış olarak işaretlemek istediğinizden emin misiniz? Bu tüm ders kayıtlarını etkileyecektir."
+      },
+      "deletePayment": {
+        "title": "Ödemeyi Sil",
+        "description": "{amount} tutarındaki bu ödemeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      }
+    },
+    "warnings": {
+      "quitStatusTitle": "Uyarı",
+      "quitStatusDescription": "Durumu bıraktı olarak ayarlamak öğrenciyi pasif olarak işaretler. Bu işlem ders kayıtlarını etkileyebilir.",
+      "deletePayment": "Ödemeyi silmek öğrencinin bakiyesini ve ödeme geçmişini güncelleyecektir. Bu işlem denetim amaçlı kaydedilir."
+    },
+    "messages": {
+      "lessonCreated": "Ders başarıyla oluşturuldu",
+      "lessonUpdated": "Ders başarıyla güncellendi",
+      "lessonDeleted": "Ders başarıyla silindi",
+      "studentCreated": "Öğrenci başarıyla oluşturuldu",
+      "studentUpdated": "Öğrenci başarıyla güncellendi",
+      "studentDeleted": "Öğrenci başarıyla silindi",
+      "coachCreated": "Antrenör başarıyla oluşturuldu",
+      "coachDeleted": "Antrenör başarıyla silindi",
+      "requestApproved": "Talep başarıyla onaylandı",
+      "requestRejected": "Talep reddedildi",
+      "attendanceSaved": "Yoklama kaydedildi",
+      "editLimitedForRegisteredCoaches": "Kayıtlı antrenörler için düzenleme sınırlıdır",
+      "passwordMinLength": "Şifre en az 6 karakter olmalıdır",
+      "paymentProcessed": "Ödeme başarıyla alındı",
+      "packageRenewed": "Paket başarıyla yenilendi",
+      "statusUpdated": "Durum başarıyla güncellendi",
+      "paymentDeleted": "Ödeme başarıyla silindi",
+      "refreshed": "Veriler yenilendi",
+      "noInstallments": "Bu üyelik için taksit bulunamadı",
+      "lateFeeInfo": "Gecikme ücreti öğrencinin bakiyesine eklenecektir",
+      "tempFreezeInfo": "Öğrenci {date} tarihinde otomatik olarak aktif olacaktır",
+      "noPayments": "Ödeme kaydı bulunamadı",
+      "selectLessonTypeFirst": "Önce ders türü seçin",
+      "noStudentsForType": "Bu ders türü için öğrenci bulunamadı",
+      "enterSubjectAndContent": "Lütfen konu ve mesaj içeriği girin",
+      "messageSent": "Mesaj başarıyla gönderildi"
+    },
+    "errors": {
+      "loadFailed": "Veriler yüklenemedi",
+      "saveFailed": "Kayıt başarısız",
+      "deleteFailed": "Silme işlemi başarısız",
+      "approveFailed": "Onay işlemi başarısız",
+      "rejectFailed": "Reddetme işlemi başarısız",
+      "emailInUse": "Bu e-posta adresi zaten kullanılıyor",
+      "noPermission": "Bu sayfaya erişim izniniz yok",
+      "selectInstallment": "En az bir taksit seçin",
+      "enterAmount": "Lütfen bir tutar girin",
+      "invalidAmount": "Lütfen geçerli bir tutar girin",
+      "paymentFailed": "Ödeme işlemi başarısız",
+      "selectLesson": "Lütfen bir ders seçin",
+      "enterPrice": "Lütfen bir fiyat girin",
+      "renewalFailed": "Paket yenileme başarısız",
+      "selectFreezeReason": "Lütfen dondurma sebebi seçin",
+      "statusUpdateFailed": "Durum güncelleme başarısız",
+      "fetchPaymentsFailed": "Ödeme kayıtları getirilemedi",
+      "selectDeleteReason": "Lütfen silme sebebi seçin",
+      "deletePaymentFailed": "Ödeme silme başarısız",
+      "attendanceFetchFailed": "Yoklama verileri getirilemedi",
+      "attendanceSaveFailed": "Yoklama kaydedilemedi",
+      "messageSendFailed": "Mesaj gönderme başarısız"
+    },
+    "empty": {
+      "lessons": "Ders bulunamadı",
+      "students": "Öğrenci bulunamadı",
+      "coaches": "Antrenör bulunamadı",
+      "requests": "Talep bulunamadı"
+    },
+    "confirmDelete": "Bu işlemi onaylıyor musunuz?",
+    "days": {
+      "monday": "Pazartesi",
+      "tuesday": "Salı",
+      "wednesday": "Çarşamba",
+      "thursday": "Perşembe",
+      "friday": "Cuma",
+      "saturday": "Cumartesi",
+      "sunday": "Pazar"
+    }
+  },
+  "wallets": {
+    "title": "Cüzdan Yönetimi",
+    "subtitle": "Kullanıcı cüzdanlarını, transferleri ve bakiyeleri yönetin",
+    "loading": "Cüzdanlar yükleniyor...",
+    "balance": "Bakiye",
+    "addBalance": "Bakiye Ekle",
+    "transactions": "İşlemler",
+    "transfer": "Transfer",
+    "stats": {
+      "total": "Toplam Cüzdan",
+      "active": "Aktif",
+      "blocked": "Bloke",
+      "totalWallets": "Toplam Cüzdan",
+      "activeWallets": "Aktif Cüzdan",
+      "blockedWallets": "Bloke Cüzdan",
+      "totalBalance": "Toplam Bakiye",
+      "negativeLimit": "Negatif Limit",
+      "totalNegativeLimit": "Toplam Negatif Limit"
+    },
+    "filters": {
+      "all": "Tümü",
+      "active": "Aktif",
+      "blocked": "Bloke",
+      "searchPlaceholder": "Kullanıcı adına göre ara..."
+    },
+    "search": {
+      "placeholder": "Kullanıcı adına göre ara..."
+    },
+    "status": {
+      "active": "Aktif",
+      "blocked": "Bloke"
+    },
+    "labels": {
+      "balance": "Bakiye",
+      "currentBalance": "Mevcut Bakiye",
+      "negativeLimit": "Negatif Limit",
+      "amount": "Miktar",
+      "noTransactions": "İşlem bulunamadı",
+      "noUsersWithoutWallet": "Cüzdanı olmayan kullanıcı bulunamadı",
+      "selectUser": "Kullanıcı Seç",
+      "initialBalance": "Başlangıç Bakiyesi",
+      "discount": "İndirim",
+      "coupon": "Kupon",
+      "senderUsername": "Gönderen Kullanıcı Adı",
+      "receiverUsername": "Alıcı Kullanıcı Adı"
+    },
+    "placeholders": {
+      "enterUsername": "Kullanıcı adı girin",
+      "searchUsers": "Kullanıcı ara..."
+    },
+    "empty": {
+      "title": "Cüzdan bulunamadı",
+      "description": "Arama kriterlerinize uygun cüzdan yok"
+    },
+    "settings": {
+      "title": "Genel Ayarlar",
+      "description": "Tüm kullanıcılar için cüzdan işlemlerini kontrol et",
+      "transfer": "Transferler",
+      "transferDesc": "Kullanıcıların bakiye transferi yapmasına izin ver",
+      "addBalance": "Bakiye Yükleme",
+      "addBalanceDesc": "Kullanıcıların bakiye yüklemesine izin ver",
+      "pay": "Ödemeler",
+      "payDesc": "Kullanıcıların ödeme yapmasına izin ver"
+    },
+    "actions": {
+      "addBalance": "Bakiye Ekle",
+      "setLimit": "Limit Ayarla",
+      "viewHistory": "Geçmişi Gör",
+      "block": "Bloke Et",
+      "unblock": "Bloke Kaldır",
+      "delete": "Sil",
+      "reset": "Sıfırla",
+      "transfer": "Transfer",
+      "createWallet": "Cüzdan Oluştur",
+      "cancel": "İptal",
+      "close": "Kapat",
+      "refresh": "Yenile",
+      "undo": "Geri Al",
+      "confirmUndo": "Geri Almayı Onayla",
+      "remove": "Kaldır",
+      "settings": "Ayarlar"
+    },
+    "dialogs": {
+      "balance": {
+        "title": "Cüzdan Bakiyesi",
+        "description": "{name} için bakiye ekle veya negatif limit ayarla",
+        "addBalance": "Bakiye Ekle",
+        "setLimit": "Limit Ayarla",
+        "limitHint": "Bu izin verilen maksimum negatif bakiyedir"
+      },
+      "transfer": {
+        "title": "Admin Transferi",
+        "description": "Cüzdanlar arası bakiye transferi"
+      },
+      "history": {
+        "title": "İşlem Geçmişi",
+        "description": "{name} için işlem geçmişi"
+      },
+      "create": {
+        "title": "Cüzdan Oluştur",
+        "description": "Kullanıcı için yeni cüzdan oluştur",
+        "initialBalanceHint": "Cüzdan için opsiyonel başlangıç bakiyesi"
+      },
+      "block": {
+        "title": "Cüzdanı Bloke Et",
+        "description": "{name}'in cüzdanını bloke etmek istediğinizden emin misiniz? Kullanıcı hiçbir işlem yapamayacak."
+      },
+      "unblock": {
+        "title": "Bloke Kaldır",
+        "description": "{name}'in cüzdanının blokesini kaldırmak istediğinizden emin misiniz?"
+      },
+      "delete": {
+        "title": "Cüzdanı Sil",
+        "description": "{name}'in cüzdanını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      },
+      "reset": {
+        "title": "Cüzdanı Sıfırla",
+        "description": "{name}'in cüzdanını sıfırlamak istediğinizden emin misiniz? Bakiye ve negatif limit 0 olacak."
+      },
+      "undoConfirm": {
+        "title": "Geri Almayı Onayla",
+        "description": "Bu işlemi geri almak istediğinizden emin misiniz? Bu işlem tersine çevrilecek."
+      }
+    },
+    "globalSettings": {
+      "title": "Genel Ayarlar",
+      "description": "Tüm kullanıcılar için cüzdan işlemlerini kontrol et",
+      "transferDisabled": "Transferler Kapalı",
+      "addBalanceDisabled": "Bakiye Ekleme Kapalı",
+      "payDisabled": "Ödemeler Kapalı",
+      "disableAll": "Tümünü Kapat",
+      "enableAll": "Tümünü Aç"
+    },
+    "messages": {
+      "balanceAdded": "Bakiye başarıyla eklendi",
+      "limitSet": "Negatif limit başarıyla ayarlandı",
+      "transferCompleted": "Transfer başarıyla tamamlandı",
+      "walletCreated": "Cüzdan başarıyla oluşturuldu",
+      "walletBlocked": "Cüzdan bloke edildi",
+      "walletUnblocked": "Cüzdan blokesi kaldırıldı",
+      "walletDeleted": "Cüzdan silindi",
+      "walletReset": "Cüzdan sıfırlandı",
+      "transactionUndone": "İşlem başarıyla geri alındı",
+      "settingsUpdated": "Ayarlar güncellendi"
+    },
+    "errors": {
+      "invalidAmount": "Lütfen geçerli bir miktar girin",
+      "updateFailed": "İşlem başarısız",
+      "loadTransactionsFailed": "İşlemler yüklenemedi",
+      "undoFailed": "Geri alma başarısız",
+      "loadUsersFailed": "Kullanıcılar yüklenemedi",
+      "createWalletFailed": "Cüzdan oluşturulamadı",
+      "senderNotFound": "Gönderen bulunamadı",
+      "receiverNotFound": "Alıcı bulunamadı",
+      "sameUser": "Gönderen ve alıcı aynı olamaz",
+      "userNotFound": "Kullanıcı bulunamadı",
+      "transferFailed": "Transfer başarısız",
+      "insufficientBalance": "Yetersiz bakiye",
+      "fetchFailed": "Veriler yüklenemedi",
+      "blockFailed": "Cüzdan bloke edilemedi/kaldırılamadı",
+      "deleteFailed": "Cüzdan silinemedi",
+      "resetFailed": "Cüzdan sıfırlanamadı",
+      "settingsFailed": "Ayarlar güncellenemedi"
+    }
+  },
+  "roles": {
+    "title": "Rol Yönetimi",
+    "addRole": "Rol Ekle",
+    "editRole": "Rolü Düzenle",
+    "permissions": "İzinler",
+    "priceMultiplier": "Fiyat Çarpanı",
+    "permissionLabels": {
+      "usersManagement": "Üye Yönetimi",
+      "reservationsManagement": "Rezervasyon Yönetimi",
+      "courtManagements": "Kort Yönetimi",
+      "tournamentsManagement": "Turnuva Yönetimi",
+      "financialManagements": "Finans Yönetimi",
+      "walletManagements": "Cüzdan Yönetimi",
+      "teamManagement": "Takım Yönetimi",
+      "teamPerformance": "Performans Yönetimi",
+      "employeeSalaryManagement": "Maaş Yönetimi",
+      "mealCardManagement": "Yemek Kartı Yönetimi",
+      "uyeler": "Üye İşlemleri",
+      "roles": "Rol Yönetimi",
+      "aiChatAssistant": "AI Asistan",
+      "privateLessonArea": "Özel Ders Alanı",
+      "reservationPage": "Rezervasyon Sayfası",
+      "tournamentPage": "Turnuva Sayfası",
+      "transferAccess": "Transfer İşlemleri",
+      "addBalanceAccess": "Bakiye Yükleme",
+      "payAccess": "Ödeme İşlemleri",
+      "memberMessage": "Üyelere Mesaj",
+      "discountManagement": "İndirim Yönetimi",
+      "apiManagement": "API Yönetimi",
+      "restaurantManagement": "Restoran Yönetimi",
+      "storeManagement": "Mağaza Yönetimi",
+      "magazineManagement": "Dergi Yönetimi",
+      "sliderManagement": "Slider Yönetimi",
+      "localeSettings": "Bölge Ayarları",
+      "myClubManager": "Kulüp Yönetimi",
+      "payManagement": "Ödeme Yönetimi",
+      "notificationsManagement": "Bildirim Yönetimi",
+      "adsManagement": "Reklam Yönetimi",
+      "problemManagement": "Sorun Yönetimi",
+      "gameCenter": "Oyun Merkezi",
+      "trainingPool": "Antrenman Havuzu",
+      "occupancyManagement": "Doluluk Yönetimi"
+    }
+  },
+  "notifications": {
+    "title": "Bildirim Yönetimi",
+    "send": "Bildirim Gönder",
+    "history": "Geçmiş",
+    "templates": "Şablonlar"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "general": "Genel",
+    "appearance": "Görünüm",
+    "language": "Dil",
+    "theme": "Tema",
+    "darkMode": "Karanlık Mod",
+    "lightMode": "Aydınlık Mod"
+  },
+  "errors": {
+    "notFound": "Sayfa bulunamadı",
+    "unauthorized": "Yetkisiz erişim",
+    "forbidden": "Erişim engellendi",
+    "serverError": "Sunucu hatası",
+    "networkError": "Bağlantı hatası"
+  },
+  "localeSettings": {
+    "title": "Bölgesel Ayarlar",
+    "subtitle": "Tarih, saat ve para birimi formatlarını özelleştirin",
+    "dateFormat": "Tarih Formatı",
+    "dateFormatDescription": "Tarih gösterimini nasıl görmek istediğinizi seçin",
+    "timeFormat": "Saat Formatı",
+    "timeFormatDescription": "12 saat veya 24 saat formatını seçin",
+    "12hour": "12 Saat Formatı",
+    "24hour": "24 Saat Formatı",
+    "currency": "Para Birimi",
+    "currencyDescription": "Kullanılacak para birimini seçin",
+    "timezone": "Saat Dilimi",
+    "timezoneDescription": "Kulübünüzün bulunduğu saat dilimini seçin",
+    "numberFormat": "Sayı Formatı",
+    "numberFormatDescription": "Sayıların nasıl gösterileceğini seçin",
+    "preview": "Önizleme",
+    "previewDescription": "Ayarlarınızın nasıl görüneceğini görün",
+    "dateExample": "Tarih",
+    "timeExample": "Saat",
+    "priceExample": "Fiyat",
+    "currentSettings": "Mevcut Ayarlar",
+    "unsavedChanges": "Kaydedilmemiş değişiklikler var",
+    "reset": "Sıfırla",
+    "save": "Kaydet",
+    "saveSuccess": "Ayarlar başarıyla kaydedildi",
+    "saveError": "Ayarlar kaydedilirken hata oluştu",
+    "loading": "Ayarlar yükleniyor...",
+    "comma": "Virgül (Türkiye)",
+    "dot": "Nokta (ABD/UK)"
+  },
+  "apiKeys": {
+    "title": "API Anahtar Yönetimi",
+    "subtitle": "Uygulamanızın API anahtarlarını güvenli bir şekilde yönetin",
+    "addKey": "Yeni Anahtar Ekle",
+    "editKey": "API Anahtarını Düzenle",
+    "deleteKey": "API Anahtarını Sil",
+    "loadDefaults": "Varsayılan Anahtarları Yükle",
+    "noKeys": "API Anahtarı Bulunamadı",
+    "noKeysDescription": "Henüz API anahtarı eklenmemiş. Varsayılan anahtarları yükleyebilir veya manuel olarak yeni anahtar ekleyebilirsiniz.",
+    "securityWarning": "Güvenlik Uyarısı",
+    "securityWarningText": "API anahtarlarınızı güvende tutun ve asla herkese açık yerlerde paylaşmayın.",
+    "form": {
+      "name": "API Adı",
+      "namePlaceholder": "Örn: OpenAI API",
+      "provider": "Sağlayıcı",
+      "providerPlaceholder": "Sağlayıcı seçin",
+      "key": "API Anahtarı",
+      "keyPlaceholder": "API anahtarını girin",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Bu API anahtarının kullanım amacı"
+    },
+    "status": {
+      "active": "Aktif",
+      "inactive": "Pasif"
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "copy": "Kopyala",
+      "show": "Göster",
+      "hide": "Gizle"
+    },
+    "providers": {
+      "openweathermap": "OpenWeatherMap",
+      "openai": "OpenAI",
+      "google": "Google Gemini",
+      "googleCloud": "Google Cloud",
+      "other": "Diğer"
+    },
+    "messages": {
+      "loadSuccess": "Varsayılan API anahtarları yüklendi",
+      "loadError": "Varsayılan API anahtarları yüklenirken hata oluştu",
+      "saveSuccess": "API anahtarı kaydedildi",
+      "saveError": "API anahtarı kaydedilirken hata oluştu",
+      "updateSuccess": "API anahtarı güncellendi",
+      "deleteSuccess": "API anahtarı silindi",
+      "deleteError": "API anahtarı silinirken hata oluştu",
+      "copySuccess": "API anahtarı kopyalandı",
+      "statusChanged": "API anahtarı durumu güncellendi",
+      "fillRequired": "Lütfen tüm zorunlu alanları doldurun"
+    },
+    "confirmDelete": "Bu API anahtarını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz ve bu anahtarı kullanan servisler çalışmayı durduracaktır."
+  },
+  "myClub": {
+    "title": "Kulübüm",
+    "subtitle": "Kulüp bilgilerinizi ve ayarlarınızı yönetin",
+    "loading": "Kulüp bilgileri yükleniyor...",
+    "notFound": "Kulüp bilgisi bulunamadı",
+    "retry": "Tekrar Dene",
+    "sections": {
+      "basicInfo": "Temel Bilgiler",
+      "basicInfoDesc": "Kulüp adı ve kimlik bilgileri",
+      "contactInfo": "İletişim Bilgileri",
+      "contactInfoDesc": "Yetkili kişi ve iletişim detayları",
+      "location": "Konum",
+      "locationDesc": "Kulüp adresi ve konum detayları",
+      "adminCredentials": "Admin Bilgileri",
+      "adminCredentialsDesc": "Admin giriş bilgileri",
+      "clubLogo": "Kulüp Logosu",
+      "clubLogoDesc": "Uygulamada görüntülenen kulüp logosu",
+      "clubPhotos": "Kulüp Fotoğrafları",
+      "clubPhotosDesc": "Kulüp tesislerinizin fotoğrafları (maksimum 3)",
+      "themeColor": "Tema Rengi",
+      "themeColorDesc": "Kulübünüz için bir tema rengi seçin"
+    },
+    "fields": {
+      "clubId": "Kulüp ID",
+      "clubName": "Kulüp Adı",
+      "clubType": "Kulüp Türü",
+      "authorizedPerson": "Yetkili Kişi Adı",
+      "email": "E-posta Adresi",
+      "phone": "Telefon Numarası",
+      "country": "Ülke",
+      "state": "Şehir/Eyalet",
+      "city": "İlçe",
+      "adminUsername": "Admin Kullanıcı Adı",
+      "adminPassword": "Admin Şifresi"
+    },
+    "placeholders": {
+      "clubName": "Örn: Ankara Tenis Kulübü",
+      "authorizedPerson": "Ad Soyad",
+      "email": "ornek@email.com",
+      "phone": "5551234567",
+      "selectCountry": "Ülke seçin",
+      "selectState": "Şehir seçin",
+      "selectCity": "İlçe seçin",
+      "adminUsername": "Kullanıcı adı",
+      "adminPassword": "Şifre"
+    },
+    "helpers": {
+      "clubIdReadonly": "Not: Sistem kimliği değiştirilemez.",
+      "usernameInfo": "Boşluk kullanılamaz, otomatik olarak küçük harfe çevrilir.",
+      "noSpaces": "Boşluk kullanılamaz.",
+      "maxPhotos": "{count} fotoğraf daha eklenebilir"
+    },
+    "types": {
+      "tennis": "Tenis",
+      "padel": "Padel"
+    },
+    "buttons": {
+      "uploadLogo": "Logo Yükle",
+      "changeLogo": "Logo Değiştir",
+      "addPhoto": "Fotoğraf Ekle"
+    },
+    "colors": {
+      "blue": "Mavi",
+      "green": "Yeşil",
+      "red": "Kırmızı",
+      "purple": "Mor",
+      "orange": "Turuncu",
+      "yellow": "Sarı",
+      "turquoise": "Turkuaz",
+      "pink": "Pembe",
+      "cyan": "Camgöbeği",
+      "custom": "Özel Renk"
+    },
+    "messages": {
+      "errorLoading": "Kulüp bilgileri yüklenirken hata oluştu",
+      "saveSuccess": "Kulüp bilgileri başarıyla kaydedildi",
+      "saveError": "Kulüp bilgileri kaydedilirken hata oluştu",
+      "logoUploaded": "Logo başarıyla yüklendi",
+      "logoUploadError": "Logo yüklenirken hata oluştu",
+      "photoUploaded": "Fotoğraf başarıyla yüklendi",
+      "photoUploadError": "Fotoğraf yüklenirken hata oluştu",
+      "photoDeleted": "Fotoğraf silindi",
+      "photoDeleteError": "Fotoğraf silinirken hata oluştu",
+      "maxPhotos": "Maksimum 3 fotoğraf yüklenebilir"
+    },
+    "delete": {
+      "dangerZone": "Tehlikeli Bölge",
+      "warningText": "Kulübü silmek tüm verileri kalıcı olarak kaldırır. Bu işlem geri alınamaz!",
+      "deleteButton": "Kulübü Sil",
+      "modalTitle": "Kulübü Sil",
+      "irreversibleAction": "Bu işlem geri alınamaz!",
+      "allDataWillBeDeleted": "Kulübü sildiğinizde tüm rezervasyonlar, üyeler, kortlar, cüzdan bilgileri ve diğer tüm veriler kalıcı olarak silinecektir.",
+      "enterClubName": "Kulüp adını girin",
+      "clubNameHint": "\"{clubName}\" yazın",
+      "enterAdminUsername": "Admin kullanıcı adını girin",
+      "adminUsernamePlaceholder": "Admin kullanıcı adı",
+      "enterAdminPassword": "Admin şifresini girin",
+      "adminPasswordPlaceholder": "Admin şifresi",
+      "confirmDeleteButton": "Kulübü Kalıcı Olarak Sil",
+      "finalConfirmTitle": "⚠️ Son Onay",
+      "finalConfirmMessage": "\"{clubName}\" kulübünü kalıcı olarak silmek üzeresiniz.\n\nBu işlem GERİ ALINAMAZ!\n\nTüm veriler (rezervasyonlar, üyeler, kortlar, cüzdanlar vb.) silinecektir.\n\nDevam etmek istiyor musunuz?",
+      "confirmDelete": "Evet, Sil",
+      "deleting": "Siliniyor...",
+      "successMessage": "Kulüp ve tüm verileri başarıyla silindi",
+      "errorMessage": "Kulüp silinirken bir hata oluştu"
+    }
+  },
+  "occupancy": {
+    "title": "Doluluk Yönetimi",
+    "subtitle": "Anlık kulüp doluluk oranını izleyin ve yakındaki üyelere bildirim gönderin",
+    "loading": "Doluluk verileri yükleniyor...",
+    "currentOccupancy": "Mevcut Doluluk",
+    "peopleAtClub": "kişi kulüpte",
+    "live": "Canlı",
+    "locationSettings": "Konum Ayarları",
+    "edit": "Düzenle",
+    "latitude": "Enlem",
+    "longitude": "Boylam",
+    "radius": "Yarıçap",
+    "capacity": "Kapasite",
+    "people": "kişi",
+    "noLocationWarning": "Kulüp konumu belirlenmedi. Doluluk takibi için konumu yapılandırın.",
+    "occupancyTrend": "Doluluk Trendi",
+    "occupancy": "Doluluk",
+    "levels": {
+      "high": "Yüksek Doluluk",
+      "medium": "Orta Doluluk",
+      "low": "Düşük Doluluk",
+      "empty": "Boş"
+    },
+    "ranges": {
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "yearly": "Yıllık"
+    },
+    "stats": {
+      "peak": "Zirve",
+      "average": "Ortalama",
+      "low": "En Düşük"
+    },
+    "days": {
+      "mon": "Pzt",
+      "tue": "Sal",
+      "wed": "Çar",
+      "thu": "Per",
+      "fri": "Cum",
+      "sat": "Cmt",
+      "sun": "Paz"
+    },
+    "months": {
+      "jan": "Oca",
+      "feb": "Şub",
+      "mar": "Mar",
+      "apr": "Nis",
+      "may": "May",
+      "jun": "Haz",
+      "jul": "Tem",
+      "aug": "Ağu",
+      "sep": "Eyl",
+      "oct": "Eki",
+      "nov": "Kas",
+      "dec": "Ara"
+    },
+    "yearlyArchive": {
+      "title": "Yıllık Arşiv",
+      "subtitle": "Yıllara göre geçmiş doluluk verilerini görüntüleyin",
+      "empty": "Arşivlenmiş veri bulunamadı",
+      "records": "kayıt",
+      "peakMonth": "En Yoğun Ay",
+      "totalVisits": "Toplam Ziyaret",
+      "monthlyBreakdown": "Aylık Dağılım"
+    },
+    "notifications": {
+      "title": "Bildirim Ayarları",
+      "description": "Doluluk eşik değerine ulaştığında otomatik bildirim gönderin",
+      "enabled": "Bildirimler Aktif",
+      "disabled": "Bildirimler Kapalı",
+      "threshold": "Bildirim Eşiği",
+      "sendNotification": "Bildirim Gönder",
+      "recipients": "Alıcılar",
+      "titleLabel": "Başlık",
+      "titlePlaceholder": "Bildirim başlığını girin",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Bildirim mesajını girin",
+      "preview": "Önizleme",
+      "send": "Gönder",
+      "sent": "Bildirim başarıyla gönderildi",
+      "usersSent": "kullanıcı bilgilendirildi",
+      "sendFailed": "Bildirim gönderilemedi",
+      "emptyMessage": "Lütfen başlık ve mesaj girin",
+      "noUsers": "Bildirilecek kullanıcı yok"
+    },
+    "nearbyUsers": {
+      "title": "Yakındaki Kullanıcılar",
+      "notifyAll": "Hepsine Bildir",
+      "empty": "Şu anda kulüpte kimse yok",
+      "away": "uzakta"
+    },
+    "locationModal": {
+      "title": "Konum Ayarları",
+      "locationHint": "Kulübün GPS koordinatlarını girin. Bu koordinatlar yakındaki kullanıcıları tespit etmek için kullanılacaktır.",
+      "useCurrentLocation": "Mevcut Konumu Kullan",
+      "save": "Kaydet"
+    },
+    "errors": {
+      "noClub": "Kulüp seçilmedi",
+      "invalidCoordinates": "Geçersiz koordinatlar",
+      "saveFailed": "Ayarlar kaydedilemedi",
+      "locationPermission": "Konum izni reddedildi",
+      "locationFailed": "Konum alınamadı"
+    },
+    "success": {
+      "locationSaved": "Konum ayarları kaydedildi",
+      "locationFound": "Konum bulundu"
+    }
+  },
+  "appStore": {
+    "title": "Uygulama Mağazası",
+    "subtitle": "Kulüp yönetiminizi geliştirmek için modüller keşfedin ve yükleyin",
+    "loadingModules": "Modüller yükleniyor...",
+    "store": "Mağaza",
+    "purchased": "Satın Alınanlar",
+    "recommended": "Önerilen",
+    "popularApps": "Popüler Uygulamalar",
+    "free": "Ücretsiz",
+    "purchase": "Al",
+    "activate": "Etkinleştir",
+    "deactivate": "Devre Dışı Bırak",
+    "active": "Aktif",
+    "activateAction": "Modülü Etkinleştir",
+    "deactivateAction": "Modülü Devre Dışı Bırak",
+    "freeAdd": "Ücretsiz Ekle",
+    "purchaseWithPrice": "₺{price} ile Satın Al",
+    "rating": "değerlendirme",
+    "age": "Yaş",
+    "rank": "Sıralama",
+    "size": "Boyut",
+    "description": "Açıklama",
+    "features": "Özellikler",
+    "purchaseSuccess": "Modül başarıyla satın alındı!",
+    "purchaseWarning": "Modülü kullanmaya başlamak için Satın Alınanlar sekmesine gidin ve modülü etkinleştirin.",
+    "purchasedApps": "Satın Alınanlara Git",
+    "close": "Kapat",
+    "noPurchasedModules": "Henüz satın alınmış modül yok",
+    "noModulesInCategory": "Bu kategoride modül yok",
+    "categories": {
+      "all": "Tümü",
+      "business": "İş",
+      "entertainment": "Eğlence",
+      "members": "Üyeler",
+      "utility": "Araçlar",
+      "management": "Yönetim"
+    },
+    "success": {
+      "modulePurchased": "başarıyla satın alındı",
+      "moduleActivated": "başarıyla etkinleştirildi",
+      "moduleDeactivated": "başarıyla devre dışı bırakıldı"
+    },
+    "errors": {
+      "noClub": "Kulüp seçilmedi",
+      "moduleLoadError": "Modüller yüklenemedi",
+      "modulePurchaseError": "Modül satın alınamadı",
+      "moduleActivationError": "Modül etkinleştirilemedi",
+      "moduleDeactivationError": "Modül devre dışı bırakılamadı",
+      "mustPurchaseFirst": "Önce bu modülü satın almalısınız"
+    }
+  },
+  "landing": {
+    "nav": {
+      "features": "Özellikler",
+      "screenshots": "Ekran Görüntüleri",
+      "pricing": "Fiyatlandırma",
+      "clubLogin": "Kulüp Yönetici Girişi"
+    },
+    "hero": {
+      "badge": "#1 Tenis & Padel Platformu",
+      "title": {
+        "part1": "Tenis Deneyiminizi",
+        "highlight": "Bir Üst Seviyeye",
+        "part2": "Taşıyın"
+      },
+      "description": "Tenis ve padel kulüpleri için en kapsamlı platform. Güçlü mobil uygulamamızla rezervasyonları, turnuvaları, ligleri ve daha fazlasını yönetin.",
+      "downloadApp": "Uygulamayı İndir",
+      "watchDemo": "Tanıtım Videosu"
+    },
+    "features": {
+      "title": {
+        "part1": "Modern Kulüp Yönetimi İçin",
+        "highlight": "İhtiyacınız Olan Her Şey"
+      },
+      "description": "Kulüp operasyonlarınızı kolaylaştırmak ve üye deneyimini artırmak için tasarlanmış güçlü özellikler."
+    },
+    "screenshots": {
+      "title": "Uygulamayı Keşfedin",
+      "description": "Tenis hayatınızı zahmetsizce yönetmenizi sağlayan güzel ve sezgisel tasarım."
+    },
+    "clubCta": {
+      "badge": "Kulüp Yöneticileri İçin",
+      "title": "Kulübünüzü Bir Üst Seviyeye Taşıyın",
+      "description": "Operasyonlarını yönetmek, gelirlerini artırmak ve üyelerini memnun etmek için TennisApp kullanan yüzlerce kulübe katılın.",
+      "features": {
+        "feature1": "Eksiksiz kulüp yönetim paneli",
+        "feature2": "Gerçek zamanlı analitik ve raporlar",
+        "feature3": "Otomatik rezervasyon sistemi",
+        "feature4": "Üye etkileşim araçları"
+      },
+      "button": "Kulüp Paneline Eriş"
+    },
+    "footer": {
+      "description": "Tenis ve padel tutkunları için eksiksiz platform.",
+      "product": "Ürün",
+      "company": "Şirket",
+      "legal": "Yasal",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "careers": "Kariyer",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları",
+      "kvkk": "KVKK",
+      "rights": "Tüm hakları saklıdır."
+    },
+    "pricing": {
+      "title": "Kulübünüz İçin Mükemmel Planı Seçin",
+      "description": "Kort sayınıza göre esnek fiyatlandırma. Tüm planlar 14 gün ücretsiz deneme içerir.",
+      "perMonth": "ay",
+      "popular": "En Popüler",
+      "selectPlan": "Planı Seç",
+      "annualDiscount": "💡 Yıllık ödeme ile %20 indirim kazanın",
+      "starter": {
+        "name": "Başlangıç",
+        "courts": "1-3 Kort"
+      },
+      "growth": {
+        "name": "Büyüme",
+        "courts": "4-6 Kort"
+      },
+      "professional": {
+        "name": "Profesyonel",
+        "courts": "7-10 Kort"
+      },
+      "enterprise": {
+        "name": "Kurumsal",
+        "courts": "10+ Kort"
+      },
+      "features": {
+        "reservations": "Sınırsız rezervasyon",
+        "members": "Üye yönetimi",
+        "wallet": "Dijital cüzdan",
+        "notifications": "Bildirim sistemi",
+        "allStarter": "Tüm Başlangıç özellikleri",
+        "tournaments": "Turnuva yönetimi",
+        "leagues": "Lig sistemi",
+        "analytics": "Detaylı analitik",
+        "allGrowth": "Tüm Büyüme özellikleri",
+        "privateLessons": "Özel ders modülü",
+        "restaurant": "Restoran & Mağaza",
+        "prioritySupport": "Öncelikli destek",
+        "allPro": "Tüm Profesyonel özellikler",
+        "multiLocation": "Çoklu lokasyon desteği",
+        "apiAccess": "API erişimi",
+        "dedicatedSupport": "Özel hesap yöneticisi"
+      }
+    }
+  },
+  "registerClub": {
+    "title": "Kulübünüzü Kaydedin",
+    "subtitle": "Be Tennis ailesine katılın ve kulübünüzü dijitalleştirin",
+    "steps": {
+      "clubInfo": "Kulüp Bilgileri",
+      "contactInfo": "İletişim Bilgileri",
+      "facilities": "Tesisler",
+      "plan": "Plan Seçimi",
+      "payment": "Ödeme"
+    },
+    "clubInfo": {
+      "title": "Kulüp Bilgileri",
+      "clubName": "Kulüp Adı",
+      "clubNamePlaceholder": "Örn: Ankara Tenis Kulübü",
+      "country": "Ülke",
+      "selectCountry": "Ülke seçin",
+      "city": "Şehir",
+      "selectCity": "Şehir seçin",
+      "district": "İlçe",
+      "selectDistrict": "İlçe seçin",
+      "address": "Adres",
+      "addressPlaceholder": "Açık adres"
+    },
+    "contactInfo": {
+      "title": "İletişim Bilgileri",
+      "ownerName": "Yetkili Adı Soyadı",
+      "ownerNamePlaceholder": "Adınız Soyadınız",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "ornek@email.com",
+      "phone": "Telefon Numarası",
+      "phonePlaceholder": "5XX XXX XX XX",
+      "password": "Yönetici Şifresi",
+      "passwordPlaceholder": "En az 8 karakter",
+      "confirmPassword": "Şifre Tekrar",
+      "confirmPasswordPlaceholder": "Şifrenizi tekrar girin"
+    },
+    "facilities": {
+      "title": "Tesis Bilgileri",
+      "sportTypes": "Spor Türleri",
+      "tennis": "Tenis",
+      "padel": "Padel",
+      "courtCount": "Kort Sayısı",
+      "tennisCourts": "Tenis Kortu Sayısı",
+      "padelCourts": "Padel Kortu Sayısı",
+      "amenities": "Ek Özellikler",
+      "parking": "Otopark",
+      "cafeteria": "Kafeterya",
+      "showers": "Duş & Soyunma",
+      "lighting": "Aydınlatma",
+      "proShop": "Pro Shop",
+      "clubLogo": "Kulüp Logosu",
+      "uploadLogo": "Logo Yükle",
+      "logoHint": "PNG veya JPG, max 2MB"
+    },
+    "plan": {
+      "title": "Plan Seçimi",
+      "subtitle": "Toplam kort sayınıza göre planınız otomatik belirlenir",
+      "selectedPlan": "Seçili Plan",
+      "billingCycle": "Ödeme Periyodu",
+      "monthly": "Aylık",
+      "annually": "Yıllık",
+      "annualSave": "%20 tasarruf",
+      "summary": "Özet",
+      "subtotal": "Ara Toplam",
+      "discount": "İndirim",
+      "total": "Toplam"
+    },
+    "payment": {
+      "title": "Ödeme",
+      "subtitle": "Güvenli ödeme ile kulübünüzü aktifleştirin",
+      "cardNumber": "Kart Numarası",
+      "cardHolder": "Kart Üzerindeki İsim",
+      "expiry": "Son Kullanma",
+      "cvv": "CVV",
+      "securePayment": "256-bit SSL ile güvenli ödeme",
+      "termsAgree": "Kullanım şartlarını ve gizlilik politikasını kabul ediyorum",
+      "processing": "Ödeme işleniyor...",
+      "success": "Ödeme Başarılı!",
+      "successMessage": "Kulübünüz başarıyla oluşturuldu. Yönetici panelinize yönlendiriliyorsunuz.",
+      "error": "Ödeme Hatası",
+      "tryAgain": "Tekrar Dene"
+    },
+    "validation": {
+      "required": "Bu alan zorunludur",
+      "invalidEmail": "Geçerli bir e-posta adresi girin",
+      "invalidPhone": "Geçerli bir telefon numarası girin",
+      "passwordMin": "Şifre en az 8 karakter olmalıdır",
+      "passwordMatch": "Şifreler eşleşmiyor",
+      "selectSport": "En az bir spor türü seçin",
+      "minCourts": "En az 1 kort girmelisiniz",
+      "acceptTerms": "Kullanım şartlarını kabul etmelisiniz",
+      "fixError": "Lütfen aşağıdaki alanı düzeltin ve tekrar deneyin.",
+      "checking": "Kontrol ediliyor..."
+    },
+    "back": "Geri",
+    "next": "İleri",
+    "submit": "Ödemeyi Tamamla",
+    "createClub": "Kulüp Oluştur",
+    "errors": {
+      "usernameExists": "Bu kullanıcı adı zaten kullanılıyor",
+      "clubNameExists": "Bu kulüp adı zaten kullanılıyor",
+      "emailExists": "Bu e-posta adresi zaten kayıtlı",
+      "paymentFailed": "Ödeme işlemi başarısız oldu",
+      "registrationFailed": "Kayıt işlemi başarısız oldu"
+    },
+    "success": {
+      "title": "Kulüp Kaydı Tamamlandı!",
+      "description": "Kulübünüz başarıyla oluşturuldu ve ödemeniz onaylandı. Artık kulübünüzü yönetmeye başlayabilirsiniz.",
+      "clubId": "Kulüp Kimliği",
+      "nextSteps": "Sonraki Adımlar",
+      "step1Title": "E-postanızı kontrol edin",
+      "step1Desc": "Hesap bilgilerinizi içeren bir onay e-postası gönderdik.",
+      "step2Title": "Yönetici Paneline Giriş Yapın",
+      "step2Desc": "Kullanıcı adı ve şifrenizle giriş yaparak kulübünüzü yönetmeye başlayın.",
+      "step3Title": "Kortlarınızı Ayarlayın",
+      "step3Desc": "Kort bilgilerini, fiyatları ve çalışma saatlerini tanımlayın.",
+      "goToLogin": "Giriş Sayfasına Git",
+      "contactSupport": "Destek İletişim",
+      "supportInfo": "Yardıma ihtiyacınız varsa bize ulaşın:"
+    }
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "backToHome": "Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "updateDate": "Ocak 2025",
+    "introduction": "TennisApp olarak gizliliğinizi ciddiye alıyoruz. Bu Gizlilik Politikası, mobil uygulamamızı ve ilgili hizmetlerimizi kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı, açıkladığımızı ve koruduğumuzu açıklar.",
+    "questions": "Bu Gizlilik Politikası hakkında sorularınız varsa lütfen bize ulaşın:",
+    "sections": {
+      "collection": {
+        "title": "Topladığımız Bilgiler",
+        "content": "Hesap oluşturduğunuzda, rezervasyon yaptığınızda veya destek için bizimle iletişime geçtiğinizde doğrudan bize sağladığınız bilgileri topluyoruz. Bu şunları içerebilir:\n\n• İsim ve iletişim bilgileri\n• Hesap kimlik bilgileri\n• Ödeme bilgileri\n• Konum verileri (onayınızla)\n• Cihaz bilgileri\n• Kullanım verileri ve tercihler"
+      },
+      "usage": {
+        "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+        "content": "Topladığımız bilgileri şu amaçlarla kullanıyoruz:\n\n• Hizmetlerimizi sağlamak, sürdürmek ve geliştirmek\n• İşlemleri işlemek ve ilgili bilgileri göndermek\n• Teknik bildirimler ve destek mesajları göndermek\n• Yorumlarınıza ve sorularınıza yanıt vermek\n• Kullanım kalıplarını ve trendleri analiz etmek\n• Deneyiminizi kişiselleştirmek"
+      },
+      "protection": {
+        "title": "Veri Koruma",
+        "content": "Kişisel verilerinizi yetkisiz veya yasadışı işleme, kazara kayıp, imha veya hasara karşı korumak için uygun teknik ve organizasyonel önlemler uyguluyoruz. Bunlar şunları içerir:\n\n• Aktarımda ve depolamada veri şifreleme\n• Düzenli güvenlik değerlendirmeleri\n• Erişim kontrolleri ve kimlik doğrulama\n• Güvenli veri depolama uygulamaları"
+      },
+      "sharing": {
+        "title": "Bilgi Paylaşımı",
+        "content": "Kişisel bilgilerinizi satmıyoruz. Bilgilerinizi yalnızca aşağıdaki durumlarda paylaşabiliriz:\n\n• Onayınızla\n• Operasyonlarımıza yardımcı olan hizmet sağlayıcılarla\n• Yasal yükümlülüklere uymak için\n• Haklarımızı ve güvenliğimizi korumak için\n• Bir iş devri ile bağlantılı olarak"
+      },
+      "rights": {
+        "title": "Haklarınız",
+        "content": "Aşağıdaki haklara sahipsiniz:\n\n• Kişisel verilerinize erişim\n• Yanlış verileri düzeltme\n• Verilerinizin silinmesini talep etme\n• İşlemeye itiraz etme\n• Veri taşınabilirliği\n• İstediğiniz zaman onayı geri çekme"
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa lütfen bize ulaşın:\n\nE-posta: privacy@tennisapp.com\nAdres: Ankara, Türkiye"
+      }
+    }
+  },
+  "terms": {
+    "title": "Kullanım Şartları",
+    "backToHome": "Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "updateDate": "Ocak 2025",
+    "introduction": "TennisApp'e hoş geldiniz. Hizmetlerimize erişerek veya kullanarak bu Kullanım Şartlarına bağlı olmayı kabul ediyorsunuz. Platformumuzu kullanmadan önce lütfen bunları dikkatlice okuyun.",
+    "questions": "Bu Şartlar hakkında sorularınız varsa lütfen bize ulaşın:",
+    "governingLaw": {
+      "title": "Yürürlükteki Hukuk",
+      "content": "Bu Şartlar, kanun ihtilafı hükümleri dikkate alınmaksızın Türkiye Cumhuriyeti yasalarına göre yönetilecek ve yorumlanacaktır."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Şartların Kabulü",
+        "content": "Bir hesap oluşturarak veya TennisApp'i kullanarak bu Kullanım Şartlarını ve Gizlilik Politikamızı kabul ediyorsunuz. Bu şartları kabul etmiyorsanız lütfen hizmetlerimizi kullanmayın.\n\nHizmetlerimizi kullanmak için en az 18 yaşında olmalısınız. TennisApp'i kullanarak bu şartı karşıladığınızı beyan ediyorsunuz."
+      },
+      "services": {
+        "title": "Hizmetlerimiz",
+        "content": "TennisApp şunlar için bir platform sağlar:\n\n• Kort rezervasyonları ve yönetimi\n• Turnuva ve lig organizasyonu\n• Kulüp üyelik yönetimi\n• Dijital cüzdan ve ödeme işleme\n• Kulüpler ve üyeler arasında iletişim\n• Performans takibi ve analitik"
+      },
+      "payments": {
+        "title": "Ödemeler ve İadeler",
+        "content": "• Tüm ödemeler ödeme sağlayıcılarımız aracılığıyla güvenli bir şekilde işlenir\n• İade politikaları bireysel kulüpler tarafından belirlenir\n• Cüzdan bakiyeleri kulüpler arasında transfer edilemez\n• Ödenmemiş bakiyesi olan hesapları askıya alma hakkımızı saklı tutuyoruz\n• Para birimi ve fiyatlandırma her kulüp tarafından belirlenir"
+      },
+      "prohibited": {
+        "title": "Yasaklanan Faaliyetler",
+        "content": "Aşağıdakileri yapmamayı kabul ediyorsunuz:\n\n• Geçerli yasa veya yönetmelikleri ihlal etmek\n• Başkalarının haklarını ihlal etmek\n• Zararlı veya kötü amaçlı içerik iletmek\n• Yetkisiz erişim girişiminde bulunmak\n• Hizmetin düzgün çalışmasına müdahale etmek\n• Dolandırıcılık amaçlı birden fazla hesap oluşturmak"
+      },
+      "liability": {
+        "title": "Sorumluluk Sınırlaması",
+        "content": "TennisApp herhangi bir garanti olmaksızın \"olduğu gibi\" sunulmaktadır. Aşağıdakilerden sorumlu değiliz:\n\n• Hizmet kesintileri veya hatalar\n• Veri veya içerik kaybı\n• Üçüncü tarafların eylemleri\n• Dolaylı, arızi veya sonuç olarak ortaya çıkan zararlar\n• Kulüp-üye ilişkilerinden kaynaklanan sorunlar"
+      },
+      "changes": {
+        "title": "Şartlardaki Değişiklikler",
+        "content": "Bu Şartları istediğimiz zaman değiştirebiliriz. Önemli değişiklikleri uygulama aracılığıyla veya e-posta yoluyla size bildireceğiz. Değişikliklerden sonra TennisApp'i kullanmaya devam etmeniz, değiştirilmiş Şartları kabul ettiğiniz anlamına gelir."
+      }
+    }
+  },
+  "kvkk": {
+    "title": "KVKK Aydınlatma Metni",
+    "subtitle": "Kişisel Verilerin Korunması Politikası",
+    "backToHome": "Ana Sayfaya Dön",
+    "lastUpdated": "Son Güncelleme",
+    "updateDate": "Ocak 2025",
+    "introduction": "6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) uyarınca, bu aydınlatma metni TennisApp'in kişisel verilerinizi nasıl topladığını, işlediğini ve koruduğunu açıklar.",
+    "questions": "KVKK ile ilgili sorularınız için lütfen bize ulaşın:",
+    "dataController": {
+      "title": "Veri Sorumlusu Bilgileri",
+      "company": "Şirket",
+      "address": "Adres",
+      "email": "E-posta"
+    },
+    "sections": {
+      "purpose": {
+        "title": "Veri İşleme Amacı",
+        "content": "Kişisel verileriniz aşağıdaki amaçlarla işlenmektedir:\n\n• Hizmetlerimizi sağlamak ve geliştirmek\n• Kullanıcı hesap yönetimi\n• Ödemeleri ve işlemleri işlemek\n• İletişim ve müşteri desteği\n• Yasal uyum ve dolandırıcılık önleme\n• Analitik ve hizmet optimizasyonu"
+      },
+      "dataTypes": {
+        "title": "Toplanan Veri Türleri",
+        "content": "Aşağıdaki kişisel veri kategorilerini toplayabiliriz:\n\n• Kimlik Bilgileri: Ad, soyad, doğum tarihi\n• İletişim Bilgileri: E-posta, telefon numarası, adres\n• Finansal Bilgiler: Ödeme detayları, işlem geçmişi\n• Konum Verileri: GPS koordinatları (onay ile)\n• Teknik Veriler: Cihaz bilgileri, IP adresi, kullanım logları"
+      },
+      "processing": {
+        "title": "İşlemenin Hukuki Dayanağı",
+        "content": "Verileriniz aşağıdaki temellere dayanılarak işlenmektedir:\n\n• Açık rıza\n• Sözleşmenin ifası\n• Yasal yükümlülükler\n• Meşru menfaatler\n• Hayati menfaatlerin korunması\n\nKVKK Madde 5 ve 6 uyarınca, tüm işleme faaliyetlerinin geçerli bir hukuki dayanağa sahip olmasını sağlıyoruz."
+      },
+      "security": {
+        "title": "Veri Güvenliği Önlemleri",
+        "content": "Şunları içeren teknik ve idari önlemler uyguluyoruz:\n\n• Veri iletiminde SSL/TLS şifreleme\n• Şifreli veritabanı depolama\n• Erişim kontrolü ve kimlik doğrulama sistemleri\n• Düzenli güvenlik denetimleri\n• Veri koruma konusunda çalışan eğitimi\n• Olay müdahale prosedürleri"
+      },
+      "rights": {
+        "title": "KVKK Kapsamındaki Haklarınız",
+        "content": "KVKK Madde 11 uyarınca aşağıdaki haklara sahipsiniz:\n\n• Verilerinizin işlenip işlenmediğini öğrenme\n• İşleme hakkında bilgi talep etme\n• İşleme amacını öğrenme\n• Verilerin aktarıldığı üçüncü tarafları bilme\n• Eksik veya yanlış verilerin düzeltilmesini isteme\n• Verilerin silinmesini veya yok edilmesini isteme\n• Otomatik karar vermeye itiraz etme\n• Zararların tazminini talep etme"
+      },
+      "application": {
+        "title": "Haklarınızı Nasıl Kullanırsınız",
+        "content": "KVKK haklarınızı kullanmak için:\n\n• info@btennispadel.com adresine e-posta gönderebilirsiniz\n• Kayıtlı adresimize yazılı başvuru yapabilirsiniz\n• Uygulama içi veri talebi özelliğini kullanabilirsiniz\n\nYasanın gerektirdiği şekilde 30 gün içinde talebinize yanıt vereceğiz. Güvenlik amacıyla kimlik doğrulaması gerekebilir."
+      }
+    }
+  },
+  "about": {
+    "backToHome": "Ana Sayfaya Dön",
+    "hero": {
+      "title": "Spor Teknolojisinin Geleceğini İnşa Ediyoruz",
+      "description": "Be Tek. spor kulüplerinin çalışma şeklini ve sporcuların topluluklarıyla etkileşimini dönüştürmeye adanmış bir teknoloji şirketidir. 2019 yılında Ankara'da kurulan şirketimiz, spor kulübü yönetimini sorunsuz, verimli ve keyifli hale getirme misyonuyla çalışmaktadır."
+    },
+    "mission": {
+      "title": "Misyonumuz",
+      "description": "Dünya genelindeki spor kulüplerini, üye deneyimlerini geliştiren, operasyonları kolaylaştıran ve büyümeyi destekleyen yenilikçi teknoloji çözümleriyle güçlendirmek. Harika teknolojinin insanların spor aracılığıyla bağlanma şeklini dönüştürebileceğine inanıyoruz."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Spor kulübü yönetim teknolojisinde küresel standart olmak, her kulübün boyutundan bağımsız olarak kurumsal düzeyde araçlara erişebildiği ve her sporcunun en çok sevdiği şeye - spor yapmaya - odaklanabildiği bir dünya yaratmak."
+    },
+    "values": {
+      "title": "Değerlerimiz",
+      "description": "Be Tek.'te yaptığımız her şeye rehberlik eden ilkeler."
+    },
+    "story": {
+      "title": "Hikayemiz",
+      "description": "Ankara'daki küçük bir girişimden büyüyen uluslararası bir şirkete."
+    },
+    "team": {
+      "title": "Liderlik Ekibi",
+      "description": "Be Tek.'te inovasyonu yönlendiren insanlarla tanışın."
+    },
+    "technology": {
+      "title": "Teknoloji Altyapımız",
+      "description": "Sağlam, ölçeklenebilir ve güvenli uygulamalar geliştirmek için son teknolojileri kullanıyoruz."
+    },
+    "cta": {
+      "title": "Geleceği Şekillendirmede Bize Katılın",
+      "description": "Ekibimize katılmak veya TennisApp'i kulübünüze getirmek istiyorsanız, sizden haber almak isteriz.",
+      "joinTeam": "Ekibimize Katılın",
+      "contactUs": "İletişime Geçin"
+    }
+  },
+  "careers": {
+    "backToHome": "Ana Sayfaya Dön",
+    "hero": {
+      "badge": "İşe Alıyoruz",
+      "title": "Sporun Geleceğini Bizimle İnşa Edin",
+      "description": "Spor kulübü endüstrisini dönüştüren tutkulu mühendisler, tasarımcılar ve spor tutkunlarından oluşan bir ekibe katılın. Rekabetçi maaşlar, harika yan haklar ve gerçek bir etki yaratma fırsatı sunuyoruz.",
+      "teamSize": "Takım Üyesi",
+      "openPositions": "Açık Pozisyon"
+    },
+    "culture": {
+      "title": "Kültürümüz",
+      "description": "Be Tek.'i harika bir iş yeri yapan şeyler"
+    },
+    "benefits": {
+      "title": "Yan Haklar",
+      "description": "Ekibimizin en iyi işlerini yapabilmeleri için onlara özen gösteriyoruz"
+    },
+    "positions": {
+      "title": "Açık Pozisyonlar",
+      "description": "Bir sonraki rolünüzü bulun ve spor teknolojisinin geleceğini inşa etmemize yardımcı olun",
+      "apply": "Başvur",
+      "applyNow": "Şimdi Başvur",
+      "aboutRole": "Rol Hakkında",
+      "requirements": "Gereksinimler",
+      "noJobs": "Bu departmanda şu anda açık pozisyon bulunmuyor"
+    },
+    "cta": {
+      "title": "Doğru Rolü Göremiyor musunuz?",
+      "description": "Her zaman yetenekli insanlar arıyoruz. CV'nizi gönderin, gelecekteki fırsatlar için sizi aklımızda tutalım."
+    }
+  },
+  "contact": {
+    "backToHome": "Ana Sayfaya Dön",
+    "hero": {
+      "title": "İletişime Geçin",
+      "description": "Bir sorunuz, geri bildiriminiz mi var veya TennisApp hakkında daha fazla bilgi mi almak istiyorsunuz? Sizden haber almak isteriz."
+    },
+    "form": {
+      "title": "Bize Mesaj Gönderin",
+      "name": "Ad Soyad",
+      "namePlaceholder": "Ahmet Yılmaz",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "ahmet@ornek.com",
+      "company": "Şirket / Kulüp Adı",
+      "companyPlaceholder": "Kulübünüz veya şirketinizin adı",
+      "phone": "Telefon Numarası",
+      "phonePlaceholder": "+90 5XX XXX XX XX",
+      "subject": "Konu",
+      "subjectPlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "message": "Mesaj",
+      "messagePlaceholder": "Sorgunuz hakkında daha fazla bilgi verin...",
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "successTitle": "Mesaj Gönderildi!",
+      "successMessage": "Bize ulaştığınız için teşekkürler. 24-48 saat içinde size geri döneceğiz.",
+      "sendAnother": "Başka Mesaj Gönder"
+    },
+    "quickContact": {
+      "title": "Hızlı İletişim",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "hours": "Çalışma Saatleri",
+      "workingHours": "Pzt - Cuma, 09:00 - 18:00 (GMT+3)"
+    },
+    "offices": {
+      "title": "Ofislerimiz",
+      "headquarters": "Merkez"
+    },
+    "social": {
+      "title": "Bizi Takip Edin"
+    },
+    "map": {
+      "placeholder": "İnteraktif harita yakında"
+    },
+    "faq": {
+      "title": "Cevap mı Arıyorsunuz?",
+      "description": "SSS bölümümüze göz atın veya şirketimiz hakkında daha fazla bilgi edinin.",
+      "viewFaq": "SSS'yi Görüntüle",
+      "learnMore": "Hakkımızda"
+    }
+  },
+  "payManagement": {
+    "title": "Ödeme Yönetimi",
+    "description": "Kulübünüz için ödeme sağlayıcıları ve cüzdan ayarlarını yönetin",
+    "loading": "Ödeme ayarları yükleniyor...",
+    "saveSuccess": "Ayarlar başarıyla kaydedildi",
+    "saveConfig": "Yapılandırmayı Kaydet",
+    "notConfigured": "Yapılandırılmadı",
+    "international": "Uluslararası",
+    "turkeyOnly": "Sadece Türkiye",
+    "common": {
+      "active": "Aktif",
+      "inactive": "Pasif"
+    },
+    "tabs": {
+      "overview": "Genel Bakış",
+      "wallet": "Cüzdan"
+    },
+    "overview": {
+      "currentStatus": "Mevcut Durum",
+      "paymentProviders": "Ödeme Sağlayıcıları"
+    },
+    "nonCustodial": {
+      "title": "Non-Custodial Sistem",
+      "description": "Üyelerinizin fonları doğrudan ödeme sağlayıcısı üzerinden işlenir. Üyelerinizin parasını asla tutmayız veya erişmeyiz."
+    },
+    "stripe": {
+      "description": "Stripe Connect ile dünya çapında ödeme alın",
+      "subtitle": "Küresel ödeme işleme çözümü",
+      "connected": "Bağlı",
+      "notConnected": "Stripe'a bağlı değil",
+      "notConnectedDesc": "Ödeme almaya başlamak için Stripe hesabınızı bağlayın",
+      "connectAccount": "Stripe Hesabını Bağla",
+      "chargesEnabled": "Ödemeler Aktif",
+      "payoutsEnabled": "Transferler Aktif",
+      "accountType": "Hesap Türü",
+      "expressDesc": "Hızlı kurulum, Stripe uyumluluğu yönetir",
+      "standardDesc": "Tam kontrol, uyumluluğu siz yönetirsiniz",
+      "securityTitle": "PCI DSS Uyumlu",
+      "securityDesc": "Stripe, en yüksek güvenlik standartlarını karşılayarak tüm hassas ödeme verilerini güvenli bir şekilde işler."
+    },
+    "iyzico": {
+      "description": "Türkiye'nin lider ödeme sağlayıcısı",
+      "subtitle": "Türkiye için yerel ödeme işleme",
+      "turkeyOnlyTitle": "Sadece Türkiye",
+      "turkeyOnlyDesc": "iyzico yalnızca Türkiye'de faaliyet gösteren işletmeler için kullanılabilir.",
+      "environment": "Ortam",
+      "apiCredentials": "API Bilgileri",
+      "apiKeyPlaceholder": "API Key'inizi girin",
+      "secretKeyPlaceholder": "Secret Key'inizi girin",
+      "subMerchantType": "Alt Üye İşyeri Türü",
+      "personal": "Bireysel",
+      "privateCompany": "Şahıs Şirketi",
+      "limitedCompany": "Limited / Anonim Şirket",
+      "businessInfo": "İşletme Bilgileri",
+      "merchantName": "İşletme Adı",
+      "merchantNamePlaceholder": "İşletme adınız",
+      "contactEmail": "İletişim E-postası",
+      "contactPhone": "İletişim Telefonu",
+      "tcIdentity": "TC Kimlik No",
+      "taxNumber": "Vergi Numarası",
+      "taxOffice": "Vergi Dairesi",
+      "taxOfficePlaceholder": "Vergi dairesi adını girin",
+      "legalCompanyTitle": "Yasal Ünvan",
+      "legalCompanyTitlePlaceholder": "Yasal ünvanı girin",
+      "errors": {
+        "missingKeys": "API Key ve Secret Key gereklidir"
+      }
+    },
+    "paratika": {
+      "description": "Taksit destekli sanal POS çözümü",
+      "subtitle": "Türk sanal POS sağlayıcısı",
+      "turkeyOnlyTitle": "Sadece Türkiye",
+      "turkeyOnlyDesc": "Paratika yalnızca Türkiye'de faaliyet gösteren işletmeler için kullanılabilir.",
+      "environment": "Ortam",
+      "apiCredentials": "API Bilgileri",
+      "merchantCode": "Üye İşyeri Kodu",
+      "merchantCodePlaceholder": "Üye işyeri kodunu girin",
+      "merchantUsername": "API Kullanıcı Adı",
+      "merchantUsernamePlaceholder": "API kullanıcı adını girin",
+      "merchantPassword": "API Şifresi",
+      "merchantPasswordPlaceholder": "API şifresini girin",
+      "terminalId": "Terminal ID",
+      "terminalIdPlaceholder": "Terminal ID girin",
+      "posnetId": "Posnet ID",
+      "posnetIdPlaceholder": "Posnet ID girin (opsiyonel)",
+      "securitySettings": "Güvenlik Ayarları",
+      "use3DSecure": "3D Secure Etkinleştir",
+      "use3DSecureDesc": "İşlemler için ek müşteri doğrulaması gerektirir",
+      "storeKey": "3D Secure Store Key",
+      "storeKeyPlaceholder": "3D Secure için store key girin",
+      "installmentSettings": "Taksit Ayarları",
+      "installments": "Taksit",
+      "enableInstallments": "Taksit Aktif",
+      "enableInstallmentsDesc": "Müşterilerin taksitle ödeme yapmasına izin ver",
+      "maxInstallments": "Maksimum Taksit Sayısı",
+      "businessInfo": "İşletme Bilgileri",
+      "merchantName": "İşletme Adı",
+      "merchantNamePlaceholder": "İşletme adınız",
+      "contactEmail": "İletişim E-postası",
+      "contactPhone": "İletişim Telefonu",
+      "taxNumber": "Vergi Numarası",
+      "taxOffice": "Vergi Dairesi",
+      "taxOfficePlaceholder": "Vergi dairesi adını girin",
+      "legalCompanyTitle": "Yasal Ünvan",
+      "legalCompanyTitlePlaceholder": "Yasal ünvanı girin",
+      "securityTitle": "Güvenli İşlemler",
+      "securityDesc": "Tüm işlemler şifrelenir ve güvenli bankacılık altyapısı üzerinden işlenir.",
+      "errors": {
+        "missingCredentials": "Üye işyeri kodu, kullanıcı adı ve şifre gereklidir"
+      }
+    },
+    "wallet": {
+      "title": "Cüzdan Ayarları",
+      "description": "Kulübünüzün dijital cüzdan sistemini yönetin",
+      "subtitle": "Üyeler için cüzdan davranışını yapılandırın",
+      "enableWallet": "Cüzdan Sistemini Etkinleştir",
+      "enableWalletDesc": "Üyelerin cüzdan bakiyesi yüklemesine ve kullanmasına izin ver",
+      "allowNegative": "Negatif Bakiyeye İzin Ver",
+      "allowNegativeDesc": "Üyeler belirli bir limite kadar negatif bakiyeye sahip olabilir",
+      "defaultNegativeLimit": "Varsayılan Negatif Bakiye Limiti",
+      "nonCustodialTitle": "Non-Custodial Cüzdan",
+      "nonCustodialDesc": "Cüzdan bakiyeleri defter kayıtlarıdır. Gerçek fonlar yapılandırılmış ödeme sağlayıcınız üzerinden işlenir."
+    },
+    "guides": {
+      "openGuide": "{provider} Kurulum Kılavuzunu Aç",
+      "setupSteps": "Kurulum Adımları",
+      "step": "Adım",
+      "needHelp": "Yardıma mı İhtiyacınız Var?",
+      "documentation": "Dokümantasyon",
+      "support": "Destek",
+      "countries": "Ülke",
+      "stripe": {
+        "title": "Stripe Connect Kurulum Kılavuzu",
+        "subtitle": "Adım adım entegrasyon rehberi",
+        "introTitle": "Küresel Ödeme İşleme",
+        "introText": "Stripe'ın güvenli ödeme altyapısı ile dünya çapındaki müşterilerden ödeme alın.",
+        "supportText": "Yardım için Stripe dokümantasyonunu ziyaret edin veya destek ile iletişime geçin.",
+        "step1": {
+          "title": "Stripe Hesabı Oluşturun",
+          "text": "Öncelikle bir Stripe hesabına ihtiyacınız var. Yoksa şimdi oluşturun.",
+          "linkTitle": "Stripe Hesabı Oluştur"
+        },
+        "step2": {
+          "title": "İşletme Doğrulamasını Tamamlayın",
+          "text": "Tüm özelliklerin kilidini açmak için işletme doğrulamanızı tamamlayın.",
+          "warning": "Doğrulama 1-2 iş günü sürebilir. İşletme belgelerinizi hazırlayın."
+        },
+        "step3": {
+          "title": "Hesap Türünü Seçin",
+          "text": "İhtiyaçlarınıza en uygun hesap türünü seçin.",
+          "expressTitle": "Express",
+          "expressDesc": "Hızlı kurulum, Stripe uyumluluğu yönetir",
+          "standardTitle": "Standard",
+          "standardDesc": "Ödeme deneyimi üzerinde tam kontrol",
+          "linkTitle": "Stripe Connect hakkında bilgi alın"
+        },
+        "step4": {
+          "title": "API Anahtarlarını Alın",
+          "text": "Stripe panosundan API anahtarlarınızı alın.",
+          "warning": "Secret key'inizi asla paylaşmayın. Güvende tutun.",
+          "linkTitle": "API Anahtarlarına Git"
+        },
+        "step5": {
+          "title": "Webhook'ları Yapılandırın",
+          "text": "Ödeme bildirimlerini almak için webhook'ları ayarlayın.",
+          "info": "Webhook'lar gerçek zamanlı ödeme durumu güncellemeleri için gereklidir."
+        },
+        "step6": {
+          "title": "Entegrasyonu Test Edin",
+          "text": "Stripe test kartları ile entegrasyonunuzu test edin.",
+          "testCards": "4242 4242 4242 4242 - Başarılı\n4000 0000 0000 9995 - Reddedildi",
+          "linkTitle": "Test Kartlarını Görüntüle"
+        },
+        "step7": {
+          "title": "Canlıya Geçin",
+          "text": "Gerçek ödemeleri kabul etmeye hazır olduğunuzda canlı moda geçin.",
+          "warning": "Canlıya geçmeden önce tüm testlerin geçtiğinden emin olun."
+        }
+      },
+      "iyzico": {
+        "title": "iyzico Kurulum Kılavuzu",
+        "subtitle": "Türk ödeme entegrasyon rehberi",
+        "introTitle": "Türkiye'nin Ödeme Çözümü",
+        "introText": "Tüm büyük kredi kartları ve banka transferleri ile Türk müşterilerden ödeme alın.",
+        "turkeyOnly": "Türkiye",
+        "allCards": "Tüm Kartlar",
+        "supportText": "Entegrasyonunuzla ilgili yardım için iyzico desteği ile iletişime geçin.",
+        "step1": {
+          "title": "Üye İşyeri Başvurusu Yapın",
+          "text": "Bir iyzico üye işyeri hesabı için başvurarak başlayın.",
+          "linkTitle": "Şimdi Başvur"
+        },
+        "step2": {
+          "title": "Belgeleri Hazırlayın",
+          "text": "Doğrulama için gerekli belgeleri toplayın.",
+          "warning": "Belge gereksinimleri işletme türüne göre değişir."
+        },
+        "step3": {
+          "title": "Hesabı Yapılandırın",
+          "text": "Üye işyeri hesap ayarlarınızı yapın.",
+          "info": "Ödeme durumu güncellemeleri için bildirim URL'lerini yapılandırdığınızdan emin olun."
+        },
+        "step4": {
+          "title": "API Anahtarlarını Alın",
+          "text": "Üye işyeri panelinden API ve Secret Key'lerinizi alın.",
+          "warning": "Anahtarlarınızı güvende tutun. İstemci tarafı kodunda asla açığa çıkarmayın.",
+          "linkTitle": "Üye İşyeri Paneline Git"
+        },
+        "step5": {
+          "title": "Alt Üye İşyeri Kurulumu",
+          "text": "İşletme yapınıza göre alt üye işyeri türünüzü yapılandırın.",
+          "comparisonTitle": "Alt Üye İşyeri Türleri",
+          "personalTitle": "Bireysel",
+          "personalDesc": "Bireysel satıcılar için",
+          "privateTitle": "Şahıs Şirketi",
+          "privateDesc": "Şahıs işletmeleri için",
+          "limitedTitle": "Limited Şirket",
+          "limitedDesc": "Kurumsal şirketler için"
+        },
+        "step6": {
+          "title": "Entegrasyonu Test Edin",
+          "text": "iyzico test kartları ile entegrasyonunuzu test edin.",
+          "testCards": "5528 7900 0000 0008 - Başarılı\n4543 5900 0000 0006 - 3D Secure",
+          "linkTitle": "Test Kartlarını Görüntüle"
+        },
+        "step7": {
+          "title": "Webhook'ları Yapılandırın",
+          "text": "Ödeme bildirimleri için callback URL'leri ayarlayın.",
+          "info": "Webhook'lar gerçek zamanlı ödeme durumu senkronizasyonunu sağlar."
+        },
+        "step8": {
+          "title": "Canlıya Geçin",
+          "text": "Hazır olduğunuzda production'a geçin.",
+          "warning": "Canlıya geçmeden önce tüm test senaryolarını doğrulayın."
+        }
+      },
+      "paratika": {
+        "title": "Paratika Kurulum Kılavuzu",
+        "subtitle": "Sanal POS entegrasyon rehberi",
+        "introTitle": "Türk Sanal POS",
+        "introText": "Büyük Türk bankaları aracılığıyla taksit destekli kredi kartı ödemeleri alın.",
+        "turkeyOnly": "Türkiye",
+        "allBanks": "Tüm Bankalar",
+        "installment": "Taksit",
+        "supportText": "Teknik yardım için Paratika desteği ile iletişime geçin.",
+        "step1": {
+          "title": "Paratika Hakkında",
+          "text": "Paratika, tüm büyük Türk bankaları ile çalışan bir sanal POS çözümüdür."
+        },
+        "step2": {
+          "title": "Hesap Başvurusu",
+          "text": "Üye işyeri hesabı için Paratika satış ekibiyle iletişime geçin.",
+          "info": "İşlem süresi genellikle 3-5 iş günüdür."
+        },
+        "step3": {
+          "title": "Belgeleri Hazırlayın",
+          "text": "Doğrulama için işletme belgelerinizi toplayın."
+        },
+        "step4": {
+          "title": "Üye İşyeri Paneline Erişin",
+          "text": "Onaylandıktan sonra kimlik bilgilerinizi almak için üye işyeri panelinize erişin.",
+          "linkTitle": "Üye İşyeri Paneline Git"
+        },
+        "step5": {
+          "title": "API Bilgilerini Alın",
+          "text": "Üye işyeri kodunuzu, kullanıcı adınızı ve şifrenizi alın.",
+          "warning": "Kimlik bilgilerini güvenli şekilde saklayın. Asla paylaşmayın."
+        },
+        "step6": {
+          "title": "3D Secure'u Yapılandırın",
+          "text": "Gelişmiş işlem güvenliği için 3D Secure'u ayarlayın.",
+          "info": "3D Secure, Türkiye'deki çoğu işlem için gereklidir."
+        },
+        "step7": {
+          "title": "Taksitleri Yapılandırın",
+          "text": "Ödeme planları sunmak istiyorsanız taksit seçeneklerini ayarlayın."
+        },
+        "step8": {
+          "title": "Entegrasyonu Test Edin",
+          "text": "Paratika test kartları ile test edin.",
+          "testCards": "4508 0345 0803 4509 - Başarılı\n5456 1659 6108 9348 - 3D Secure",
+          "linkTitle": "Test Dokümantasyonunu Görüntüle"
+        },
+        "step9": {
+          "title": "Canlıya Geçin",
+          "text": "Hazır olduğunuzda production ortamına geçin.",
+          "warning": "Gerçek işlemleri işlemeden önce tüm testleri tamamlayın."
+        },
+        "step10": {
+          "title": "Hata Yönetimi",
+          "text": "Yaygın hata kodları ve anlamlarına aşina olun."
+        }
+      }
+    },
+    "errors": {
+      "loadFailed": "Ödeme yapılandırması yüklenemedi",
+      "saveFailed": "Yapılandırma kaydedilemedi"
+    }
+  },
+  "discounts": {
+    "title": "İndirimler & Kuponlar",
+    "subtitle": "Kort indirimlerini ve promosyon kuponlarını yönetin",
+    "tabs": {
+      "courtDiscounts": "Kort İndirimleri",
+      "coupons": "Kuponlar"
+    },
+    "status": {
+      "active": "Aktif",
+      "maintenance": "Bakımda"
+    },
+    "actions": {
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "enable": "Etkinleştir",
+      "disable": "Devre Dışı Bırak",
+      "cancel": "İptal",
+      "save": "Kaydet",
+      "create": "Oluştur"
+    },
+    "errors": {
+      "loadError": "Yükleme Hatası",
+      "loadErrorDesc": "Veriler yüklenemedi. Lütfen tekrar deneyin.",
+      "deleteError": "Silme Hatası",
+      "deleteErrorDesc": "Silinirken hata oluştu. Lütfen tekrar deneyin.",
+      "updateError": "Güncelleme Hatası",
+      "updateErrorDesc": "Güncellenirken hata oluştu. Lütfen tekrar deneyin."
+    },
+    "courtDiscounts": {
+      "title": "Kort İndirimleri",
+      "description": "Kortlarınıza belirli saat aralıkları veya tüm saatler için yüzdelik indirim uygulayın",
+      "noCourts": "Kort bulunamadı. İndirim uygulamak için önce kort ekleyin.",
+      "activeDiscounts": "aktif indirim",
+      "allHours": "Tüm saatler",
+      "more": "daha fazla",
+      "dialogTitle": "İndirim Yönetimi",
+      "dialogDescription": "Bu kort için indirim ekleyin, kaldırın veya değiştirin",
+      "addNew": "Yeni İndirim Ekle",
+      "percentage": "İndirim Yüzdesi",
+      "allHours": "Tüm Saatlere Uygula",
+      "from": "Başlangıç",
+      "until": "Bitiş",
+      "addDiscount": "İndirim Ekle",
+      "activeDiscounts": "Aktif İndirimler",
+      "clearAll": "Tümünü Temizle",
+      "noDiscounts": "Bu korta uygulanan indirim yok",
+      "notSpecified": "Belirtilmedi",
+      "sendNotification": "Bildirim Gönder",
+      "addSuccess": "İndirim Eklendi",
+      "addSuccessDesc": "İndirim korta başarıyla uygulandı.",
+      "removeSuccess": "İndirim Kaldırıldı",
+      "removeSuccessDesc": "İndirim başarıyla kaldırıldı.",
+      "clearSuccess": "Tüm İndirimler Temizlendi",
+      "clearSuccessDesc": "Bu korttaki tüm indirimler kaldırıldı.",
+      "notificationSent": "Bildirim Gönderildi",
+      "notificationSentDesc": "{count} kullanıcıya bildirim gönderildi.",
+      "errors": {
+        "invalidPercentage": "Geçersiz Yüzde",
+        "invalidPercentageDesc": "Lütfen 1 ile 100 arasında bir yüzde girin.",
+        "invalidTimeRange": "Geçersiz Saat Aralığı",
+        "invalidTimeRangeDesc": "Lütfen geçerli bir saat aralığı belirtin.",
+        "addError": "Ekleme Hatası",
+        "addErrorDesc": "İndirim eklenemedi. Lütfen tekrar deneyin.",
+        "removeError": "Kaldırma Hatası",
+        "removeErrorDesc": "İndirim kaldırılamadı. Lütfen tekrar deneyin.",
+        "clearError": "Temizleme Hatası",
+        "clearErrorDesc": "İndirimler temizlenemedi. Lütfen tekrar deneyin.",
+        "notificationError": "Bildirim Hatası",
+        "notificationErrorDesc": "Bildirim gönderilemedi. Lütfen tekrar deneyin."
+      }
+    },
+    "coupons": {
+      "title": "Kuponlar",
+      "description": "Üyeleriniz için promosyon kuponları oluşturun ve yönetin",
+      "createCoupon": "Kupon Oluştur",
+      "searchPlaceholder": "Kod veya açıklamaya göre kupon ara...",
+      "noSearchResults": "Aramanızla eşleşen kupon bulunamadı",
+      "noCoupons": "Henüz kupon oluşturulmadı",
+      "createFirst": "İlk Kuponunuzu Oluşturun"
+    },
+    "coupon": {
+      "value": "Değer",
+      "usage": "Kullanım",
+      "validUntil": "Geçerlilik",
+      "assignedTo": "{count} kullanıcıya atandı",
+      "deleteTitle": "Kuponu Sil",
+      "deleteDescription": "\"{code}\" kuponunu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+      "deleteSuccess": "Kupon Silindi",
+      "deleteSuccessDesc": "Kupon başarıyla silindi.",
+      "statusUpdated": "Durum Güncellendi",
+      "statusUpdatedDesc": "Kupon durumu güncellendi.",
+      "status": {
+        "active": "Aktif",
+        "expired": "Süresi Doldu",
+        "used": "Kullanıldı",
+        "disabled": "Devre Dışı"
+      },
+      "createTitle": "Kupon Oluştur",
+      "createDescription": "Üyeleriniz için yeni bir promosyon kuponu oluşturun",
+      "editTitle": "Kuponu Düzenle",
+      "editDescription": "Kupon detaylarını değiştirin",
+      "tabs": {
+        "details": "Detaylar",
+        "users": "Kullanıcılar"
+      },
+      "code": "Kupon Kodu",
+      "type": "İndirim Türü",
+      "typePercentage": "Yüzde",
+      "typeFixed": "Sabit Tutar",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Bu kupon için isteğe bağlı açıklama",
+      "maxUses": "Maksimum Toplam Kullanım",
+      "maxUsesPerUser": "Kullanıcı Başına Maks Kullanım",
+      "unlimited": "Sınırsız",
+      "minPurchase": "Minimum Alışveriş",
+      "noMinimum": "Minimum yok",
+      "validDays": "Geçerlilik Süresi (gün)",
+      "forAllUsers": "Tüm Kullanıcılara Açık",
+      "forAllUsersDesc": "Etkinleştirildiğinde, herhangi bir kullanıcı bu kuponu kullanabilir",
+      "searchUsers": "Kullanıcı ara...",
+      "selected": "seçili",
+      "selectAll": "Tümünü Seç",
+      "deselectAll": "Seçimi Kaldır",
+      "noUsersFound": "Kullanıcı bulunamadı",
+      "createSuccess": "Kupon Oluşturuldu",
+      "createSuccessDesc": "Kupon başarıyla oluşturuldu.",
+      "updateSuccess": "Kupon Güncellendi",
+      "updateSuccessDesc": "Kupon başarıyla güncellendi.",
+      "errors": {
+        "codeRequired": "Kupon kodu gerekli",
+        "invalidValue": "Lütfen geçerli bir indirim değeri girin",
+        "percentageMax": "Yüzde 100'ü geçemez",
+        "selectUsers": "Lütfen en az bir kullanıcı seçin",
+        "codeExists": "Kod Zaten Mevcut",
+        "codeExistsDesc": "Bu kodla bir kupon zaten var. Lütfen farklı bir kod kullanın.",
+        "saveError": "Kaydetme Hatası",
+        "saveErrorDesc": "Kupon kaydedilemedi. Lütfen tekrar deneyin."
+      }
+    }
+  },
+  "magazine": {
+    "title": "Dergi Yönetimi",
+    "subtitle": "Kulüp üyeleriniz için dijital dergiler oluşturun ve yayınlayın",
+    "createNew": "Dergi Oluştur",
+    "searchPlaceholder": "Başlık, versiyon veya yıla göre ara...",
+    "noSearchResults": "Aramanızla eşleşen dergi bulunamadı",
+    "noVersions": "Henüz dergi oluşturulmadı",
+    "createFirst": "İlk Derginizi Oluşturun",
+    "published": "Yayında",
+    "pages": "sayfa",
+    "deleteTitle": "Dergiyi Sil",
+    "deleteDescription": "\"{title}\" dergisini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "deleteSuccess": "Dergi Silindi",
+    "deleteSuccessDesc": "Dergi başarıyla silindi.",
+    "publishTitle": "Dergiyi Yayınla",
+    "publishDescription": "\"{title}\" dergisini yayınlamak istediğinizden emin misiniz? Tüm kulüp üyelerine bildirim gönderilecek.",
+    "publishSuccess": "Dergi Yayınlandı",
+    "publishSuccessDesc": "Dergi yayınlandı ve {count} üyeye bildirim gönderildi.",
+    "publishSuccessNoNotif": "Dergi başarıyla yayınlandı.",
+    "unpublishSuccess": "Dergi Yayından Kaldırıldı",
+    "unpublishSuccessDesc": "Dergi artık üyelere görünmüyor.",
+    "actions": {
+      "preview": "Önizleme",
+      "edit": "Düzenle",
+      "publish": "Yayınla",
+      "unpublish": "Yayından Kaldır",
+      "delete": "Sil",
+      "cancel": "İptal",
+      "save": "Kaydet",
+      "create": "Oluştur"
+    },
+    "errors": {
+      "loadError": "Yükleme Hatası",
+      "loadErrorDesc": "Dergiler yüklenemedi. Lütfen tekrar deneyin.",
+      "deleteError": "Silme Hatası",
+      "deleteErrorDesc": "Dergi silinemedi. Lütfen tekrar deneyin.",
+      "publishError": "Yayınlama Hatası",
+      "publishErrorDesc": "Dergi yayınlanamadı. Lütfen tekrar deneyin.",
+      "unpublishError": "Yayından Kaldırma Hatası",
+      "unpublishErrorDesc": "Dergi yayından kaldırılamadı. Lütfen tekrar deneyin."
+    },
+    "editor": {
+      "createTitle": "Dergi Oluştur",
+      "editTitle": "Dergiyi Düzenle",
+      "untitled": "İsimsiz Dergi",
+      "save": "Kaydet",
+      "tabs": {
+        "details": "Detaylar",
+        "pages": "Sayfalar",
+        "currentPage": "Mevcut Sayfa"
+      },
+      "form": {
+        "title": "Dergi Başlığı",
+        "titlePlaceholder": "Dergi başlığını girin",
+        "description": "Açıklama",
+        "descriptionPlaceholder": "Dergi açıklamasını girin",
+        "versionName": "Versiyon Adı",
+        "versionNamePlaceholder": "örn. Yaz Sayısı",
+        "versionNumber": "Versiyon Numarası",
+        "year": "Yıl",
+        "pageType": "Sayfa Türü",
+        "pageTitle": "Sayfa Başlığı",
+        "pageTitlePlaceholder": "Sayfa başlığını girin",
+        "subtitle": "Alt Başlık",
+        "subtitlePlaceholder": "Alt başlık girin",
+        "mainImage": "Ana Görsel",
+        "uploadImage": "Görsel yüklemek için tıklayın",
+        "content": "İçerik",
+        "contentPlaceholder": "Sayfa içeriğini girin...",
+        "tableOfContents": "İçindekiler",
+        "addItem": "Öğe Ekle",
+        "tocTitlePlaceholder": "Öğe başlığı",
+        "contentImages": "İçerik Görselleri"
+      },
+      "pagesList": "Dergi Sayfaları",
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "pageTypes": {
+        "cover": "Kapak",
+        "contents": "İçindekiler",
+        "article": "Makale",
+        "content": "İçerik",
+        "back": "Arka Kapak"
+      },
+      "imageUploaded": "Görsel başarıyla yüklendi",
+      "aiContentInserted": "AI içeriği sayfaya eklendi",
+      "createSuccess": "Dergi başarıyla oluşturuldu",
+      "updateSuccess": "Dergi başarıyla güncellendi",
+      "errors": {
+        "loadError": "Dergi yüklenemedi",
+        "titleRequired": "Dergi başlığı gerekli",
+        "minOnePage": "Dergi en az bir sayfa içermelidir",
+        "imageUploadError": "Görsel yüklenemedi",
+        "saveError": "Dergi kaydedilemedi"
+      }
+    },
+    "ai": {
+      "beta": "Beta",
+      "subtitle": "Dergi içerik asistanınız",
+      "welcomeMessage": "Merhaba! Ben Mery, AI asistanınız. Derginiz için içerik oluşturmanıza yardımcı olabilirim. Ne hakkında yazmak istersiniz?",
+      "quickActions": "Hızlı Eylemler",
+      "quickButtons": {
+        "articleIntro": "Makale Girişi",
+        "contentIdeas": "İçerik Fikirleri",
+        "improveText": "Metni Geliştir",
+        "creative": "Yaratıcı Yazı"
+      },
+      "quickPrompts": {
+        "articleIntro": "Tenis kulübümüz hakkında etkileyici bir makale girişi yaz",
+        "contentIdeas": "Tenis kulübü dergisi için içerik fikirleri ver",
+        "improveText": "Bu metni daha ilgi çekici hale getirmeme yardım et:",
+        "creative": "Kulüp dergimiz için yaratıcı ve ilginç bir şeyler yaz"
+      },
+      "inputPlaceholder": "Mery'den bir şey yazmasını isteyin...",
+      "copy": "Kopyala",
+      "insert": "Ekle",
+      "copied": "Panoya kopyalandı",
+      "errorResponse": "Üzgünüm, isteğinizi işleyemedim. Lütfen tekrar deneyin.",
+      "disclaimer": "AI yanıtları her zaman doğru olmayabilir"
+    },
+    "preview": {
+      "tableOfContents": "İçindekiler",
+      "noContents": "İçindekiler mevcut değil",
+      "page": "Sayfa",
+      "previous": "Önceki",
+      "next": "Sonraki",
+      "noPages": "Bu dergide sayfa yok",
+      "pageTypes": {
+        "cover": "Kapak",
+        "contents": "İçindekiler",
+        "article": "Makale",
+        "content": "İçerik",
+        "back": "Arka Kapak"
+      }
+    }
+  },
+  "ads": {
+    "title": "Reklam Bannerları",
+    "subtitle": "Mobil uygulamada görüntülenen tanıtım bannerlarını yönetin",
+    "createNew": "Yeni Reklam Oluştur",
+    "noAds": "Henüz Reklam Yok",
+    "createFirst": "Etkinlikleri, teklifleri ve duyuruları tanıtmak için ilk reklam bannerınızı oluşturun.",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "activated": "Reklam aktifleştirildi",
+    "deactivated": "Reklam pasifleştirildi",
+    "createTitle": "Reklam Banneri Oluştur",
+    "editTitle": "Reklam Bannerini Düzenle",
+    "deleteTitle": "Reklamı Sil",
+    "deleteDescription": "Bu reklamı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "createSuccess": "Reklam banneri başarıyla oluşturuldu",
+    "updateSuccess": "Reklam banneri başarıyla güncellendi",
+    "deleteSuccess": "Reklam banneri başarıyla silindi",
+    "imageUploaded": "Görsel başarıyla yüklendi",
+    "previewTitle": "Önizleme Başlığı",
+    "previewSubtitle": "Önizleme alt başlık metni",
+    "form": {
+      "title": "Başlık",
+      "titlePlaceholder": "Reklam başlığını girin",
+      "subtitle": "Alt Başlık",
+      "subtitlePlaceholder": "Reklam alt başlığını girin",
+      "buttonText": "Buton Metni",
+      "buttonTextPlaceholder": "örn. Detaylar, Daha Fazla",
+      "linkUrl": "Bağlantı URL",
+      "linkUrlPlaceholder": "https://ornek.com",
+      "icon": "İkon",
+      "gradient": "Gradient Renkleri",
+      "isActive": "Aktif",
+      "bannerImage": "Banner Görseli",
+      "uploadImage": "Görsel yüklemek için tıklayın",
+      "changeImage": "Görseli Değiştir",
+      "removeImage": "Görseli Kaldır"
+    },
+    "actions": {
+      "cancel": "İptal",
+      "save": "Değişiklikleri Kaydet",
+      "create": "Reklam Oluştur",
+      "delete": "Sil"
+    },
+    "errors": {
+      "loadError": "Reklamlar yüklenemedi",
+      "saveError": "Reklam kaydedilemedi",
+      "deleteError": "Reklam silinemedi",
+      "toggleError": "Reklam durumu değiştirilemedi",
+      "titleRequired": "Başlık gerekli",
+      "imageUploadError": "Görsel yüklenemedi"
+    }
+  },
+  "finance": {
+    "title": "Finans Yönetimi",
+    "subtitle": "Gelir, gider ve mali durumu takip edin",
+    "tabs": {
+      "overview": "Genel Bakış",
+      "income": "Gelirler",
+      "expense": "Giderler",
+      "employees": "Çalışanlar",
+      "reports": "Raporlar"
+    },
+    "stats": {
+      "totalIncome": "Toplam Gelir",
+      "totalExpense": "Toplam Gider",
+      "netProfit": "Net Kar",
+      "walletPool": "Cüzdan Havuzu",
+      "negativeBalance": "Negatif Bakiye",
+      "discountApplied": "Uygulanan İndirim"
+    },
+    "filters": {
+      "all": "Tüm Zamanlar",
+      "today": "Bugün",
+      "week": "Son 7 Gün",
+      "month": "Son 30 Gün",
+      "year": "Son 1 Yıl",
+      "custom": "Özel Tarih"
+    },
+    "overview": {
+      "incomeBreakdown": "Gelir Dağılımı",
+      "expenseBreakdown": "Gider Dağılımı",
+      "noData": "Bu dönem için veri bulunamadı"
+    },
+    "search": {
+      "placeholder": "Ara...",
+      "employeePlaceholder": "Çalışan ara..."
+    },
+    "table": {
+      "date": "Tarih",
+      "category": "Kategori",
+      "description": "Açıklama",
+      "amount": "Tutar",
+      "noData": "Kayıt bulunamadı"
+    },
+    "actions": {
+      "addIncome": "Gelir Ekle",
+      "addExpense": "Gider Ekle",
+      "addEmployee": "Çalışan Ekle",
+      "paySalary": "Maaş Öde",
+      "export": "Dışa Aktar"
+    },
+    "form": {
+      "amount": "Tutar",
+      "category": "Kategori",
+      "selectCategory": "Kategori seçin",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Açıklama girin...",
+      "date": "Tarih",
+      "name": "Ad Soyad",
+      "department": "Departman",
+      "selectDepartment": "Departman seçin",
+      "position": "Pozisyon",
+      "salary": "Maaş",
+      "sgkNumber": "SGK Numarası",
+      "sgkRate": "SGK Oranı (%)",
+      "bankAccount": "Banka Hesabı (IBAN)",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "selectEmployee": "Çalışan Seçin",
+      "selectEmployeePlaceholder": "Çalışan seçin...",
+      "periodStart": "Dönem Başlangıcı",
+      "periodEnd": "Dönem Bitişi",
+      "deductions": "Kesintiler",
+      "paymentMethod": "Ödeme Yöntemi",
+      "notes": "Notlar",
+      "grossSalary": "Brüt Maaş",
+      "netSalary": "Net Maaş",
+      "sgkPremium": "SGK Primi"
+    },
+    "employees": {
+      "empty": "Henüz Çalışan Yok",
+      "emptyDesc": "Bordro yönetimi için çalışan ekleyin",
+      "department": "Departman",
+      "salary": "Maaş",
+      "sgkRate": "SGK Oranı",
+      "status": "Durum",
+      "active": "Aktif",
+      "inactive": "Pasif"
+    },
+    "reports": {
+      "comparison": "Gelir/Gider Karşılaştırması",
+      "quickStats": "Hızlı İstatistikler",
+      "totalEmployees": "Toplam Çalışan",
+      "totalWallets": "Toplam Cüzdan",
+      "avgIncome": "Ortalama Gelir",
+      "monthlySalary": "Aylık Maaş Gideri"
+    },
+    "dialogs": {
+      "addIncome": {
+        "title": "Gelir Ekle",
+        "description": "Manuel gelir kaydı oluşturun"
+      },
+      "addExpense": {
+        "title": "Gider Ekle",
+        "description": "Manuel gider kaydı oluşturun"
+      },
+      "addEmployee": {
+        "title": "Çalışan Ekle"
+      },
+      "editEmployee": {
+        "title": "Çalışan Düzenle"
+      },
+      "paySalary": {
+        "title": "Maaş Ödemesi",
+        "description": "Çalışan maaş ödemesi yapın"
+      },
+      "delete": {
+        "title": "Silmeyi Onayla",
+        "description": "\"{name}\" öğesini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+      }
+    },
+    "messages": {
+      "incomeAdded": "Gelir başarıyla eklendi",
+      "incomeDeleted": "Gelir başarıyla silindi",
+      "expenseAdded": "Gider başarıyla eklendi",
+      "expenseDeleted": "Gider başarıyla silindi",
+      "employeeAdded": "Çalışan başarıyla eklendi",
+      "employeeUpdated": "Çalışan başarıyla güncellendi",
+      "employeeDeleted": "Çalışan başarıyla silindi",
+      "salaryPaid": "Maaş ödemesi başarıyla yapıldı"
+    },
+    "errors": {
+      "fetchFailed": "Veriler yüklenirken hata oluştu",
+      "fillRequired": "Lütfen zorunlu alanları doldurun",
+      "addFailed": "Kayıt eklenirken hata oluştu",
+      "saveFailed": "Kayıt kaydedilirken hata oluştu",
+      "deleteFailed": "Kayıt silinirken hata oluştu",
+      "salaryFailed": "Maaş ödemesi yapılırken hata oluştu"
+    }
+  }
+}
